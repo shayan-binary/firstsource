@@ -1,0 +1,12 @@
+baseurl: ""
+url: https://www.firstsource.io/
+title: First source
+email: ashkan@binary.com
+author: Ashkan
+description:
+copyright:
+credits:
+
+# Build settings
+markdown: kramdown
+permalink: pretty

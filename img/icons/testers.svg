@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-16135 -20530 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #452b7a;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_65" data-name="Group 65" transform="translate(-16135 -20530)">
+    <rect id="Rectangle_75" data-name="Rectangle 75" class="cls-1" width="4" height="30"/>
+    <rect id="Rectangle_76" data-name="Rectangle 76" class="cls-1" width="4" height="28" transform="translate(44)"/>
+    <rect id="Rectangle_77" data-name="Rectangle 77" class="cls-1" width="48" height="4"/>
+    <path id="Path_104" data-name="Path 104" class="cls-1" d="M28,30H0v8H29Z"/>
+    <rect id="Rectangle_78" data-name="Rectangle 78" class="cls-1" width="16" height="4" transform="translate(42 30) rotate(90)"/>
+    <rect id="Rectangle_79" data-name="Rectangle 79" class="cls-1" width="16" height="4" transform="translate(48 40) rotate(180)"/>
+    <rect id="Rectangle_80" data-name="Rectangle 80" class="cls-1" width="16" height="4" transform="translate(47.071 33.757) rotate(135)"/>
+    <rect id="Rectangle_81" data-name="Rectangle 81" class="cls-1" width="16" height="4" transform="translate(44.243 45.071) rotate(-135)"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" class="cls-2" cx="3" cy="3" r="3" transform="translate(37 35)"/>
+    <path id="Path_105" data-name="Path 105" class="cls-1" d="M32,48H16l4-18h8Z"/>
+    <path id="Path_106" data-name="Path 106" class="cls-1" d="M32,48H5V44H31Z"/>
+    <path id="Path_107" data-name="Path 107" class="cls-1" d="M26,10h4L23,24H19Z"/>
+    <path id="Path_108" data-name="Path 108" class="cls-1" d="M36,24l3-7-3-7H32l3,7-3,7Z"/>
+    <path id="Path_109" data-name="Path 109" class="cls-1" d="M12,10,9,17l3,7h4l-3-7,3-7Z"/>
+  </g>
+</svg>

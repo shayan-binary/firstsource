@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-19473.002 -21279 48.002 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e6e6e6;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_75" data-name="Group 75" transform="translate(-19473 -21279)">
+    <path id="Path_141" data-name="Path 141" class="cls-1" d="M20,25.3A7.7,7.7,0,0,0,27.7,33h4.7a7.786,7.786,0,0,0,3.7-.9V19H20Z"/>
+    <path id="Path_142" data-name="Path 142" class="cls-2" d="M27.7,33h4.7a7.7,7.7,0,0,0,7.7-7.7V19H20v6.3A7.64,7.64,0,0,0,27.7,33Z"/>
+    <rect id="Rectangle_131" data-name="Rectangle 131" class="cls-2" width="4" height="7" transform="translate(24 12)"/>
+    <rect id="Rectangle_132" data-name="Rectangle 132" class="cls-2" width="4" height="7" transform="translate(32 12)"/>
+    <path id="Path_143" data-name="Path 143" class="cls-2" d="M28,31V41a2.946,2.946,0,0,0,3,3H48V40H32V31Z"/>
+    <path id="Subtraction_4" data-name="Subtraction 4" class="cls-2" d="M19503.824,21327H19473v-48h36v8h-16v7h-4v10.3a11.631,11.631,0,0,0,8,11.1v4.6a6.948,6.948,0,0,0,6.826,7Zm-26.822-16v4h10v-4h-10v0Zm0-8v4h7v-4h-7v0Zm0-16v4h7v-4h-7v0Z" transform="translate(-19473 -21279)"/>
+  </g>
+</svg>
