@@ -1,5 +1,6 @@
 <!-- jQuery Version 3.2.1 -->
-<script src="{{ site.github.url }}/js/jquery-3.2.1.min.js"></script>
+<!-- <script src="{{ site.github.url }}/js/jquery-3.2.1.min.js"></script> -->
+<script src={{ "/js/jquery-3.2.1.min.js" | prepend: site.github.url | replace: 'http://', '//' }}></script>
 
 <!-- Popper js -->
 <script src="{{ site.github.url }}/js/popper.min.js"></script>

@@ -7,7 +7,8 @@
     </button>
 
     <!-- Brand -->
-    <a class="navbar-brand" href="{{ site.github.url }}"><img src= "{{ site.github.url }}/img/FS_logo.svg" alt=""></a>
+    <a class="navbar-brand" href="{{ site.github.url }}"><img src= {{ "/img/FS_logo.svg" | prepend: site.github.url | replace: 'http://', '//' }} alt=""></a>
+
 
     <!-- Links -->
     <div class="collapse navbar-collapse justify-content-end" id="nav-content">
