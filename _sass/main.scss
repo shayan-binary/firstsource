@@ -82,6 +82,9 @@ a {
   &:hover {
     background-color: $secondary_color_hover;
   }
+  &:focus{
+    box-shadow: none;
+  }
 }
 
 .navbar {
@@ -363,4 +366,25 @@ footer {
   margin-top: 2rem;
   padding: 20px 0;
   background-color: $primary_color;
+}
+/* Media ueries */
+@media (max-width: 575px) {
+  #home
+  {
+    .layout-image{
+    max-width: 100%;
+  }
+    .layout-text {
+      max-width: 100%;
+      position: relative;
+      display: inline-block;
+      &.right{
+        right: initial;
+      }
+      &.left{
+        left: initial;
+      }
+    }
+
+  }
 }
