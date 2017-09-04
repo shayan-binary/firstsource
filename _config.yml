@@ -3,10 +3,13 @@ url: https://www.firstsource.io/
 title: First source
 email: ashkan@binary.com
 author: Ashkan
-description:
+description: "We are one of the leading software development centers in Iran. Specialising in financial software development for the international market, we develop best-in-class software solutions using state-in-the-art technologies."
 copyright:
 credits:
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+sass:
+  style: compressed
