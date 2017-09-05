@@ -3,12 +3,11 @@
 
   <nav class="navbar navbar-expand-sm navbar-light bg-faded">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
     </button>
 
     <!-- Brand -->
     <a class="navbar-brand" href={{ "/" | prepend: site.github.url | replace: 'http://', 'https://' }}><img src= {{ "/img/FS_logo.svg" | prepend: site.github.url | replace: 'http://', '//' }} alt=""></a>
-
 
     <!-- Links -->
     <div class="collapse navbar-collapse justify-content-end" id="nav-content">
@@ -26,9 +25,10 @@
           <a class="nav-link" href={{ "/careers" | prepend: site.github.url | replace: 'http://', 'https://' }}>Careers</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.github.url }}/contact">Contact</a>
+          <a class="nav-link" href="{{ "/contact" | prepend: site.github.url | replace: 'http://', 'https://' }}>Contact</a>
         </li>
       </ul>
+    </div>
   </nav>
 
-  </div>
+</div>
