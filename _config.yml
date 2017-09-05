@@ -1,6 +1,5 @@
 baseurl: ""
 url: https://www.firstsource.io/
-force-https: true
 title: First source
 email: ashkan@binary.com
 author: Ashkan
