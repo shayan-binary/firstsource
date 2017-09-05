@@ -93,18 +93,13 @@ a {
   .nav-item {
     padding: 0.5rem 0.3rem;
 
-    &:hover {
+    &:hover, &.active {
       color: $white;
       background-color: $primary_color;
 
-      a {
+      a.nav-link {
         color: $white;
       }
-    }
-
-    &:active {
-      color: $white;
-      background-color: $primary_color;
     }
   }
 }
@@ -235,7 +230,7 @@ ul {
       display: inline-block;
       font-style: normal;
       font-weight: 400;
-      line-height: 1;
+      line-height: 24px;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       float: left;
