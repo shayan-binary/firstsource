@@ -257,6 +257,12 @@ ul {
 .panel-body{
   padding: 2rem;
   background-color: $light_gray;
+  p {
+    &.title{
+      margin-bottom: 0.2rem;
+      font-weight: bold;
+    }
+  }
 }
 
 /*Home page*/
