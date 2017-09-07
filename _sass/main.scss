@@ -189,6 +189,7 @@ hr {
     text-align: left;
     margin-left: 0;
     margin-top: 0;
+    margin-bottom: .7rem;
   }
 }
 .border-right{
@@ -223,7 +224,7 @@ ul {
     display: block;
     padding: 1.5rem 2rem;
     font-weight: 500;
-    &:after {
+    &:before {
       content: "";
       position: relative;
       top: 1px;
@@ -241,16 +242,18 @@ ul {
     }
     &[aria-expanded="true"] {
       background-color: $light_gray;
-      &:after {
+      &:before {
         content: "\2212";
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
+        padding-bottom: 1px;
       }
     }
-    &[aria-expanded="false"]:after {
+    &[aria-expanded="false"]:before {
       content: "\002b";
       -webkit-transform: rotate(90deg);
       transform: rotate(90deg);
+      padding-bottom: 1px;
     }
   }
 }
@@ -326,10 +329,16 @@ ul {
 #philosophy{
   background-color: $light_gray;
   padding: 2rem;
-  .card{
+  .card-s{
     border: 0;
     border-radius: 0;
     box-shadow: .3rem .3rem .1rem $light_gray;
+    position: relative;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 5px solid $light_gray
   }
   .card-img-top{
     max-width: 3rem;
