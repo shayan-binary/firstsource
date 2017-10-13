@@ -6,6 +6,8 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -316,6 +318,7 @@ ul {
 #contact {
   padding-bottom: 3rem;
   padding-top: 1rem;
+  flex: 1 0 auto;
 
   .icon {
     max-width: 2rem;
