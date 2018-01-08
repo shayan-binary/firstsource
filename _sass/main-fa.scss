@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Vazir';
+  src: url('/fonts/Vazir.woff') format('woff'), url('/fonts/Vazir.ttf') format('truetype');
+}
+
+body {
+  direction: RTL;
+  font-family: 'Vazir', 'Source Sans Pro', sans-serif;
+}
+
+.LTR {
+  direction: LTR;
+}

@@ -3,3 +3,420 @@ services: Services
 about: About
 careers: Careers
 contact: Contact
+company-title: First Source Arya Solutions LLC
+company-subtitle: Developing world-class software for the financial industry
+learn-more-about-what-we-do: Learn more about what we do
+We-are-one-of-the-leading-software-development-centres: We are one of the leading software development centres in Iran
+specialising-in-financial-software: Specialising in financial software development for the international market, we develop best-in-class software solutions using state-of-the-art technologies.
+about-us: About us
+about-us-text: First Source Arya Solutions LLC is an elite software development company that operates at the intersection of finance and technology.
+learn-more: Learn More
+services-text: We develop state-of-the-art technological solutions that help our online binary options and Forex brokerage clients increase their bottom line.
+services-page-title: We build robust, intuitive software and applications that make financial services more accessible to everyone
+services-page-text: First Source Arya Solutions LLC is the software engineering team that the financial industry needs –– offering elegant, end-to-end technological solutions that help our clients to build better software, manage their infrastructure, and increase their bottom line.
+what-we-do: What we do
+strategy-and-planning: Strategy and planning
+strategy-and-planning-text: We collaborate closely with our clients' key stakeholders to nurture ideas through careful research and planning.
+user-experience-and-design: User experience (UX) and design
+user-experience-and-design-text: We take time to craft solid UX and intuitive interfaces that delight users so they stick around.
+end-to-end-software-development: End-to-end software development
+end-to-end-software-development-text: We bring ideas to life for the web, desktop, and mobile using the best technology available to us.
+trading-technology: Trading technology
+trading-technology-text: We specialise in risk management technology and services for binary options and Forex brokerages.
+managed-IT-services: Managed IT services
+managed-IT-services-text: We use only the best infrastructure and services to ensure minimal downtime.
+MT5-bridge-and-plugins: MT5 bridge and plugins
+MT5-bridge-and-plugins-text: We help to manage liquidity feeds and risk through the development of custom bridges and plugins.
+services-page-footer: We believe that great software comes from the right combination of people and technology. That’s why we employ people who possess exceptional drive, talent, and ideas –– equipped with the most advanced hardware and software –– to help you meet your unique business needs.
+about-us-page-1: First Source Arya Solutions LLC is an elite software development company that operates at the intersection of finance and technology.
+about-us-page-2: We believe that software plays an essential role in every business –– especially for financial institutions that manage millions in transactions each day.
+about-us-page-3: We constantly push the boundaries of what’s possible to deliver cutting-edge products and services that can solve problems, meet challenges, and transform a business. We build great software not as the end goal, but as the means to an end.
+our-software-development-philosophy: Our software development philosophy
+our-software-development-philosophy-text-part-1: We use the
+our-software-development-philosophy-text-part-2: Joel Test
+our-software-development-philosophy-text-part-3: to build better software teams and write better code.
+source-control: Source control
+source-control-text: We manage all our projects with Git.
+build-in-one-step: Build in one step
+build-in-one-step-text: We aim for uncomplicated and fast build processes to accelerate development speed
+daily-builds: Daily builds
+daily-builds-text: We release new code to production almost every day.
+bug-database: Bug database
+bug-database-text: We track bugs using Trello.
+fixing-bugs: Fixing bugs
+fixing-bugs-text: We aim to keep the bugs count down to a minimum by fixing bugs before writing new code
+schedule: Schedule
+schedule-text: (We’re working on this!)
+spec: Spec
+spec-text: For complex projects, we write a specification document before coding starts
+quiet-working-conditions: Quiet working conditions
+quiet-working-conditions-text: We have an open working environment as well as private rooms for developers who want to get into the zone.
+best-tools: Best tools
+best-tools-text: We provide all our developers with MacBook Pros
+testers: Testers
+testers-text: We have software testers that test new code before it is released to production.
+interview-process: Interview process
+interview-process-text: All new hires undergo a coding test during the interview process
+usability-testing: Usability testing
+usability-testing-text: We conduct usability testing for all front-end projects.
+careers-page:
+  name: Careers
+  title: Build amazing products for titans of the financial industry
+  text-1: First Source Arya Solutions LLC is a startup with big ambitions. We’re on a mission to transform the financial industry and we’re putting the building blocks in place to get us there.
+  text-2: We believe that the best foundations require the right people –– insanely talented people who have the drive and ambition to learn, grow, and contribute to something bigger than themselves.
+  why-us:
+    title: Why First Source?
+    text-1: Working at First Source gives you more responsibilities and opportunities to help you realise your full potential. You’ll be able to learn and improve every day from doing a lot of different things in a fast-paced, startup environment that values tenacity, creativity, and hard work.
+    text-2: We also make sure that you have the ideal working space and tools you need to bring your ‘A’ game to work every day
+  why-iran:
+    title: Why Iran?
+    text-1: Out of all the countries in the world, why did we decide to set up base in Iran? It’s simple. According to the World Economic Forum, Iran ranks high on the list of the top countries with the most engineering graduates, making it a major repository of IT talent. However, the talent pool is relatively untapped due to the lack of foreign investment in the country.
+    text-2: We aim to tap into Iran’s large pool of IT talent who we believe to have world-class potential. Come and join us in developing state-of-the-art financial software solutions that make an impact around the world.
+  looking-for:
+    title: What we’re looking for
+    text: "Our people are here to make an impact, not just pass on through. We have a tight-knit team of talented and passionate people from around the world who enjoy:"
+    solving-problems: Solving complex and challenging problems
+    get-things-done: Getting things done in a no-nonsense manner
+    without-hierarchy: Working without bureaucracy and hierarchy
+    do-great-work: Doing great work, and inspiring the people around them to do the same
+    learn: Learning and improving, day in and day out
+  our-stack:
+    title: Our software development stack
+    text: Always wanted to work with cutting-edge tools and technology? Look no further.
+    back-end:
+      title: Back-end
+      stack-1: Linux, Amazon Web Services, Google Cloud Engine
+      stack-2: Infrastructure configuration with Chef
+      stack-3: Perl, and elements of C++
+      stack-4: Postgres, Redis
+    front-end:
+      title: Front-end
+      stack-1: Javascript
+      stack-2: HTML/CSS
+      stack-3: Javascript frameworks such as Angular, React
+  open-positions:
+    title: Open positions
+    text: We’re hiring amazing people with the talent and drive to change the world –– one line of code at a time. Join us in building a team that you’re excited to work with every single day.
+  hr:
+    title: General Affairs & Human Resource Executive
+    text: First Source Arya Solutions LLC is seeking a detail-oriented, proactive, and organised General Affairs & Human Resource Executive. You will lead, execute, and support a wide range of HR-related and administrative tasks that are essential to the smooth operations and growth of our office in Tehran.
+    ideal-candidate:
+      title: The ideal candidate
+      text-1: You are meticulous about details, and you love to make people’s lives easier by taking care of the little things that help them get their work done.
+      text-2: You thrive in a dynamic and collaborative work environment, and approach even the smallest task with an open mind.
+      text-3: Most importantly, you value the importance of constant, open, and honest communication.
+    looking-for:
+      title: "We are looking for someone who loves to:"
+      organised: Keep things organised –– efficiently and sustainably
+      stay-on-top: Stay on top of things through careful planning and follow-ups
+      interact-and-communicate: Interact and communicate with people, both internal and external stakeholders alike
+      do-great-work: Do great work, and inspires people around them to do the same
+      get-things-done: Get things done the right way without any loose ends
+      work-without-hierarchy: Work without bureaucracy and hierarchy
+      learn: Learn and improve, day in and day out
+    to-excel:
+      degree: An advanced/higher/graduate diploma or bachelor’s degree
+      experience: Extensive experience in Microsoft Office applications, as well as popular HR management and payroll systems
+      skills: Well-honed organisational, interpersonal, administrative, and accounting skills
+      communication: Excellent oral and written communication skills in English and Farsi
+      accurate: Detail-orientated and able to work with a high degree of accuracy and autonomy
+      knowledge: Knowledge in principles and procedures of recruitment, performance appraisal, employment/labour law and relations
+    role:
+      title: Your role
+      text-1: The General Affairs & Human Resources team manages essential human resource functions such as onboarding, payroll, compensation studies, and performance appraisals. You will also manage our suppliers and contractors, as well as general administrative duties and procedures.
+      text-2: As our GA & HR Executive, you will be counted on to lead, execute, and support a wide range of HR-related and administrative tasks to ensure the smooth operations of our office in Tehran.
+      you-will:
+        title: "You will:"
+        first-point-of-contact: Act as first point of contact for all Tehran based employees regarding HR issues
+        support-and-assist: Support and assist our recruitment and talent management needs, including aiding in the full recruitment lifecycle process
+        activities: Administer key human resource activities such as performance appraisals
+        support: "Provide administrative support to all the following areas: vendor management, office management, event planning, recruitment, and accounting"
+    benefits:
+      title: Remuneration and benefits
+      text: This position offers a market-based salary, annual performance bonus, and flexi hours.
+    location:
+      title: Location
+      text: Tehran, Iran
+    apply: To apply, please submit your CV and cover letter to
+  front-end:
+    title: Senior Front-End Developer
+    text: First Source Arya Solutions LLC is seeking a driven, creative, and proactive Senior Front-End Developer to develop advanced applications and interfaces for our clients, as well as solve complex technical challenges related to our clients’ products.
+    ideal-candidate:
+      title: The ideal candidate
+      text-1: You are experienced in building and optimising web and mobile applications. You care about your users and customers, and think deeply about how they use what you build.
+      text-2: You must be able to multitask and have a problem-solving mindset. The technologies we work with are complex and challenging. You must be willing to learn new things every day, including new frameworks, tools, and software.
+      text-3: You are smart, self-motivated, and proactive. You thrive in a dynamic and collaborative work environment, and approach even the smallest task with an open mind.
+      text-4: Most importantly, you value the importance of constant, open, and honest communication.
+    looking-for:
+      title: "We are looking for someone who loves to:"
+      solve-problems: Solve problems creatively and proactively
+      keep-up: Keep up with established and emerging web standards and technologies in front-end development
+      do-great-work: Do great work, and inspires people around them to do the same
+      work-in-environment: Work with highly talented people in an exciting, multinational environment
+      get-things-done: Get things done in a no-nonsense manner
+      work-without-hierarchy: Work without bureaucracy and hierarchy
+      have-latest-tools: Have the latest tools and technologies at their disposal
+      learn: Learn and improve, day in and day out
+    to-excel:
+      title: To excel in this role, you must have:
+      knowledge: Extensive knowledge in advanced coding techniques, cross-platform development, and hybrid mobile app development
+      ability: Ability to write high-quality, self-documenting code using test-driven development techniques
+      experience: Extensive experience of JavaScript, HTML, CSS, AJAX, and JSON
+      familiarity-with-js-frameworks: Familiarity with various JavaScript standards, libraries, frameworks, compilers, and transpilers including ES6, TypeScript, Babel, SystemJS, Web Workers, jQuery, React, and Angular
+      experience-with-package-manager: Experience with package managers (npm), task runners (Gulp, Webpack, Grunt), CSS processors (Sass, Stylus), and APIs (WebSocket)
+      test-and-debug: Familiarity with testing and debugging processes, including unit testing and UI testing
+      passion-for-open-source: Passion for Linux and other open-source platforms
+    role:
+      title: Your roles and responsibilities
+      text: "As our Senior Front-End Developer, you will:"
+      develop-and-maintain: Develop and maintain advanced features, tools, applications, and interfaces according to best practices in UI/UX, front-end development, and hybrid mobile application development
+      test-and-debug: Test and debug products to improve their speed, scalability, and usability across multiple browsers, devices, and web standards
+      stay-on-top: Stay on top of the latest JavaScript frameworks, libraries, and tools in order to apply them when necessary to solve challenges related to web and mobile development
+    benefits:
+      title: Remuneration and benefits
+      text: This position offers a market-based salary, annual performance bonus, and flexi hours.
+    location:
+      title: Location
+      text: Tehran, Iran
+    apply: To apply, please submit your CV and cover letter to
+  perl-developer:
+    title: Senior Perl Developer
+    text: First Source Arya Solutions LLC is seeking a driven, proactive, and highly-experienced Senior Perl Developer to write robust, high-quality, and production-ready code that powers our clients’ websites and applications.
+    ideal-candidate:
+      title: The ideal candidate
+      text-1: You have exceptional Perl programming skills, and extensive experience with relational databases.
+      text-2: You love developing websites and applications, and you enjoy working with databases, servers, and APIs.
+      text-3: You are smart, self-motivated, and proactive. You thrive in a dynamic work environment, and approach even the smallest task with an open mind.
+      text-4: Most importantly, you value the importance of constant, open, and honest communication.
+    looking-for:
+      title: We are looking for someone who loves to:
+      test-and-fix: Test and fix things, especially when it involves working with data
+      optimise: Optimise web applications and infrastructure for maximum speed and scalability
+      do-great-work: Do great work, and inspires people around them to do the same
+      work-in-environment: Work with highly talented people in an exciting, multinational environment
+      get-things-done: Get things done in a no-nonsense manner
+      work-without-hierarchy: Work without bureaucracy and hierarchy
+      have-latest-tools: Have the latest tools and technologies at their disposal
+      learn: Learn and improve, day in and day out
+    to-excel:
+      title: To excel in this role, you must have:
+      perl-expertise: Deep Perl expertise
+      linux-expertise: Expertise in Linux system administration
+      database-expertise: Experience with relational database design, and/or open-source RDBMS systems such as MySQL and PostgreSQL
+      familiarity-with: Familiarity with Perl DBI, Moose, PSGI/Plack, nginx, JavaScript, Redis, and Git
+      ability: Ability to produce high-quality, self-documenting code by using test-driven development (TDD) techniques
+      event-driven: Knowledge of event-driven programming in Perl
+      passion-for-open-source: Passion for Linux and other open-source platforms
+    role:
+      title: Your role
+      text: "As our Senior Perl Developer, you will:"
+      develop-and-maintain: Develop and maintain world-class web applications
+      build-optimise: Build, maintain, and optimise the technology that powers our clients’ servers, applications, and databases
+      team-work: Work closely with other teams to come up with effective architecture to support the deployment of new products and features
+      debug: Troubleshoot and debug problems in our clients’ applications, and find new ways to improve their speed, functionality, and scalability
+      participate: Participate in all aspects of the product lifecycle
+    benefits:
+      title: Remuneration and benefits
+      text: This position offers a market-based salary, annual performance bonus, and flexi hours.
+    location:
+      title: Location
+      text: Tehran, Iran
+    apply: To apply, please submit your CV and cover letter to
+  software-tester:
+    title: Software Tester
+    text: First Source Arya Solutions LLC is seeking a driven and proactive Software Tester to run high-quality tests to ensure the stability, quality, and usability of our clients’ websites and applications.
+    ideal-candidate:
+      title: The ideal candidate
+      text-1: You are experienced in developing and executing test plans for websites, applications, and systems. You have strong attention to detail, and know how to find your way to the root cause of an issue.
+      text-2: You enjoy identifying and resolving product quality issues. At the same time, you understand that properly documenting and tracking them are equally as important.
+      text-3: You must also be able to multitask and have a problem-solving mindset.
+      text-4: You are smart, self-motivated, and proactive. You thrive in a dynamic and collaborative work environment, and approach even the smallest task with an open mind.
+      text-5: Most importantly, you value the importance of constant, open, and honest communication.
+    looking-for:
+      title: We are looking for someone who loves to:
+      solve-problems: Solve problems creatively and proactively
+      make-things-better: Make things better to improve the end user experience
+      do-great-work: Do great work, and inspires people around them to do the same
+      team-work: Work with highly talented people in an exciting, multinational environment
+      get-things-done: Get things done in a no-nonsense manner
+      work-without-hierarchy: Work without bureaucracy and hierarchy
+      have-latest-tools: Have the latest tools and technologies at their disposal
+      learn: Learn and improve, day in and day out
+    to-excel:
+      title: To excel in this role, you must have:
+      degree: Bachelor’s degree in computer science, or an equivalent combination of technical education, training, and work experience
+      understanding: A solid understanding of the software development lifecycle
+      experience: Minimum two years experience in a software or web application testing role
+      experience-in-test-plans: Experience designing and executing test plans (both automated and manual)
+      agile: Experience with agile development methods such as Scrum or Kanban
+      project-management-tools: Experience with project management tools such as Trello or Asana is a plus
+      familiarity-with-git: Familiarity with Git
+      passion-for-open-source: Passion for Linux and other open-source platforms
+      knowledge: Up-to-date knowledge of the latest software testing trends
+    role:
+      title: Your role
+      text: As our Software Tester, we rely on you to run high-quality tests to ensure the stability, quality, and usability of our clients’ websites and applications.
+      multiple-tests: You will have the opportunity to apply multiple types of testing, including:
+      manual-and-automated: Manual and automated testing
+      usability: Usability and browser compatibility testing
+      interface: Interface testing
+      functional: Functional testing
+      performance: Performance testing
+      scalability-and-stability: Scalability and stability testing
+      black-white-box: Black box and white box testing
+      api-test: API testing
+      security-and-penetration: Security testing and penetration testing
+      regression-test: Regression testing
+      integration-test: Integration testing
+      unit-test: Unit testing
+      component-test: Component testing
+      localization-test: Internationalisation and localisation testing
+      load-test: Load testing
+      code-review: Code reviews
+    will:
+      title: "You will:"
+      test-backend: Test applications, back-end architecture, and back-office systems
+      work-with-IT-team: Work closely with the rest of the software testing and IT team to plan, design, and execute several types of testing based on different objectives
+      create-test: Create, execute, and update manual and automated test plans
+      plan-test: Plan and integrate various types of testing into our existing workflow
+      ensure-integrity: Ensure the integrity of releases by coordinating testing activities
+      track-bugs: Track and document thoroughly the bugs that you find
+      ideas: Suggest ideas and improvements to enhance the design, usability, and functionality of websites and applications
+      resolve-issues: Investigate, reproduce, identify, document, and resolve reported issues
+    benefits:
+      title: Remuneration and benefits
+      text: This position offers a market-based salary, annual performance bonus, and flexi hours.
+    location:
+      title: Location
+      text: Tehran, Iran
+    apply: To apply, please submit your CV and cover letter to
+  quants:
+    title: Quantitative Analyst
+    text: First Source Arya Solutions is seeking a driven, analytical, and technically-gifted Quantitative Analyst to develop and optimise derivatives pricing and risk management algorithms for our clients’ online trading platforms.
+    ideal-candidates:
+      title: The ideal candidate
+      text-1: You excel at the intersection of mathematics, programming, and finance.
+      text-2: You thrive in a fast-paced environment that values collaboration and open communication. You enjoy the challenges posed by mathematical models, data analysis, and financial research.
+      text-3: As our Quantitative Analyst, you will have the opportunity to develop derivatives pricing, as well as risk management models and algorithms that directly influence the success of global trading platforms.
+    looking-for:
+      title: We are looking for someone who loves to:
+      mathematical: Apply mathematical models to real-world scenarios
+      solve: Solve complex and abstract mathematical problems to optimise pricing and manage risk
+      analyse: Analyse trading patterns to identify new market opportunities
+      do-great-work: Do great work, and inspires people around them to do the same
+      work-in-environment: Work with highly talented people in an exciting, multinational environment
+      get-things-done: Get things done in a no-nonsense manner
+      work-without-hierarchy: Work without bureaucracy and hierarchy
+      learn: Learn and improve, day in and day out
+    to-excel: "To excel in this role, you must have:"
+      degree: An advanced university degree in physics, financial engineering, or mathematics
+      knowledge: Knowledge of probability theory, stochastic calculus, numerical methods, Monte-Carlo simulation, differential equations, econometrics, and statistical modelling
+      expertise: Expertise in the application of object-oriented programming languages (C++, Perl, and Java), coupled with the ability to produce high-quality code
+    role:
+      title: Your role
+      text: As our Quantitative Analyst, you will:
+      develop: Develop derivatives pricing, as well as risk management models and algorithms using C/C++, R, MATLAB, Perl, Python, and Java
+      review: Review, develop, and enhance Perl, C++, and R codes used in options pricing, volatility forecasts, and risk management programs
+      maintain: Maintain accurate system pricing parameters
+      data-mining: Perform data mining using SQL databases, R/S-Plus, OLAP, and other analytical tools
+      monitor: Monitor website trading activity and minimise abuse
+      generate: Generate periodic and special reports that summarise client trading trends
+    benefits:
+      title: Remuneration and benefits
+      text: This position offers a market-based salary, annual performance bonus, and flexi hours.
+    location:
+      title: Location
+      text: Tehran, Iran
+    apply: To apply, please submit your CV and cover letter to
+  graphic-designer:
+    title: Graphic Designer
+    text: First Source Arya Solutions is seeking a driven, creative, and proactive Graphic Designer. You will develop high-impact graphics and visual elements for our clients’ websites and applications. Through intuitive and elegant design solutions, you will bring products and users closer together.
+    ideal-candidate:
+      title: The ideal candidate
+      text-1: You love solving business challenges through intuitive and elegant design solutions.
+      text-2: You enjoy coming up with visuals that communicate, motivate, and inspire different audiences to take action.
+      text-3: You’ve worked in brand advertising, in a creative agency, or with an in-house marketing team. You really know your way around print (ads, posters, brochures), digital (UI assets, infographics), and branding (logos, typefaces, colours).
+      text-4: You are smart, self-motivated, and proactive. You thrive in a dynamic and collaborative work environment, and approach even the smallest task with an open mind.
+      text-5: Most importantly, you value the importance of constant, open, and honest communication.
+    looking-for:
+      title: "We are looking for someone who loves to:"
+      create: Create beautiful and functional products that delight users
+      solve-problems: Solve problems creatively and proactively
+      do-great-work: Do great work, and inspires people around them to do the same
+      work-in-environment: Work with highly talented people in an exciting, multinational environment
+      get-things-done: Get things done in a no-nonsense manner
+      work-without-hierarchy: Work without bureaucracy and hierarchy
+      learn: Learn and improve, day in and day out
+    to-excel:
+      title: "To excel in this role, you must have:"
+      graphic-design-experience: Proven graphic design experience with a strong portfolio of work in branding, advertising, and marketing
+      communicate: Ability to communicate and present your ideas and work in a clear, descriptive manner
+      experience-in-complex-concepts: Experience in interpreting complex concepts and processes to create design solutions that help users achieve their goals
+      understanding: Strong understanding of colours, typography, identity design, and branding
+      creative: Creative flair and versatility in developing concepts, graphics, and layouts for a wide range of media
+      tools: Proficiency in Photoshop, Illustrator, InDesign, Sketch, and other design and wireframing software
+      degree: Bachelor’s degree in graphic design, visual communication, multimedia, or equivalent
+    role:
+      title: Your role
+      text: "As our Graphic Designer, you will:"
+      experience: Explore the many ways that we can design better product experiences for our clients
+      design: Design high-impact graphics and visual elements such as logos, icons, and other visuals for our clients’ websites and applications
+      mockups: Lay out mockups and wireframes for app screens and web pages
+      design-solutions: Come up with cohesive design solutions that can help clients to achieve business or product goals and satisfy user needs
+      communicate: Communicate with a wide range of technical and non-technical teams to understand the unique selling points of our clients’ products, concepts, user flows, and usage scenarios
+      incorporate: Incorporate our clients’ brand identities into new products, pages, and features
+      keep-up: Keep up with the latest trends and techniques in design, UI, and UX
+    benefits:
+      title: Remuneration and benefits
+      text: This position offers a market-based salary, annual performance bonus, and flexi hours.
+    location:
+      title: Location
+      text: Tehran, Iran
+    apply: To apply, please submit your CV and cover letter to
+  internship-opportunities:
+    title: Internship Opportunities
+    text: Interns at First Source Arya Solutions are valuable contributors that make an impact from Day 1. You’ll be working on complex and challenging problems that affect award-winning online products and services that are used by millions of people worldwide.
+    ideal-candidate:
+      title: The ideal candidate
+      text: Our interns –– just like our full-time employees –– must possess specific qualities that allow them to fit in seamlessly with our culture and values.
+    looking-for:
+      title: "We’re looking for smart, self-motivated, and proactive individuals who can:"
+      thrive-in-environment: Thrive in a dynamic and collaborative environment
+      approach: Approach even the smallest task with an open mind
+      value: Value the importance of constant, open, and honest communication
+      solve-problems: Solve problems creatively and proactively
+      do-great-work: Do great work, and inspires people around them to do the same
+      work-in-environment: Work with highly talented people in an exciting, multinational environment
+      get-things-done: Get things done in a no-nonsense manner
+      work-without-hierarchy: Work without bureaucracy and hierarchy
+      learn: Learn and improve, day in and day out
+    role:
+      title: What you’ll be doing at First Source Arya Solutions
+      text-1: At First Source, you’ll be given ample opportunity to solve problems and challenges that have a direct impact on users and revenue.
+      text-2: We’re a small company and this allows you to see and learn almost everything that’s related to the technical side of online trading. Nothing beats hands-on experience though and we encourage you to try your hand at different disciplines if you believe that you can make a bigger impact doing something outside your comfort zone.
+      text-3: Our team-first, collaborative culture will make sure that you are given the support you need to deliver results and take that next step in your career.
+    internship-opportunities:
+      title: Internship opportunities
+      text-1: First Source offers diverse internship opportunities for students majoring in mathematics, financial engineering, software development, and the creative arts.
+      text-2: "We welcome you to apply if you’re qualified in any of the following disciplines:"
+      front-end: Front-end development
+      perl-development: Perl development
+      software-engineering: Software engineering
+      quants: Quantitative analysis
+      graphic-design: Graphic design
+      software-testing: Software testing
+    location:
+      title: Location
+      text: Tehran, Iran
+    apply: To apply, please submit your CV and cover letter to
+
+
+
+
+
+
+
+
+
+
+
