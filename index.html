@@ -10,7 +10,7 @@ subTitle: Developing world-class software for the financial industry
           <div class="intro-message">
             <h1 class="reverse_color">{% translate company-title %}</h1>
             <h4 class="reverse_color">{% translate company-subtitle %}</h4>
-            <a class="btn btn-primary" href="/services" role="button">{% translate learn-more-about-what-we-do %}</a>
+            <a class="btn btn-primary" href={{ "/services" | prepend: site.baseurl | replace: 'http://', 'https://' }} role="button">{% translate learn-more-about-what-we-do %}</a>
           </div>
         </div>
       </div>
