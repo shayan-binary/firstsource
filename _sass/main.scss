@@ -10,13 +10,17 @@ body {
   flex-direction: column;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
+  @extend .bold;
   color: $primary_color;
 
   &.reverse_color {
@@ -68,10 +72,10 @@ a {
 }
 
 .btn {
+  @extend .bold;
   border: none;
   font-size: 1rem;
   line-height: 1rem;
-  font-weight: bold;
   border-radius: 1rem;
   padding: 0.8rem 2.5rem;
 }
@@ -274,8 +278,8 @@ ul {
   background-color: $light_gray;
   p {
     &.title{
+      @extend .bold;
       margin-bottom: 0.2rem;
-      font-weight: bold;
     }
   }
 }
