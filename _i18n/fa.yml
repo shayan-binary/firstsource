@@ -413,3 +413,15 @@ careers-page:
       title: Location
       text: Tehran, Iran
     apply: To apply, please submit your CV and cover letter to
+contact-page:
+  title: "تماس با ما"
+  address:
+    title: "آدرس"
+    detail: "تهران، بزرگراه سئول، شهرک سئول، خیابان نسترن، کوچه هفتم شرقی، پلاک 8، واحد 1
+               کد پستی: 1995965711
+               تلفن: 88611845-021"
+  email:
+    title: "ایمیل"
+    name: "General enquiries:"
+  social:
+    telegram: "تلگرام"

@@ -412,7 +412,17 @@ careers-page:
       title: Location
       text: Tehran, Iran
     apply: To apply, please submit your CV and cover letter to
-
+contact-page:
+  title: Contact Us
+  address:
+    title: Address
+    name: First Source Arya Solutions LLC
+    detail: Floor 1, No. 8, East 7th Street, Nastaran Street, Seul Sub Division, 1995965711, Tehran
+  email:
+    title: Email
+    name: "General enquiries:"
+  social:
+    telegram: telegram
 
 
 
