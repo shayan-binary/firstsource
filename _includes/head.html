@@ -16,7 +16,10 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- Custom CSS -->
-    <link href= {{ "/style.css" | prepend: site.github.url | replace: 'http://', 'https://' }} rel="stylesheet">
+    <link href= {{ "/style.css" | prepend: site.baseurl_root | replace: 'http://', 'https://' }} rel="stylesheet">
+    {% if site.lang == "fa" %}
+        <link href= {{ "/style-fa.css" | prepend: site.baseurl_root | replace: 'http://', 'https://' }} rel="stylesheet">
+    {% endif %}
 
 
     <!-- Custom Fonts -->

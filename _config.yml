@@ -1,5 +1,5 @@
 baseurl: ""
-url: https://www.firstsource.io/
+url: "https://www.firstsource.io/"
 title: First Source Arya Solutions LLC
 email: ashkan@binary.com
 author: Ashkan
@@ -13,3 +13,11 @@ permalink: pretty
 
 sass:
   style: compressed
+
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "fa"]
+exclude_from_localizations: ["javascript", "images", "css"]
+
+
