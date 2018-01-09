@@ -119,6 +119,17 @@ a {
     width: 200px;
   }
 }
+
+.language-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background: 0 0;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  color: rgba(0,0,0,0.5);
+  border-color: rgba(0,0,0,0.1);
+}
 /* setting for header image or any section with background image in all pages*/
 .intro-header {
   width: 100%;
