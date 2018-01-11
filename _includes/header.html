@@ -1,4 +1,5 @@
 <!-- Navigation -->
+{% assign translate = site.data.translations[page.lang] %}
 <div class="container-fluid">
 
   <nav class="navbar navbar-expand-sm navbar-light bg-faded">
@@ -11,23 +12,43 @@
 
     <!-- Links -->
     <div class="collapse navbar-collapse justify-content-end" id="nav-content">
+      {% if page.lang == 'fa' %}
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href={{ "/index" | prepend: site.github.url | replace: 'http://', 'https://' }}>Home</a>
+          <a class="nav-link" href={{ "/fa/index" | prepend: site.base_url | replace: 'http://', 'https://' }}>{{ translate.home }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href={{ "/services" | prepend: site.github.url | replace: 'http://', 'https://' }} >Services</a>
+          <a class="nav-link" href={{ "/fa/services" | prepend: site.github.url | replace: 'http://', 'https://' }} >{{ translate.services }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href={{ "/about" | prepend: site.github.url | replace: 'http://', 'https://' }}>About</a>
+          <a class="nav-link" href={{ "/fa/about" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.about }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href={{ "/careers" | prepend: site.github.url | replace: 'http://', 'https://' }}>Careers</a>
+          <a class="nav-link" href={{ "/fa/careers" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.careers }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href={{ "/contact" | prepend: site.github.url | replace: 'http://', 'https://' }}>Contact</a>
+          <a class="nav-link" href={{ "/fa/contact" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.contact }}</a>
         </li>
       </ul>
+      {% else %}
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href={{ "/index" | prepend: site.base_url | replace: 'http://', 'https://' }}>{{ translate.home }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href={{ "/services" | prepend: site.github.url | replace: 'http://', 'https://' }} >{{ translate.services }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href={{ "/about" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.about }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href={{ "/careers" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.careers }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href={{ "/contact" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.contact }}</a>
+        </li>
+      </ul>
+      {% endif %}
     </div>
   </nav>
 

@@ -10,14 +10,17 @@ body {
   flex-direction: column;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: bold;
+  @extend .bold;
   color: $primary_color;
 
   &.reverse_color {
@@ -69,10 +72,10 @@ a {
 }
 
 .btn {
+  @extend .bold;
   border: none;
   font-size: 1rem;
   line-height: 1rem;
-  font-weight: bold;
   border-radius: 1rem;
   padding: 0.8rem 2.5rem;
 }
@@ -119,6 +122,17 @@ a {
   img {
     width: 200px;
   }
+}
+
+.language-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background: 0 0;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  color: rgba(0,0,0,0.5);
+  border-color: rgba(0,0,0,0.1);
 }
 /* setting for header image or any section with background image in all pages*/
 .intro-header {
@@ -172,8 +186,8 @@ a {
 .intro-message > h3 {}
 
 hr {
-   border-top: 2px solid $light_gray;
-   max-width: 50%;
+  border-top: 2px solid $light_gray;
+  max-width: 50%;
   &.vertical-line {
     width: 2px;
     height: 80px;
@@ -199,18 +213,19 @@ hr {
 }
 ul {
   &.dashed{
-  margin: 0;
-  list-style-type: none;
-  padding-left: 0.5rem;
-  li{
-    text-indent: -10px;
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    li{
+      text-indent: -10px;
+    }
+    li:before{
+      content: "-";
+      text-indent: -5px;
+      margin-right: 0.5rem;
+    }
   }
-  li:before{
-    content: "-";
-    text-indent: -5px;
-    margin-right: 0.5rem;
-  }
-}
 }
 /*Accordion*/
 .panel-default > .panel-heading {
@@ -264,8 +279,8 @@ ul {
   background-color: $light_gray;
   p {
     &.title{
+      @extend .bold;
       margin-bottom: 0.2rem;
-      font-weight: bold;
     }
   }
 }
@@ -275,34 +290,34 @@ ul {
     max-width:60%;
   }
   .layout-text {
-  color: $white;
-  max-width:40%;
-  background-color:$primary_color;
-  display:inline-block;
-  position:absolute;
-  &.right{right:3rem;}
-  &.left{left:3rem;}
-  .content{
-    padding: 2rem 2rem 0;
-    .arrow{
-      max-width: 20px;
-      margin-left: 10px;
+    color: $white;
+    max-width:40%;
+    background-color:$primary_color;
+    display:inline-block;
+    position:absolute;
+    &.right{right:3rem;}
+    &.left{left:3rem;}
+    .content{
+      padding: 2rem 2rem 0;
+      .arrow{
+        max-width: 20px;
+        margin-left: 10px;
+      }
     }
   }
-  }
   .triangle-bottomright {
-	width: 0;
-	height: 0;
-	border-bottom: 50px solid  $white;
-	border-left: 50px solid transparent;
-  float: right;
-}
-.triangle-bottomleft {
-	width: 0;
-	height: 0;
-	border-bottom: 50px solid $white;
-	border-right: 50px solid transparent;
-}
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid  $white;
+    border-left: 50px solid transparent;
+    float: right;
+  }
+  .triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid $white;
+    border-right: 50px solid transparent;
+  }
 }
 /* About us page*/
 #about {
@@ -351,28 +366,28 @@ ul {
 }
 /* Services page*/
 #primary-highlight{
-background-color: $primary_color;
-padding: 1rem 0;
-.card{
-  border: 0;
-  border-radius: 0;
-  background-color: $primary_color
-}
-.card-img-top {
-  max-width: 3rem;
-  margin: .5rem auto;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  min-height: 66px;
-}
-.card-text{
-  color: $white;
-}
-.card-title{
-  color: $white;
-  font-weight: 500;
-  font-size: 1.2rem;
-}
+  background-color: $primary_color;
+  padding: 1rem 0;
+  .card{
+    border: 0;
+    border-radius: 0;
+    background-color: $primary_color
+  }
+  .card-img-top {
+    max-width: 3rem;
+    margin: .5rem auto;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    min-height: 66px;
+  }
+  .card-text{
+    color: $white;
+  }
+  .card-title{
+    color: $white;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
 }
 /*Footer*/
 footer {
@@ -388,8 +403,8 @@ footer {
   #home
   {
     .layout-image{
-    max-width: 100%;
-  }
+      max-width: 100%;
+    }
     .layout-text {
       max-width: 100%;
       position: relative;
