@@ -29,6 +29,10 @@
         <li class="nav-item">
           <a class="nav-link" href={{ "/fa/contact" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.contact }}</a>
         </li>
+        <!--<li class="nav-item">-->
+          <!--&lt;!&ndash; change language of site &ndash;&gt;-->
+          <!--<a class="nav-link" href="{{ "/" | prepend: site.baseurl_root }}">{{ translate.see-in-english }}</a>-->
+        <!--</li>-->
       </ul>
       {% else %}
       <ul class="navbar-nav">
@@ -47,6 +51,10 @@
         <li class="nav-item">
           <a class="nav-link" href={{ "/contact" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.contact }}</a>
         </li>
+        <!--<li class="nav-item">-->
+          <!--&lt;!&ndash; change language of site &ndash;&gt;-->
+            <!--<a class="nav-link" href="{{ "/fa" | prepend: site.baseurl_root }}">{{ translate.see-in-farsi }}</a>-->
+        <!--</li>-->
       </ul>
       {% endif %}
     </div>
