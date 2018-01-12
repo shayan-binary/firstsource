@@ -17,6 +17,10 @@
 
     <!-- Custom CSS -->
     <link href= {{ "/style.css" | prepend: site.github.url | replace: 'http://', 'https://' }} rel="stylesheet">
+    {% if page.lang == "fa" %}
+    <link href= {{ "/style-fa.css" | prepend: site.github.url | replace: 'http://', 'https://' }} rel="stylesheet">
+    {% endif %}
+
 
 
     <!-- Custom Fonts -->
