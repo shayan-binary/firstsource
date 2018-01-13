@@ -294,7 +294,7 @@ ul {
     max-width:40%;
     background-color:$primary_color;
     display:inline-block;
-    position:absolute;
+    position: relative;
     &.right{right:3rem;}
     &.left{left:3rem;}
     .content{
@@ -317,6 +317,7 @@ ul {
     height: 0;
     border-bottom: 50px solid $white;
     border-right: 50px solid transparent;
+    direction: ltr;
   }
 }
 /* About us page*/
@@ -397,6 +398,10 @@ footer {
   img{
     width: 100px;
   }
+}
+
+.center {
+  margin: 0 auto;
 }
 /* Media ueries */
 @media (max-width: 575px) {
