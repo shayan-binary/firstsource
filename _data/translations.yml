@@ -76,7 +76,7 @@ fa:
       text-2: We aim to tap into Iran’s large pool of IT talent who we believe to have world-class potential. Come and join us in developing state-of-the-art financial software solutions that make an impact around the world.
     looking-for:
       title: "ما چه افرادی را استخدام می کنیم"
-      text: "کارکنان ما به دنبال ایجاد یک اثر هستند نه فقط انجام یک کار. ما تیمی منسجم از افراد با استعداد و پرشور از سراسر دنیا داریم که لذت می برند از:"
+      text: "کارکنان ما به دنبال ایجاد یک اثر هستند نه فقط انجام یک کار. ما تیمی منسجم از افراد با استعداد و پرشور داریم که لذت می برند از:"
       solving-problems: "حل مسائل پیچیده و چالشی"
       get-things-done: "انجام کارها از روشهای ساده و معقول"
       without-hierarchy: "کار کردن بدون بوروکراسی و سلسله مراتب"
@@ -182,12 +182,12 @@ fa:
         title: Location
         text: Tehran, Iran
       apply: To apply, please submit your CV and cover letter to
-    perl-developer:
-      title: Senior Perl Developer
-      text: First Source Arya Solutions LLC is seeking a driven, proactive, and highly-experienced Senior Perl Developer to write robust, high-quality, and production-ready code that powers our clients’ websites and applications.
+    backend-developer:
+      title: Senior Back-End Developer
+      text: First Source Arya Solutions LLC is seeking a driven, proactive, and highly-experienced Senior Back-End Developer to write robust, high-quality, and production-ready code that powers our clients’ websites and applications.
       ideal-candidate:
         title: The ideal candidate
-        text-1: You have exceptional Perl programming skills, and extensive experience with relational databases.
+        text-1: You have exceptional programming skills, and extensive experience with relational databases.
         text-2: You love developing websites and applications, and you enjoy working with databases, servers, and APIs.
         text-3: You are smart, self-motivated, and proactive. You thrive in a dynamic work environment, and approach even the smallest task with an open mind.
         text-4: Most importantly, you value the importance of constant, open, and honest communication.
@@ -203,16 +203,16 @@ fa:
         learn: Learn and improve, day in and day out
       to-excel:
         title: "To excel in this role, you must have:"
-        perl-expertise: Deep Perl expertise
+        perl-expertise: Deep programming expertise, and a willingness to learn Perl
         linux-expertise: Expertise in Linux system administration
         database-expertise: Experience with relational database design, and/or open-source RDBMS systems such as MySQL and PostgreSQL
-        familiarity-with: Familiarity with Perl DBI, Moose, PSGI/Plack, nginx, JavaScript, Redis, and Git
+        familiarity-with: "Familiarity with one or more of the following: Perl DBI, Moose, PSGI/Plack, nginx, JavaScript, Redis, and Git"
         ability: Ability to produce high-quality, self-documenting code by using test-driven development (TDD) techniques
-        event-driven: Knowledge of event-driven programming in Perl
+        event-driven: Knowledge of event-driven programming
         passion-for-open-source: Passion for Linux and other open-source platforms
       role:
         title: Your role
-        text: "As our Senior Perl Developer, you will:"
+        text: "As our Senior Back-End Developer, you will:"
         develop-and-maintain: Develop and maintain world-class web applications
         build-optimise: Build, maintain, and optimise the technology that powers our clients’ servers, applications, and databases
         team-work: Work closely with other teams to come up with effective architecture to support the deployment of new products and features
@@ -504,7 +504,7 @@ en:
       text-2: We aim to tap into Iran’s large pool of IT talent who we believe to have world-class potential. Come and join us in developing state-of-the-art financial software solutions that make an impact around the world.
     looking-for:
       title: What we’re looking for
-      text: "Our people are here to make an impact, not just pass on through. We have a tight-knit team of talented and passionate people from around the world who enjoy:"
+      text: "Our people are here to make an impact, not just pass on through. We have a tight-knit team of talented and passionate people who enjoy:"
       solving-problems: Solving complex and challenging problems
       get-things-done: Getting things done in a no-nonsense manner
       without-hierarchy: Working without bureaucracy and hierarchy
@@ -610,12 +610,12 @@ en:
         title: Location
         text: Tehran, Iran
       apply: To apply, please submit your CV and cover letter to
-    perl-developer:
-      title: Senior Perl Developer
-      text: First Source Arya Solutions LLC is seeking a driven, proactive, and highly-experienced Senior Perl Developer to write robust, high-quality, and production-ready code that powers our clients’ websites and applications.
+    backend-developer:
+      title: Senior Back-End Developer
+      text: First Source Arya Solutions LLC is seeking a driven, proactive, and highly-experienced Senior Back-End Developer to write robust, high-quality, and production-ready code that powers our clients’ websites and applications.
       ideal-candidate:
         title: The ideal candidate
-        text-1: You have exceptional Perl programming skills, and extensive experience with relational databases.
+        text-1: You have exceptional programming skills, and extensive experience with relational databases.
         text-2: You love developing websites and applications, and you enjoy working with databases, servers, and APIs.
         text-3: You are smart, self-motivated, and proactive. You thrive in a dynamic work environment, and approach even the smallest task with an open mind.
         text-4: Most importantly, you value the importance of constant, open, and honest communication.
@@ -631,16 +631,16 @@ en:
         learn: Learn and improve, day in and day out
       to-excel:
         title: "To excel in this role, you must have:"
-        perl-expertise: Deep Perl expertise
+        perl-expertise: Deep programming expertise, and a willingness to learn Perl
         linux-expertise: Expertise in Linux system administration
         database-expertise: Experience with relational database design, and/or open-source RDBMS systems such as MySQL and PostgreSQL
-        familiarity-with: Familiarity with Perl DBI, Moose, PSGI/Plack, nginx, JavaScript, Redis, and Git
+        familiarity-with: "Familiarity with one or more of the following: Perl DBI, Moose, PSGI/Plack, nginx, JavaScript, Redis, and Git"
         ability: Ability to produce high-quality, self-documenting code by using test-driven development (TDD) techniques
-        event-driven: Knowledge of event-driven programming in Perl
+        event-driven: Knowledge of event-driven programming
         passion-for-open-source: Passion for Linux and other open-source platforms
       role:
         title: Your role
-        text: "As our Senior Perl Developer, you will:"
+        text: "As our Senior Back-End Developer, you will:"
         develop-and-maintain: Develop and maintain world-class web applications
         build-optimise: Build, maintain, and optimise the technology that powers our clients’ servers, applications, and databases
         team-work: Work closely with other teams to come up with effective architecture to support the deployment of new products and features
