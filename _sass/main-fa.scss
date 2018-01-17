@@ -18,6 +18,14 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.ltr {
+  direction: LTR;
+}
+
+.rtl {
+  direction: RTL;
+}
+
 h1 {
   font-size: 2rem;
 }
