@@ -403,6 +403,10 @@ footer {
 .center {
   margin: 0 auto;
 }
+
+.qrcode {
+  width: 100px;
+}
 /* Media ueries */
 @media (max-width: 990px) {
   #home
@@ -436,5 +440,8 @@ footer {
       }
     }
 
+  }
+  .sm-hidden {
+    display: block;
   }
 }

@@ -426,6 +426,8 @@ fa:
       name: "General enquiries: "
     social:
       telegram: "تلگرام"
+    add-to:
+      title: "افزودن به مخاطبین"
   see-in-english: EN
 en:
   home: Home
@@ -848,11 +850,16 @@ en:
       title: Address
       name: First Source Arya Solutions LLC
       detail: Floor 1, No. 8, East 7th Street, Nastaran Street, Seul Sub Division, 1995965711, Tehran
+    phone:
+      title:  Phone
+      number: 021-88611845
     email:
       title: Email
       name: "General enquiries: "
     social:
       telegram: telegram
+    add-to:
+      title: Add to contacts
   see-in-farsi: "فارسی"
 
 
