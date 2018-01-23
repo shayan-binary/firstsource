@@ -8,7 +8,11 @@
     </button>
 
     <!-- Brand -->
+    {% if page.lang == 'fa' %}
+    <a class="navbar-brand" href={{ "/fa/" | prepend: site.github.url | replace: 'http://', 'https://' }}><img src= {{ "/img/FS_logo.svg" | prepend: site.github.url | replace: 'http://', '//' }} alt=""></a>
+    {% else %}
     <a class="navbar-brand" href={{ "/" | prepend: site.github.url | replace: 'http://', 'https://' }}><img src= {{ "/img/FS_logo.svg" | prepend: site.github.url | replace: 'http://', '//' }} alt=""></a>
+    {% endif %}
 
     <!-- Links -->
     <div class="collapse navbar-collapse justify-content-end" id="nav-content">
