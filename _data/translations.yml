@@ -430,6 +430,7 @@ fa:
     add-to:
       title: "افزودن به مخاطبین"
   see-in-english: EN
+  see-in-farsi: "فارسی"
 en:
   home: Home
   services: Services
@@ -862,6 +863,7 @@ en:
     add-to:
       title: Add to contacts
   see-in-farsi: "فارسی"
+  see-in-english: EN
 
 
 

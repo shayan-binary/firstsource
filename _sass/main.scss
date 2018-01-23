@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Vazir-FD';
+  src: url('/fonts/Vazir-FD.woff') format('woff'), url('/fonts/Vazir-FD.ttf') format('truetype');
+}
+
 body,
 html {
   width: 100%;
@@ -104,6 +109,23 @@ a {
 
       a.nav-link {
         color: $white;
+      }
+    }
+    &.lang-switcher {
+      .nav-link {
+        color: $dark_blue;
+      }
+      &.farsi-link {
+        font-family: "Vazir-FD";
+        line-height: 1.5rem;
+        margin-left: 15px;
+      }
+      &.english-link {
+        margin-right: 15px;
+        .nav-link {
+          font-family: 'Source Sans Pro', sans-serif;
+          line-height: 1.2rem;
+        }
       }
     }
   }
@@ -407,6 +429,7 @@ footer {
 .qrcode {
   width: 100px;
 }
+
 /* Media ueries */
 @media (max-width: 990px) {
   #home
@@ -443,5 +466,21 @@ footer {
   }
   .sm-hidden {
     display: none;
+  }
+  .navbar-nav {
+    .nav-item {
+      &.lang-switcher {
+        &.farsi-link {
+          line-height: initial;
+          margin-left: 0;
+        }
+        &.english-link {
+          margin-right: 0;
+          .nav-link {
+            line-height: initial;
+          }
+        }
+      }
+    }
   }
 }
