@@ -35,10 +35,10 @@
         </li>
         <li class="nav-item lang-switcher english-link">
           <!-- change language of site -->
-          <a class="nav-link" href="{{ "/" | prepend: site.baseurl_root }}">{{ translate.see-in-english }}</a>
+          <a class="nav-link" href={{ "/" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.see-in-english }}</a>
         </li>
         <li class="nav-item lang-switcher">
-          <a class="nav-link" href="{{ "/fa/" | prepend: site.baseurl_root }}">{{ translate.see-in-farsi }}</a>
+          <a class="nav-link" href={{ "/fa/" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.see-in-farsi }}</a>
         </li>
       </ul>
       {% else %}
@@ -60,10 +60,10 @@
         </li>
         <!-- change language of site -->
         <li class="nav-item lang-switcher farsi-link">
-          <a class="nav-link" href="{{ "/fa/" | prepend: site.baseurl_root }}">{{ translate.see-in-farsi }}</a>
+          <a class="nav-link" href={{ "/fa/" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.see-in-farsi }}</a>
         </li>
         <li class="nav-item lang-switcher">
-          <a class="nav-link" href="{{ "/" | prepend: site.baseurl_root }}">{{ translate.see-in-english }}</a>
+          <a class="nav-link" href={{ "/" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.see-in-english }}</a>
         </li>
       </ul>
       {% endif %}
