@@ -424,7 +424,6 @@ fa:
                   تلفن: 88611845-021"
     email:
       title: "ایمیل"
-      name: "General enquiries: "
     social:
       telegram: "تلگرام"
     add-to:
@@ -857,7 +856,6 @@ en:
       number: 021-88611845
     email:
       title: Email
-      name: "General enquiries: "
     social:
       telegram: Telegram
     add-to:
