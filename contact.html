@@ -23,6 +23,7 @@ lang: en
     <div class="col-md-auto">
       <h4>{{ translate.contact-page.address.title }}</h4>
       <p>{{ translate.contact-page.address.name }} <br>{{ translate.contact-page.address.detail }}</p>
+      <p>{{ translate.contact-page.phone.title }}: {{ translate.contact-page.phone.number }}</p>
     </div>
     <div class="col">
       <h4>{{ translate.contact-page.email.title }}</h4>
@@ -31,6 +32,10 @@ lang: en
     <div class="col">
       <h4>{{ translate.contact-page.social.telegram }}</h4>
       <a href="https://t.me/firstsource" target="_blank"><img class="rounded icon" src="{{ site.github.url }}/img/telegram.svg" alt=""></a>
+    </div>
+    <div class="col-md-auto sm-hidden">
+      <h4>{{translate.contact-page.add-to.title}}</h4>
+      <img class="float-left layout-image qrcode" src= {{ "/img/qrcode.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="">
     </div>
     <!--  <div class="col">
       <img class="rounded float-right icon" src="{{ site.github.url }}/img/icons/email.svg" alt="">
