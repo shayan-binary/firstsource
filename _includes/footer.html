@@ -3,8 +3,29 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3 align-self-start">
-      <img src= {{ "/img/FS_logo_white.svg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="">
-    </div>
+          <img src= {{ "/img/FS_logo_white.svg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="">
+        </div>
+        <div class="col-sm-9 language-toggler">
+          {% if page.lang == 'fa' %}
+            <a class="english-language-button"
+               href={{ "/" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+              {{ translate.see-in-english }}
+            </a>
+            <a class="persian-language-button active"
+               href={{ "/fa/" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+              {{ translate.see-in-farsi }}
+            </a>
+          {% else %}
+            <a class="english-language-button active"
+               href={{ "/" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+              {{ translate.see-in-english }}
+            </a>
+            <a class="persian-language-button"
+               href={{ "/fa/" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+              {{ translate.see-in-farsi }}
+            </a>
+          {% endif %}
+        </div>
       </div>
     </div>
 </footer>
