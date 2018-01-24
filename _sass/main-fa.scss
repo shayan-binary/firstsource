@@ -1,13 +1,3 @@
-@font-face {
-  font-family: 'Vazir-FD';
-  src: url('/fonts/Vazir-FD.woff') format('woff'), url('/fonts/Vazir-FD.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Vazir-Bold-FD';
-  src: url('/fonts/Vazir-Bold-FD.woff') format('woff'), url('/fonts/Vazir-Bold-FD.ttf') format('truetype');
-}
-
 body {
   direction: RTL;
   font-family: 'Vazir-FD', 'Source Sans Pro', sans-serif;
@@ -45,4 +35,9 @@ h1, h2, h3, h4, h5, h6, .panel-body > p.title, .btn {
 .arrow {
   transform: rotate(180deg);
   margin-right: 10px;
+}
+
+.language-toggler {
+  text-align: left;
+  direction: LTR;
 }
