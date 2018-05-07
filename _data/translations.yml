@@ -420,8 +420,11 @@ fa:
     address:
       title: "آدرس"
       detail: "تهران، بزرگراه سئول، شهرک سئول، خیابان نسترن، کوچه هفتم شرقی، پلاک 8، واحد 1
-                  کد پستی: 1995965711
-                  تلفن: 88611845-021"
+                  کد پستی: 1995965711"
+    phone:
+      title: "تلفن"
+      number1: "021-88062805"
+      number2: "021-88058641"
     email:
       title: "ایمیل"
     social:
@@ -853,7 +856,8 @@ en:
       detail: Floor 1, No. 8, East 7th Street, Nastaran Street, Seul Sub Division, 1995965711, Tehran
     phone:
       title:  Phone
-      number: 021-88611845
+      number1: +98-21-88062805
+      number2: +98-21-88058641
     email:
       title: Email
     social:
