@@ -1,0 +1,41 @@
+---
+layout: default
+title: First Source Arya Solutions LLC | About Us
+subTitle: Developing world-class software for the financial industry
+lang: en
+---
+<!--{% assign translate = site.data.translations[page.lang] %}-->
+<section class="intro-header about">
+  <div class="container align-items-center">
+    <div class="row no-gutters align-items-center">
+      <div class="col-lg-12">
+        <div class="intro-message">
+          <h1 class="reverse_color">{{ translate.events }}</h1>
+          <p class="reverse_color">{{ translate.events-page.subtitle-1 }}<br />{{ translate.events-page.subtitle-2 }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container" id="events">
+    <div class="events-container">
+        <h2 class="title">{{ translate.events-page.upcoming-events }}</h2>
+        {% for event in translate.events-page.events-list %}
+            <div class="events-box row">
+                    <div class="col-lg-6 events-box__img mb-3">
+                        <img src= {{ "/img/events/"| append: event[1].img | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+                    </div>
+                    <div class="col-lg-6 p-0">
+                        <h3 class="events-box__name">
+                            <a class="events-box__website" target="_blank" href={{ event[1].website_url }}>{{ event[1].name }}</a>
+                        </h3>
+                        <p class="events-box__date">{{ event[1].date }}</p>
+                        <p class="events-box__location">{{ event[1].location }}</p>
+                        {% if event[1].email != null %}
+                            <a class="events-box__email" href=mailto:{{ event[1].email}}>{{ event[1].email }}</a>
+                        {% endif %}
+                    </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

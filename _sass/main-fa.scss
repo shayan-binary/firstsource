@@ -41,3 +41,18 @@ h1, h2, h3, h4, h5, h6, .panel-body > p.title, .btn {
   text-align: left;
   direction: LTR;
 }
+
+#events .events-container {
+  .events-box {
+    &__img {
+      padding: 0 0 0 36px;
+      @media (max-width: 575px) {
+        padding: 0;
+      }
+    }
+    &__location:before, &__date:before, &__email:before {
+      margin-left: 8px;
+      margin-right: 0;
+    }
+  }
+}
