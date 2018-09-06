@@ -17,7 +17,7 @@ fa:
         location: Sharif University
         website_url: http://mpm.sharif.ir/
       event-2:
-        img: iranjobfair.jpg
+        img: iranjobfair-october2018.jpg
         name: IRAN Job Fair
         date: 14 - 16 October, 2018
         location: Sharif University <br/> (Booth No. 3)
@@ -31,7 +31,7 @@ fa:
         website_url: http://sadafjobfair.ir/
         email: SadafJobFair@gmail.com
       event-4:
-        img: iranjobfair.jpg
+        img: iranjobfair-january2019.jpg
         name: IRAN Job Fair
         date: 24 - 26 January, 2018
         location: Goftegoo Park
@@ -485,7 +485,7 @@ en:
         location: Sharif University
         website_url: http://mpm.sharif.ir/
       event-2:
-        img: iranjobfair.jpg
+        img: iranjobfair-october2018.jpg
         name: IRAN Job Fair
         date: 14 - 16 October, 2018
         location: Sharif University <br/> (Booth No. 3)
@@ -499,7 +499,7 @@ en:
         website_url: http://sadafjobfair.ir/
         email: SadafJobFair@gmail.com
       event-4:
-        img: iranjobfair.jpg
+        img: iranjobfair-january2019.jpg
         name: IRAN Job Fair
         date: 24 - 26 January, 2018
         location: Goftegoo Park
