@@ -437,11 +437,7 @@ ul {
       }
       &__name {
         margin-top: 0;
-
-        a {
-          color: $primary_color;
-          font-weight: normal;
-        }
+        font-weight: normal;
       }
       &__date {
         display: flex;
@@ -465,12 +461,12 @@ ul {
           margin-right: 8px;
         }
       }
-      &__email {
+      &__website {
         display: flex;
         align-items: center;
 
         &:before {
-          content: url('img/icons/email.svg');
+          content: url('img/icons/best_tools.svg');
           width: 16px;
           margin-right: 8px;
         }
