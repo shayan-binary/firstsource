@@ -2,3 +2,4 @@ _site
 .sass-cache
 CNAME
 .idea/
+.DS_Store

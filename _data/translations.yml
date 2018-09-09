@@ -4,6 +4,39 @@ fa:
   about: "درباره ما"
   careers: "فرصت های شغلی"
   contact: "تماس با ما"
+  events: Events
+  events-page:
+    subheading-1: Let's meet up. We could be in a town near you soon and we're ready to connect you with the next leaders in financial and technology.
+    subheading-2: So, come out and say hi.
+    upcoming-events: Upcoming events
+    events-list:
+      event-1:
+        img: marathon_programming.png
+        name: Marathon Programming Competition
+        date: 6 - 8 September, 2018
+        location: Sharif University
+        website_url: mpm.sharif.ir
+      event-2:
+        img: iranjobfair-october2018.jpg
+        name: IRAN Job Fair
+        date: 14 - 16 October, 2018
+        location: Sharif University <br/> (Booth No. 3)
+        website_url: iranjobfair.ir
+        email: info@iranjobfair.ir
+      event-3:
+        img: sadafjobfair.jpg
+        name: Sadaf Job Festival
+        date: November
+        location: Iran University of Science and Industry <br/> (Booth No. 15)
+        website_url: sadafjobfair.ir
+        email: SadafJobFair@gmail.com
+      event-4:
+        img: iranjobfair-january2019.jpg
+        name: IRAN Job Fair
+        date: 24 - 26 January, 2018
+        location: Goftogoo Park <br/> (Booth No. 15, Tehran Hall)
+        website_url: iranjobfair.ir
+        email: info@iranjobfair.ir
   company-title: "راهکارهای متن اول آریا"
   company-subtitle: "توسعه نرم افزار تراز اول دنیا برای صنعت مالی"
   learn-more-about-what-we-do: "درباره خدمات ما بیشتر بدانید"
@@ -439,6 +472,39 @@ en:
   about: About
   careers: Careers
   contact: Contact
+  events: Events
+  events-page:
+    subheading-1: Let's meet up. We could be in a town near you soon and we're ready to connect you with the next leaders in financial and technology.
+    subheading-2: So, come out and say hi.
+    upcoming-events: Upcoming events
+    events-list:
+      event-1:
+        img: marathon_programming.png
+        name: Marathon Programming Competition
+        date: 6 - 8 September, 2018
+        location: Sharif University
+        website_url: mpm.sharif.ir
+      event-2:
+        img: iranjobfair-october2018.jpg
+        name: IRAN Job Fair
+        date: 14 - 16 October, 2018
+        location: Sharif University <br/> (Booth No. 3)
+        website_url: iranjobfair.ir
+        email: info@iranjobfair.ir
+      event-3:
+        img: sadafjobfair.jpg
+        name: Sadaf Job Festival
+        date: November
+        location: Iran University of Science and Industry <br/> (Booth No. 15)
+        website_url: sadafjobfair.ir
+        email: SadafJobFair@gmail.com
+      event-4:
+        img: iranjobfair-january2019.jpg
+        name: IRAN Job Fair
+        date: 24 - 26 January, 2018
+        location: Goftogoo Park <br/> (Booth No. 15, Tehran Hall)
+        website_url: iranjobfair.ir
+        email: info@iranjobfair.ir
   company-title: First Source Arya Solutions LLC
   company-subtitle: Developing world-class software for the financial industry
   learn-more-about-what-we-do: Learn more about what we do
