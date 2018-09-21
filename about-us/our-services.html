@@ -1,0 +1,149 @@
+---
+layout: default
+title: First Source Arya Solutions LLC
+subTitle: Developing world-class software for the financial industry
+lang: en
+---
+{% assign translate = site.data.translations[page.lang] %}
+
+<div class="container mt-lg-4 pt-lg-5 pt-md-0 pr-lg-0 pl-lg-0 pr-md-2 pl-md-3">
+    <div class="row pt-lg-2">
+    <div class="col-xl-9 col-lg-8">
+      <section class="section" id="what-we-build">
+        <div class="row">
+          <div class="col-md-12">
+            <h4 class="bold">
+              {{ translate.about-us.what-we-build }}
+            </h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-11">
+            <p class="mt-4">
+              {{ translate.about-us.what-we-build-text-1 }}
+            </p>
+            <p class="mt-4">
+              {{ translate.about-us.what-we-build-text-2 }}
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section bg-light-blue pt-5 pb-5 mb-5" id="we-believe">
+        <div class="row">
+          <div class="col-md-12">
+            <h4 class="bold">
+              {{ translate.about-us.we-believe }}
+            </h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-11">
+            <p class="mt-4">
+              {{ translate.about-us.we-believe-text-1 }}
+            </p>
+            <p class="mt-4">
+              {{ translate.about-us.we-believe-text-2 }}
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="how-we-build">
+          <div class="row">
+            <div class="col-md-12">
+              <h4 class="bold">
+                {{ translate.about-us.how-we-build }}
+              </h4>
+            </div>
+          </div>
+          <div class="row justify-content-md-center mt-5">
+            <div class="col-md-10">
+              <div class="row vertical-align">
+                <div class="col-md-2 text-right pr-4 d-none d-md-block">
+                  <img src={{"/img/icons/strategy-icon.png" | prepend: site.github.url | replace: 'http://', 'https://'
+                  }} alt="" />
+                </div>
+                <div class="col-md-10 pl-4 how-we-build-text">
+                  <strong>{{ translate.about-us.strategy-and-planning }}</strong>
+                  <p>{{ translate.about-us.strategy-and-planning-text }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-md-center mt-5">
+            <div class="col-md-10">
+              <div class="row vertical-align">
+                <div class="col-md-2 text-right pr-4 d-none d-md-block">
+                  <img src={{"/img/icons/design-icon.png" | prepend: site.github.url | replace: 'http://', 'https://' }}
+                  alt="" />
+                </div>
+                <div class="col-md-10 pl-4 how-we-build-text">
+                  <strong>{{ translate.about-us.ux-and-design }}</strong>
+                  <p>{{ translate.about-us.ux-and-design-text }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-md-center mt-5">
+            <div class="col-md-10">
+              <div class="row vertical-align">
+                <div class="col-md-2 text-right pr-4 d-none d-md-block">
+                  <img src={{"/img/icons/develop-icon.png" | prepend: site.github.url | replace: 'http://', 'https://'
+                  }} alt="" />
+                </div>
+                <div class="col-md-10 pl-4 how-we-build-text">
+                  <strong>{{ translate.about-us.software-development }}</strong>
+                  <p>{{ translate.about-us.software-development-text }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-md-center mt-5">
+            <div class="col-md-10">
+              <div class="row vertical-align">
+                <div class="col-md-2 text-right pr-4 d-none d-md-block">
+                  <img src={{"/img/icons/trade-icon.png" | prepend: site.github.url | replace: 'http://', 'https://' }}
+                  alt="" />
+                </div>
+                <div class="col-md-10 pl-4 how-we-build-text">
+                  <strong>{{ translate.about-us.trading-technology }}</strong>
+                  <p>{{ translate.about-us.trading-technology-text }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-md-center mt-5">
+            <div class="col-md-10">
+              <div class="row vertical-align">
+                <div class="col-md-2 text-right pr-4 d-none d-md-block">
+                  <img src={{"/img/icons/service-icon.png" | prepend: site.github.url | replace: 'http://', 'https://'
+                  }} alt="" />
+                </div>
+                <div class="col-md-10 pl-4 how-we-build-text">
+                  <strong>{{ translate.about-us.managed-it-services }}</strong>
+                  <p>{{ translate.about-us.managed-it-services-text }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-md-center mt-5">
+            <div class="col-md-10">
+              <div class="row vertical-align">
+                <div class="col-md-2 text-right pr-4 d-none d-md-block">
+                  <img src={{"/img/icons/mt-5-icon.png" | prepend: site.github.url | replace: 'http://', 'https://' }}
+                  alt="" />
+                </div>
+                <div class="col-md-10 pl-4 how-we-build-text">
+                  <strong>{{ translate.about-us.mt5-bridge-and-plugins }}</strong>
+                  <p>{{ translate.about-us.mt5-bridge-and-plugins-text }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <div class="col-xl-3 col-lg-4 order-first order-lg-last">
+      {% include about-us.html %}
+    </div>
+  </div>
+</div>

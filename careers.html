@@ -1,140 +1,132 @@
 ---
 layout: default
-title: First Source Arya Solutions LLC | Careers
+title: First Source Arya Solutions LLC
+subTitle: Developing world-class software for the financial industry
 lang: en
 ---
-<!--{% assign translate = site.data.translations[page.lang] %}-->
-<section class="intro-header careers">
-  <div class="container align-items-center">
-    <div class="row no-gutters align-items-center">
-      <div class="col-sm-12">
-        <div class="intro-message">
-          <h1 class="reverse_color">{{ translate.careers-page.name }}</h1>
+{% assign translate = site.data.translations[page.lang] %}
+<section class='pt'>
+  <div class="container pt-0 pb-0">
+    <div class="row mb-5">
+      <div class="col-md-12 text-center">
+        <h3 class="bold">{{ translate.career-page.what-is-your-passion }}</h3>
+      </div>
+    </div>
+
+    <div class="row career-box-container">
+      <div class="career-box">
+        <a href={{"/careers/career/#quantitive-analysis" | prepend: site.github.url | replace: 'http://',
+        'https://' }}>
+          <div class="job-image">
+            <div class="col-md-12 text-center">
+              <img class="w-50" src={{"/img/quants-illustration.svg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+            </div>
+          </div>
+          <div class="row job-title mt-3">
+            <div class="col-md-12 text-center pt-1 pb-1">
+              <h4 class="regular">{{ translate.career-page.quantitive-analysis }}</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="career-box">
+        <a href={{"/careers/career/#software-developments" | prepend: site.github.url | replace: 'http://',
+        'https://' }}>
+        <div class="job-image">
+          <div class="col-md-12 text-center">
+            <img class="w-50" src={{"/img/software-developments-illustration.svg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="container">
-  <div class="row justify-content-md-center">
-    <div class="col-sm-10">
-      <h2 class="text-center">{{ translate.careers-page.title }}</h2>
-    </div>
-  </div>
-  <div class="row justify-content-md-center">
-    <div class="col-sm-10">
-      <p class="text-center">
-        {{ translate.careers-page.text-1 }}
-      </p>
-      <p class="text-center">{{ translate.careers-page.text-2 }}</p>
-    </div>
-  </div>
-  <div class="row justify-content-md-center mt-4">
-    <div class="col-sm-12 col-md-8">
-      <h3 class="text-left">{{ translate.careers-page.why-us.title }}</h3>
-      <p class="text-justify">{{ translate.careers-page.why-us.text-1 }}</p>
-      <p class="text-justify">{{ translate.careers-page.why-us.text-2 }}</p>
-    </div>
-  </div>
-</section>
-<section class="intro-header career-why-iran mt-4">
-  <div class="container">
-    <div class="row justify-content-md-center">
-      <div class="col-sm-12 col-md-8">
-        <div class="intro-message">
-          <h3 class="reverse_color text-left">{{ translate.careers-page.why-iran.title }}</h3>
-          <p class="reverse_color text-justify">{{ translate.careers-page.why-iran.text-1 }}</p>
-          <p class="reverse_color text-justify">{{ translate.careers-page.why-iran.text-2 }}</p>
+        <div class="row job-title mt-3">
+          <div class="col-md-12 text-center pt-1 pb-1">
+            <h4 class="regular">{{ translate.career-page.software-developments }}</h4>
+          </div>
         </div>
+        </a>
+      </div>
+
+      <div class="career-box">
+        <a href={{"/careers/career/#qa-and-test" | prepend: site.github.url | replace: 'http://',
+        'https://' }}>
+        <div class="job-image">
+          <div class="col-md-12 text-center">
+            <img class="w-50" src={{"/img/qa-and-test-illustration.svg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+          </div>
+        </div>
+        <div class="row job-title mt-3">
+          <div class="col-md-12 text-center pt-1 pb-1">
+            <h4 class="regular">{{ translate.career-page.qa-and-test }}</h4>
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div class="career-box">
+        <a href={{"/careers/career/#graphic-design" | prepend: site.github.url | replace: 'http://',
+        'https://' }}>
+          <div class="job-image">
+            <div class="col-md-12 text-center">
+              <img class="w-50" src={{"/img/graphic-design-illustration.svg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+            </div>
+          </div>
+          <div class="row job-title mt-3">
+            <div class="col-md-12 text-center pt-1 pb-1">
+              <h4 class="regular">{{ translate.career-page.graphic-design }}</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="career-box">
+        <a href={{"/careers/career/#talent-acquisition" | prepend: site.github.url | replace: 'http://',
+        'https://' }}>
+        <div class="job-image">
+          <div class="col-md-12 text-center">
+            <img class="w-50" src={{"/img/talent-acquisition-illustration.svg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+          </div>
+        </div>
+        <div class="row job-title mt-3">
+          <div class="col-md-12 text-center pt-1 pb-1">
+            <h4 class="regular">{{ translate.career-page.talent-acquisition }}</h4>
+          </div>
+        </div>
+        </a>
+      </div>
+
+
+      <div class="career-box">
+        <a href={{"/careers/career/#hr-operations" | prepend: site.github.url | replace: 'http://',
+        'https://' }}>
+          <div class="job-image">
+            <div class="col-md-12 text-center">
+              <img class="w-50" src={{"/img/hr-operations-illustration.svg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+            </div>
+          </div>
+          <div class="row job-title mt-3">
+            <div class="col-md-12 text-center pt-1 pb-1">
+              <h4 class="regular">{{ translate.career-page.hr-operations }}</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="career-box">
+        <a href={{"/careers/career/#internship" | prepend: site.github.url | replace: 'http://',
+        'https://' }}>
+          <div class="job-image">
+            <div class="col-md-12 text-center">
+              <img class="w-50" src={{"/img/internship-illustration.svg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+            </div>
+          </div>
+          <div class="row job-title mt-3">
+            <div class="col-md-12 text-center pt-1 pb-1">
+              <h4 class="regular">{{ translate.career-page.internship }}</h4>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   </div>
 </section>
-
-<section class="container">
-  <div class="row justify-content-md-center mb-2 mt-4">
-    <div class="col-sm-12 col-md-8 text-justify">
-      <h3 class="text-left">{{ translate.careers-page.looking-for.title }}</h3>
-      <p class="">{{ translate.careers-page.looking-for.text }}</p>
-      <ul class="dashed">
-        <li>{{ translate.careers-page.looking-for.solving-problems }}</li>
-        <li>{{ translate.careers-page.looking-for.get-things-done }}</li>
-        <li>{{ translate.careers-page.looking-for.without-hierarchy }}</li>
-        <li>{{ translate.careers-page.looking-for.do-great-work }}</li>
-        <li>{{ translate.careers-page.looking-for.learn }}</li>
-      </ul>
-
-    </div>
-  </div>
-</section>
-<hr>
-<section class="container">
-  <div class="row justify-content-md-center">
-    <div class="col-sm-12 col-md-8">
-      <h2 class="text-center">{{ translate.careers-page.our-stack.title }}</h2>
-    </div>
-  </div>
-  <div class="row justify-content-md-center">
-    <div class="col-sm-12 col-md-8">
-      <p class="text-center">{{ translate.careers-page.our-stack.text }}
-      </p>
-    </div>
-  </div>
-  <div class="row justify-content-md-center">
-    <div class="col-sm-12 col-md-3 border-right mt-3 ltr-in-persian">
-      <h4>{{ translate.careers-page.our-stack.back-end.title }}</h4>
-      <hr class="sub-header">
-      <ul class="dashed">
-        <li>{{ translate.careers-page.our-stack.back-end.stack-1 }}</li>
-        <li>{{ translate.careers-page.our-stack.back-end.stack-2 }}</li>
-        <li>{{ translate.careers-page.our-stack.back-end.stack-3 }}</li>
-        <li>{{ translate.careers-page.our-stack.back-end.stack-4 }}</li>
-      </ul>
-    </div>
-    <div class="col-sm-12 col-md-3 mt-3 ltr-in-persian">
-      <h4>{{ translate.careers-page.our-stack.front-end.title }}</h4>
-      <hr class="sub-header">
-      <ul class="dashed">
-        <li>{{ translate.careers-page.our-stack.front-end.stack-1 }}</li>
-        <li>{{ translate.careers-page.our-stack.front-end.stack-2 }}</li>
-        <li>{{ translate.careers-page.our-stack.front-end.stack-3 }}</li>
-      </ul>
-    </div>
-  </div>
-</section>
-<hr hidden />
-<section class="container">
-  <div class="row justify-content-md-center">
-    <div class="col-sm-12 col-md-8">
-      <h2 class="text-center">{{ translate.careers-page.open-positions.title }}</h2>
-    </div>
-  </div>
-  <div class="row justify-content-md-center">
-    <div class="col-sm-12 col-md-8">
-      <p class="text-center">{{ translate.careers-page.open-positions.text }}
-      </p>
-    </div>
-  </div>
-</section>
-<section class="container">
-  <div class="row justify-content-md-center">
-    <div class="col-sm-10">
-      <div class="accordion-option">
-        <!-- <h3 class="title">Lorem Ipsum</h3> -->
-        <!-- <a href="javascript:void(0)" class="toggle-accordion active" accordion-id="#accordion"></a> -->
-      </div>
-      <div class="clearfix"></div>
-      <div class="panel-group ltr-in-persian" id="accordion" role="tablist" aria-multiselectable="true">
-
-        <!-- end  ====== -->
-        {% include human-resource-jd.html %}
-        {% include front-end-jd.html %}
-        {% include back-end-jd.html %}
-        {% include software-tester-jd.html %}
-        {% include quantitative-analyst-jd.html %}
-        {% include graphic-design-jd.html %}
-        {% include internship-jd.html %}
-      </div>
-    </div>
-  </div>
-</section>
+<div class="container section-divider"></div>
