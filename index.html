@@ -5,57 +5,119 @@ subTitle: Developing world-class software for the financial industry
 lang: en
 ---
 {% assign translate = site.data.translations[page.lang] %}
-<section class="intro-header home">
+
+
+<section class="home text-white text-center">
   <div class="container">
+    <div class="row">
+      <div class="col pb-3">
+        <p>{{ translate.intro-header }}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h2 class="text-white">{{ translate.intro-subheader }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+          <a type="button"
+             class="btn btn-primary mt-3"
+             href={{"/about-us/our-team/#amazing-products" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+            {{ translate.explore-more }}
+          </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="who-we-are pb-5">
+  <div class="container pt-0 pb-0">
+    <div class="row no-gutters justify-content-md-center">
+      <div class="col-md-12 col-sm-12 center bg-white pt-5 pb-5">
+        <h4 class="text-center medium">
+          {{ translate.who-we-are }}
+        </h4>
+        <p class="text-center"> {{ translate.who-we-are-explanation }} </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="pb-4">
+  <div class="container pt-0 pb-0">
     <div class="row no-gutters">
-      <div class="col-lg-12">
-        <div class="intro-message">
-          <h1 class="reverse_color">{{ translate.company-title }}</h1>
-          <h4 class="reverse_color">{{ translate.company-subtitle }}</h4>
-          <a class="btn btn-primary" href="/services" role="button">{{ translate.learn-more-about-what-we-do }}</a>
+      <div class="col-md-1 d-none d-lg-block d-md-block"></div>
+      <div class="col-md-7 col-sm-12">
+        <h4 class="medium">
+          {{ translate.our-team.title }}
+        </h4>
+        <p> {{ translate.our-team.info-1 }} </p>
+        <p> {{ translate.our-team.info-2 }} </p>
+        <a class="more" href={{"/about-us/our-team/#why-firstsource" | prepend: site.github.url |
+        replace: 'http://', 'https://' }}> {{ translate.learn-more }} <i class="fas fa-caret-right"></i></a>
+      </div>
+      <div class="col-md-3 d-none d-lg-flex d-md-flex vertical-align">
+        <img class="w-100" src={{"/img/img-our-team.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="team" />
+      </div>
+      <div class="col-md-1 d-none d-lg-block d-md-block"></div>
+    </div>
+  </div>
+</section>
+<section class="bg-gray-white pt-4 pb-4">
+  <div class="container pt-0 pb-0">
+    <div class="row no-gutters">
+      <div class="col-md-1 d-none d-lg-block d-md-block"></div>
+      <div class="col-md-3 d-none d-lg-flex d-md-flex vertical-align hidden-sm-down ">
+        <img class="w-85" src={{"/img/img-our-methodology.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="methodology" />
+      </div>
+      <div class="col-md-7 col-sm-12 pl-5">
+        <h4 class="medium">
+          {{ translate.our-method.title }}
+        </h4>
+        <p> {{ translate.our-method.info-1 }} </p>
+        <p> {{ translate.our-method.info-2 }} </p>
+        <a class="more" href={{"/about-us/our-methodology/#why-iran" | prepend: site.github.url |
+        replace: 'http://', 'https://' }}> {{ translate.learn-more }} <i class="fas fa-caret-right"></i></a>
+      </div>
+      <div class="col-md-1 d-none d-lg-block d-md-block"></div>
+    </div>
+  </div>
+</section>
+<section class=" pt-4 pb-4">
+  <div class="container pt-0 pb-0">
+    <div class="row no-gutters">
+      <div class="col-md-1 d-none d-lg-block d-md-block"></div>
+      <div class="col-md-7 col-sm-12">
+        <h4 class="medium">
+          {{ translate.our-services.title }}
+        </h4>
+        <p> {{ translate.our-services.info-1 }} </p>
+        <p> {{ translate.our-services.info-2 }} </p>
+        <a class="more" href={{ "/about-us/our-services/#what-we-build" | prepend: site.github.url |
+        replace: 'http://', 'https://' }}> {{ translate.learn-more }} <i class="fas fa-caret-right"></i></a>
+      </div>
+      <div class="col-md-3 d-none d-lg-flex d-md-flex vertical-align hidden-sm-down ">
+        <img class="w-100" src={{"/img/img-our-services.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="services" />
+      </div>
+      <div class="col-md-1 d-none d-lg-block d-md-block"></div>
+    </div>
+  </div>
+</section>
+<section class="bg-gray-white pb-0">
+  <div class="container">
+    <div class="row no-gutters justify-content-md-center justify-content-sm-center">
+      <div class="col-md-6 col-sm-12">
+        <div class="row">
+          <div class="col">
+            <h3 class="medium"> {{ translate.join-us }} </h3>
+          </div>
+          <div class="col-2">
+           <a type="button" class="btn btn-primary" href={{"/careers" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+              {{ translate.apply }}
+           </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<div class="container" id="home">
-  <div class="row justify-content-md-center">
-    <div class="col-md-6 col-sm-12 center">
-      <h2 class="text-center">{{ translate.We-are-one-of-the-leading-software-development-centres }}</h2>
-    </div>
-  </div>
-  <div class="row justify-content-md-center">
-    <div class="col-md-6 col-sm-12 center">
-      <p class="text-center">
-        {{ translate.specialising-in-financial-software }}
-      </p>
-    </div>
-  </div>
-  <hr class="short-line">
-  <div class="row justify-content-md-center">
-    <div class="col-sm-12 col-md-10 col-lg-8">
-      <img class="float-left layout-image" src= {{ "/img/home1.jpg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="">
-      <div class="layout-text right">
-        <div class="content">
-          <h3 class="reverse_color">{{ translate.about-us }}</h3>
-          <p class="reverse_color">{{ translate.about-us-text }}
-          </p>
-          <p><a href= {{ "/fa/about" | prepend: site.github.url | replace: 'http://', 'https://'}} >{{ translate.learn-more }}<img class="arrow" src= {{ "/img/icons/arrow-icon.svg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt=""></a></p></div>
-        <div class="triangle-bottomright"></div>
-      </div>
-    </div>
-  </div>
-  <div class="row justify-content-md-center mt-3">
-    <div class="col-sm-12 col-md-10 col-lg-8">
-      <div class="layout-text left">
-        <div class="content">
-          <h3 class="reverse_color">{{ translate.services }}</h3>
-          <p class="reverse_color">{{ translate.services-text }}
-          </p>
-          <p><a href= {{ "/fa/services" | prepend: site.github.url | replace: 'http://', 'https://'}} >{{ translate.learn-more }}<img class="arrow" src= {{ "/img/icons/arrow-icon.svg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt=""></a></p></div>
-        <div class="triangle-bottomleft"></div>
-      </div>
-      <img class="float-right layout-image" src= {{ "/img/home2.jpg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="">
-    </div>
-  </div>
-</div>

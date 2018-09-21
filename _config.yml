@@ -1,11 +1,9 @@
 baseurl: ""
 url: https://www.firstsource.io/
 title: First Source Arya Solutions LLC
-email: ashkan@binary.com
-author: Ashkan
+email: nazanin@binary.com
+author: Nazanin
 description: "We are one of the leading software development centers in Iran. Specialising in financial software development for the international market, we develop best-in-class software solutions using state-in-the-art technologies."
-copyright:
-credits:
 
 # Build settings
 markdown: kramdown
@@ -13,3 +11,6 @@ permalink: pretty
 
 sass:
   style: compressed
+
+url: shayanypn.github.io
+baseurl: /firstsource

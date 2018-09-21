@@ -1,62 +1,84 @@
 <!-- Navigation -->
 {% assign translate = site.data.translations[page.lang] %}
-<div class="container-fluid">
+<div class="container pb-md-4 pt-md-4 p-0">
 
-  <nav class="navbar navbar-expand-sm navbar-light bg-faded">
+  <nav class="navbar navbar-expand-sm navbar-light p-xs-4 p-md-0">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <!-- Brand -->
     {% if page.lang == 'fa' %}
-    <a class="navbar-brand" href={{ "/fa/" | prepend: site.github.url | replace: 'http://', 'https://' }}><img src= {{ "/img/FS_logo.svg" | prepend: site.github.url | replace: 'http://', '//' }} alt=""></a>
+    <a class="navbar-brand" href={{ "/fa/" | prepend: site.github.url | replace: 'http://', 'https://' }}><img src= {{ "/img/logo-56.svg" | prepend: site.github.url | replace: 'http://', '//' }} alt=""></a>
     {% else %}
-    <a class="navbar-brand" href={{ "/" | prepend: site.github.url | replace: 'http://', 'https://' }}><img src= {{ "/img/FS_logo.svg" | prepend: site.github.url | replace: 'http://', '//' }} alt=""></a>
+    <a class="navbar-brand" href={{ "/" | prepend: site.github.url | replace: 'http://', 'https://' }}><img src= {{"/img/logo-56.svg" | prepend: site.github.url | replace: 'http://', '//' }} alt=""></a>
     {% endif %}
 
     <!-- Links -->
     <div class="collapse navbar-collapse justify-content-end" id="nav-content">
       {% if page.lang == 'fa' %}
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href={{ "/fa/index" | prepend: site.base_url | replace: 'http://', 'https://' }}>{{ translate.home }}</a>
+        <li class="nav-item px-sm-0 py-sm-0 px-lg-2 py-lg-2">
+          <a class="nav-link" href={{ "/fa/about-us/our-team" | prepend: site.base_url | replace: 'http://', 'https://' }}>
+            {{ translate.about }}
+          </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href={{ "/fa/services" | prepend: site.github.url | replace: 'http://', 'https://' }} >{{ translate.services }}</a>
+        <!--<li class="nav-item px-sm-0 py-sm-0 px-lg-2 py-lg-2">-->
+          <!--<a class="nav-link" href={{ "/fa/interview-process" | prepend: site.github.url | replace: 'http://', 'https://' }} >-->
+            <!--{{ translate.interview-process }}-->
+          <!--</a>-->
+        <!--</li>-->
+        <li class="nav-item px-sm-0 py-sm-0 px-lg-2 py-lg-2">
+          <a class="nav-link" href={{ "/fa/careers" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+            {{ translate.career }}
+          </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href={{ "/fa/about" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.about }}</a>
-        </li>
-        <!--li class="nav-item">
-          <a class="nav-link" href={{ "/fa/events" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.events }}</a>
-        </li-->
-        <li class="nav-item">
-          <a class="nav-link" href={{ "/fa/careers" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.careers }}</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href={{ "/fa/contact" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.contact }}</a>
-        </li>
+        <!--<li class="nav-item px-sm-0 py-sm-0 px-lg-2 py-lg-2">-->
+          <!--<a class="nav-link" href={{ "/fa/events" | prepend: site.github.url | replace: 'http://', 'https://' }}>-->
+            <!--{{ translate.events }}-->
+          <!--</a>-->
+        <!--</li>-->
       </ul>
       {% else %}
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href={{ "/index" | prepend: site.base_url | replace: 'http://', 'https://' }}>{{ translate.home }}</a>
+        <li class="nav-item px-sm-0 py-sm-0 px-lg-2 py-lg-2">
+          <a  id="about-us" class="nav-link" href={{ "/about-us/our-team" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+            {{ translate.about }}
+          </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href={{ "/services" | prepend: site.github.url | replace: 'http://', 'https://' }} >{{ translate.services }}</a>
+        <!--<li class="nav-item px-sm-0 py-sm-0 px-lg-2 py-lg-2">-->
+          <!--<a class="nav-link" href={{ "/interview-process" | prepend: site.github.url | replace: 'http://', 'https://' }}>-->
+            <!--{{ translate.interview-process }}-->
+          <!--</a>-->
+        <!--</li>-->
+        <li class="nav-item px-sm-0 py-sm-0 px-lg-2 py-lg-2">
+          <a id="career" class="nav-link" href={{ "/careers" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+          {{ translate.career }}
+          </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href={{ "/about" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.about }}</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href={{ "/events" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.events }}</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href={{ "/careers" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.careers }}</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href={{ "/contact" | prepend: site.github.url | replace: 'http://', 'https://' }}>{{ translate.contact }}</a>
-        </li>
+        <!--<li class="nav-item px-sm-0 py-sm-0 px-lg-2 py-lg-2">-->
+          <!--<a class="nav-link" href={{ "/events" | prepend: site.github.url | replace: 'http://', 'https://' }}>-->
+          <!--{{ translate.events }}-->
+          <!--</a>-->
+        <!--</li>-->
+        <!--<li class="nav-item px-sm-0 py-sm-0 px-lg-2 py-lg-2 dropdown">-->
+          <!--<a class="nav-link dropdown-toggle"-->
+             <!--href="#" id="navbarDropdown"-->
+             <!--role="button"-->
+             <!--data-toggle="dropdown"-->
+             <!--aria-haspopup="true"-->
+             <!--aria-expanded="false">-->
+            <!--{{ translate.[page.lang] }}-->
+          <!--</a>-->
+          <!--<div class="dropdown-menu" aria-labelledby="navbarDropdown">-->
+            <!--<a class="dropdown-item" href={{ "/" | prepend: site.github.url | replace: 'http://', 'https://' }}>-->
+              <!--{{ translate.english }}-->
+            <!--</a>-->
+            <!--&lt;!&ndash;<a class="dropdown-item" href={{ "/fa/" | prepend: site.github.url | replace: 'http://', 'https://' }}">&ndash;&gt;-->
+              <!--&lt;!&ndash;{{ translate.farsi }}&ndash;&gt;-->
+            <!--&lt;!&ndash;</a>&ndash;&gt;-->
+          <!--</div>-->
+        <!--</li>-->
       </ul>
       {% endif %}
     </div>
