@@ -129,10 +129,10 @@ en:
       ui-ux-designer: UI/UX Designer
   career-page:
     what-is-your-passion: What is your passion?
-    quantitive-analysis: Quants
+    quantitive-analysis: Quantitive analysis
     graphic-design: Graphic Design
     hr-operations: HR Operations
-    qa-and-test: Quality Assurance
+    qa-and-test: QA And Test
     accounting: Accounting
     talent-acquisition: Talent Acquisition
     devops: DevOps
@@ -141,7 +141,7 @@ en:
     apply-to: To apply for this Position, please send your resume to
     hr-mail: hr@firstsource.io
     qa-and-test-page:
-      title: Software QA/Test Engineer
+      title: QA and Test
       ideal-candidate:
         title: Ideal Candidate
         text-1: Is experienced in developing and executing test plans for websites, applications, and systems
@@ -244,14 +244,15 @@ en:
         software-testing: Software testing
       looking-for:
         title: We are looking for someone who loves to
-        text-1: Work with talents
-        text-2: Work with highly talented people in an exciting, multicultural environment
-        text-3: Inspire
-        text-4: Do great work and inspire people around them to do the same
-        text-5: Solve
-        text-6: Solve complex and abstract mathematical problems to optimise pricing and to manage risk
-        text-7: Manner
-        text-8: Learn and improve, day in and day out
+        title-2: And Can…
+        text-1: Solve
+        text-2: Solve problems creatively and proactively
+        text-3: Work with talents
+        text-4: Work with highly talented people in an exciting, multicultural environment
+        text-5: Inspire
+        text-6: Do great work and inspire people around them to do the same
+        text-7: Do
+        text-8: Get things done in a no-nonsense manner, Learn and improve, day in and day out and Work in the absence of bureaucracy and hierarchy
         text-9: Get things done
         text-10: Get things done in a no-nonsense manner
         text-11: Heirarchy
@@ -341,7 +342,7 @@ en:
           text-2: Commendable interpersonal skills.
           text-3: Strong decision-making skills.
       you-will:
-        title: As our Talent Acquisition Specialist, you will
+        title: you will
         text-1: Support our recruitment and talent management needs
         text-2: Schedule and coordinate interviews with candidates
         text-3: Develop and update job descriptions and specifications
@@ -493,8 +494,9 @@ en:
           text-2: Familiarity with testing and debugging processes, including unit testing and UI testing
         degree:
           title: Degree
-          text-1: Familiarity with one or more of the following, Perl DBI, Moose, PSGI/Plack, nginx, JavaScript, Redis, and Git
-          text-2: A willingness to learn Perl
+          text-1: Familiarity with various JavaScript standards, libraries, frameworks, compilers, and transpilers, including ES6, TypeScript, Babel, SystemJS, Web Workers, jQuery, React, and Angular
+          text-2: Passion for Linux and other open-source platforms
+          text-3: Extensive knowledge in advanced coding techniques, cross-platform development, and hybrid mobile app developmentz
         experience:
           title: Experience
           text-1: Experience with relational database design, and/or open-source RDBMS systems such as MySQL and PostgreSQL
@@ -510,12 +512,12 @@ en:
         text-4: Keep up with established and emerging web standards and technologies in front-end development
         text-5: Inspire
         text-6: Do great work and inspire people around them to do the same
-        text-7: Work with talents
-        text-8: Work with highly talented people in an exciting, multinational environment
-        text-9: Get things done
-        text-10: Get things done in a no-nonsense manner
-        text-11: Heirarchy
-        text-12: Work in the absence of bureaucracy and hierarchy
+        text-7: Do
+        text-8: Get things done in a no-nonsense manner, Learn and improve, day in and day out and Work in the absence of bureaucracy and hierarchy.
+        text-9: Use
+        text-10: Use the latest tools and technologies at their disposal
+        text-11: Work with talents
+        text-12: Work with highly talented people in an exciting, multinational environment
         text-13: Latest tools
         text-14: Have the latest tools and technologies at their disposal
         text-15: Manner

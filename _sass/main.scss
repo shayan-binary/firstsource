@@ -124,6 +124,10 @@ p {
   font-size: 14px;
   line-height: 1.5;
 }
+.nopadding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 
 a {
   color: $secondary_color;
@@ -269,6 +273,9 @@ a {
 }
 .icon-apply {
   background: url('img/icons/apply-icon.svg') no-repeat scroll center center;
+}
+.icon-keep-up {
+  background: url('img/icons/keep-up-icon.svg') no-repeat scroll center center;
 }
 
 
@@ -610,22 +617,13 @@ ul.para-list {
   border-radius: 5px;
   padding: 0;
   position: relative;
-
-  &:before {
-    width: 100%;
-    height: 35%;
-    background-color: rgba(20, 110, 180, 0.05);
-    position: absolute;
-    top: 0;
-    content: '';
-  }
   a {
     display: block;
     height: 100%;
     border-radius: 5px;
     border-bottom: 3px solid $white;
     transition: .3s ease;
-    padding: 20px 0;
+    padding: 0;
 
     .job-title {
       height: 50px;
@@ -638,7 +636,7 @@ ul.para-list {
 
     .job-image {
       img {
-        height: 125px;
+        width: 100%;
       }
     }
 
