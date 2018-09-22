@@ -184,6 +184,55 @@ a {
 .bg-light-blue{
   background: $light_blue;
 }
+.bg-light-blue-left{
+  background: $light_blue;
+  position: relative;
+  &:before {
+    background: url("img/bg-logo-top.png") no-repeat scroll top right,
+          url("img/bg-logo-bottom.png") no-repeat scroll bottom center,
+          $light_blue;
+    content: ' ';
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+  }
+}
+
+.bg-we-believe{
+  background: $light_blue;
+  position: relative;
+  &:before {
+    background: url("img/bg-logo-top.png") no-repeat scroll top right/190px 190px,
+          url("img/bg-logo-bottom.png") no-repeat scroll bottom center/100px 100px,
+          $light_blue;
+    content: ' ';
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+  }
+}
+
+
+.bg-our-team{
+  background: $light_blue;
+  position: relative;
+  &:before {
+    background: url("img/bg-logo-top.png") no-repeat scroll top center/250px 250px,
+          url("img/bg-logo-bottom.png") no-repeat scroll bottom left/100px 100px,
+          $light_blue;
+    content: ' ';
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    right: -30vw;
+    top: 0px;
+  }
+}
+
 
 .container {
   padding: 25px;
@@ -209,7 +258,7 @@ a {
 .divider-large {
   width: 200px;
   border-top: 1px solid $blue;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .section-divider {
