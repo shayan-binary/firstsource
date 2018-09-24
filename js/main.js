@@ -15,8 +15,10 @@ function setActiveMenu() {
         link = 'career';
     } else if (/\/about-us\//.test(window.location.pathname)) {
         link = 'about-us';
+    } else if (/\//.test(window.location.pathname)) {
+        link = 'home';
     }
-    if (link === 'career' || link === 'about-us') {
+    if (link !== '') {
         $m.find('a.nav-link#' + link).parent('.nav-item').addClass('active');
     }
 };
