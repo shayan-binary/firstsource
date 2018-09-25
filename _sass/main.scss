@@ -5,7 +5,26 @@
 
 @font-face {
   font-family: 'Vazir-Bold-FD';
-  src: url('/fonts/Vazir-Bold-FD.woff') format('woff'), url('/fonts/Vazir-Bold-FD.ttf') format('truetype');
+  src: url('/fonts/Vazir-Bold-FD.woff') format('woff'),
+      url('/fonts/Vazir-Bold-FD.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'gotham';
+  font-weight: bold;
+  src: url('/fonts/gotham/GothamPro-Bold.woff') format('woff'),
+      url('/fonts/gotham/GothamPro-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-weight: normal;
+  src: url('/fonts/rubik/Rubik-Regular.woff') format('woff'),
+      url('/fonts/rubik/Rubik-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 500;
+  src: url('/fonts/rubik/Rubik-Medium.woff') format('woff'),
+      url('/fonts/rubik/Rubik-Medium.ttf') format('truetype');
 }
 
 body,
@@ -17,7 +36,8 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -39,7 +59,8 @@ select,
 b,
 i,
 li {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
 }
 
 ul {
@@ -84,6 +105,7 @@ h4,
 h5,
 h6 {
   color: $black;
+  font-family: 'gotham';
 
   &.reverse_color {
     color: $white;
@@ -126,7 +148,7 @@ p {
 
 a {
   color: $secondary_color;
-  font-weight: 700;
+  font-weight: 500;
   &:hover{
     color: $secondary_color_hover;
     text-decoration: none;
@@ -280,8 +302,13 @@ a {
   position: relative;
   bottom: 11px;
 }
-.icon-phone {
-  background: url('img/icons/ic-local-phone.svg') no-repeat scroll center center;
+.icon-call {
+  background: url('img/icons/icon-call.svg') no-repeat scroll center center / contain;
+  padding: 4px 13px;
+}
+.icon-envelope {
+  background: url('img/icons/icon-envelope.svg') no-repeat scroll center center / contain;
+  padding: 4px 13px;
 }
 .icon-creative {
   background: url('img/icons/creative-icon.svg') no-repeat scroll center center;
@@ -834,7 +861,7 @@ ul.para-list {
       a.nav-link {
         @extend .regular;
         color: $black;
-        padding: 0.9rem .8rem;
+        padding: 0.9rem .7rem;
         border: none !important;
         font-size: 17px;
         font-weight: normal;
@@ -940,5 +967,18 @@ ul.para-list {
 @media (min-width: 576px) and (max-width: 768px) {
   .career-box {
     width: calc((100% - 60px) / 2);
+  }
+}
+
+
+
+
+
+.old-size {
+  h4{
+    font-size: 23px;
+  }
+  p {
+    font-size: 16px;
   }
 }

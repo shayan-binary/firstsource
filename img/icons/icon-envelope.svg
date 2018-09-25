@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>envelope icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="frontend-developer-3" transform="translate(-825.000000, -3236.000000)">
+            <g id="envelope-icon" transform="translate(825.000000, 3234.000000)">
+                <rect id="Rectangle-46" x="0" y="0" width="20" height="20"></rect>
+                <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="2.97222222" width="18.5" height="13.1391753" rx="2"></rect>
+                <path d="M1.00206163,15.6530762 L7.30319553,9.34814453" id="Path-49" stroke="#146EB4" stroke-width="1.5"></path>
+                <path d="M12.7060276,9.59784614 L19.2674425,15.608724" id="Path-50" stroke="#146EB4" stroke-width="1.5"></path>
+                <path d="M17.3242634,3.82692308 L2.62201436,3.82692308 L8.22864803,9.8964803 C9.20102292,10.9573629 10.8286504,11.0151896 11.8239807,10.0750561 L17.3242634,3.82692308 Z" id="Rectangle-14" stroke="#146EB4" stroke-width="1.5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

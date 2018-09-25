@@ -8,8 +8,8 @@ en:
   farsi: Farsi
   en: English
   fa: Farsi
-  intro-header: Talent and technology, without borders
-  intro-subheader: Specialising in financial software development for the international markets
+  intro-header: Welcome to First Source
+  intro-subheader: First Source offers the Cutting edge of technology driven by exceptional talents
   explore-more: Explore More
   who-we-are: Who we are
   who-we-are-explanation: A preeminent software development centre based in Tehran
@@ -141,6 +141,9 @@ en:
     software-developments: Software Developments
     apply-to: To apply for this Position, please send your resume to
     hr-mail: hr@firstsource.io
+    benefits:
+      title: Compensation Package and Benefits
+      sub-title: This position offers a market-based salary, annual performance bonus, and flexi hours.
     qa-and-test-page:
       title: QA and Test
       ideal-candidate:
