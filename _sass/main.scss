@@ -1,30 +1,28 @@
 @font-face {
-  font-family: 'Vazir-FD';
-  src: url('/fonts/Vazir-FD.woff') format('woff'), url('/fonts/Vazir-FD.ttf') format('truetype');
+  font-family: 'Gotham';
+  font-weight: bold;
+  src: url('/fonts/Gotham/Gotham-Bold.eot');
+}
+@font-face {
+  font-family: 'Gotham';
+  font-weight: 500;
+  src: url('/fonts/Gotham/Gotham-Medium.eot');
 }
 
 @font-face {
-  font-family: 'Vazir-Bold-FD';
-  src: url('/fonts/Vazir-Bold-FD.woff') format('woff'),
-      url('/fonts/Vazir-Bold-FD.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'gotham';
-  font-weight: bold;
-  src: url('/fonts/gotham/GothamPro-Bold.woff') format('woff'),
-      url('/fonts/gotham/GothamPro-Bold.ttf') format('truetype');
-}
-@font-face {
   font-family: 'Rubik';
   font-weight: normal;
-  src: url('/fonts/rubik/Rubik-Regular.woff') format('woff'),
-      url('/fonts/rubik/Rubik-Regular.ttf') format('truetype');
+  src: url('/fonts/Rubik/Rubik-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Rubik';
   font-weight: 500;
-  src: url('/fonts/rubik/Rubik-Medium.woff') format('woff'),
-      url('/fonts/rubik/Rubik-Medium.ttf') format('truetype');
+  src: url('/fonts/Rubik/Rubik-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-weight: bold;
+  src: url('/fonts/Rubik/Rubik-Bold.ttf') format('truetype');
 }
 
 body,
@@ -105,7 +103,7 @@ h4,
 h5,
 h6 {
   color: $black;
-  font-family: 'gotham';
+  font-family: 'Gotham';
 
   &.reverse_color {
     color: $white;
@@ -305,10 +303,12 @@ a {
 .icon-call {
   background: url('img/icons/icon-call.svg') no-repeat scroll center center / contain;
   padding: 4px 13px;
+  bottom: 3px;
 }
 .icon-envelope {
   background: url('img/icons/icon-envelope.svg') no-repeat scroll center center / contain;
   padding: 4px 13px;
+  bottom: 3px;
 }
 .icon-creative {
   background: url('img/icons/creative-icon.svg') no-repeat scroll center center;
@@ -355,6 +355,17 @@ a {
 .icon-keep-up {
   background: url('img/icons/keep-up-icon.svg') no-repeat scroll center center;
 }
+.icon-linkdin {
+  background: url('img/icons/icon-linkdin.svg') no-repeat scroll center center / contain;
+  padding: 12px 26px;
+  bottom: -2px;
+}
+.icon-telegram {
+  background: url('img/icons/icon-telegram.svg') no-repeat scroll center center / contain;
+  padding: 12px 26px;
+  bottom: -2px;
+}
+
 
 
 
@@ -442,9 +453,8 @@ a.btn {
 }
 .section-benefits {
   background: url('img/img-career-banner.png') no-repeat scroll center center / cover;
-  height: 266px;
   width: 100%;
-  padding: 90px 0px;
+  padding: 75px 0px;
   h2 {
     font-size: 36px;
     font-weight: bold;
@@ -462,6 +472,32 @@ a.btn {
     line-height: 1.5;
     letter-spacing: normal;
     color: #ffffff;
+    margin-bottom: 0px;
+  }
+}
+.section-joinus {
+  background: #f58a07;
+  padding-top: 26px;
+  padding-bottom: 28px;
+  h4, a {
+    font-family: 'Rubik';
+    margin-bottom: 0px;
+    font-size: 27px;
+    font-weight: 500;
+  }
+  .apply {
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+    .apply-text {
+      height: calc(100% - 50px);
+      padding: 25px;
+    }
+  }
+}
+.section-excel-in-role {
+  .careers-content {
+    min-height: 180px;
   }
 }
 
@@ -577,27 +613,6 @@ nav.navbar {
   }
 }
 
-.join-us {
-  background: #f58a07;
-  h4, a {
-    font-family: 'Rubik';
-  }
-
-  .apply {
-    padding: 15px;
-    height: 100%;
-    width: 100%;
-
-    .apply-text {
-      height: calc(100% - 50px);
-      padding: 25px;
-    }
-  }
-
-  img {
-    max-width: 250px;
-  }
-}
 
 //footer
 footer {
@@ -606,8 +621,8 @@ footer {
   h3, i {
     color: $white;
   }
-  [class*="icon"] {
-    bottom: 4px;
+  a {
+    font-weight: normal;
   }
   .footer-logo {
     width: 50px;
@@ -617,10 +632,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     color: $black;
-    [class*="icon"] {
-      bottom: 4px;
-      padding: 4px 0px;
-    }
   }
 }
 .sidemenu-list {
@@ -632,6 +643,7 @@ footer {
       a {
         color: $black;
         font-weight: normal;
+        white-space: nowrap;
 
         &.nav-link {
           background: $semi_white;
@@ -779,6 +791,17 @@ ul.para-list {
 .slick-slide {
   &:focus {
     outline: none!important;
+  }
+}
+.slider-nav {
+  .slick-current {
+    p {
+      color: $blue;
+
+      &.text-title {
+        font-weight: bold;
+      }
+    }
   }
 }
 

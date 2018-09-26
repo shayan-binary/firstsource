@@ -38,7 +38,7 @@ function initSlick() {
         focusOnSelect: true,
         nextArrow: $('.next'),
         prevArrow: $('.prev'),
-        infinite: false,
+        // infinite: false,
         responsive: [
             {
                 breakpoint: 768,

@@ -43,61 +43,69 @@ lang: en
 </section>
 <section class="pb-5">
   <div class="container pt-0 pb-0">
-    <div class="row no-gutters">
-      <div class="col-md-1 d-none d-lg-block d-md-block"></div>
-      <div class="col-md-7 col-sm-12">
-        <h4 class="medium">
-          {{ translate.our-team.title }}
-        </h4>
-        <p> {{ translate.our-team.info-1 }} </p>
-        <p> {{ translate.our-team.info-2 }} </p>
-        <a class="more" href={{"/about-us/our-team/#why-firstsource" | prepend: site.github.url |
-        replace: 'http://', 'https://' }}> {{ translate.learn-more }} <i class="fas fa-caret-right"></i></a>
+    <div class="row no-gutters justify-content-md-center justify-content-sm-center">
+      <div class="col-10">
+        <div class="row">
+          <div class="col-md-7 col-sm-12">
+            <h4 class="medium">
+              {{ translate.our-team.title }}
+            </h4>
+            <p> {{ translate.our-team.info-1 }} </p>
+            <p> {{ translate.our-team.info-2 }} </p>
+            <a class="more" href={{"/about-us/our-team/#why-firstsource" | prepend: site.github.url |
+            replace: 'http://', 'https://' }}> {{ translate.learn-more }} <i class="fas fa-caret-right"></i></a>
+          </div>
+          <div class="col-md-3 d-none d-lg-flex d-md-flex vertical-align">
+            <img class="w-100" src={{"/img/img-our-team.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="team" />
+          </div>
+        </div>
       </div>
-      <div class="col-md-3 d-none d-lg-flex d-md-flex vertical-align">
-        <img class="w-100" src={{"/img/img-our-team.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="team" />
-      </div>
-      <div class="col-md-1 d-none d-lg-block d-md-block"></div>
     </div>
   </div>
 </section>
 <section class="bg-gray-white pt-5 pb-5">
   <div class="container pt-0 pb-0">
-    <div class="row no-gutters">
-      <div class="col-md-1 d-none d-lg-block d-md-block"></div>
-      <div class="col-md-3 d-none d-lg-flex d-md-flex vertical-align hidden-sm-down ">
-        <img class="w-85" src={{"/img/img-our-methodology.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="methodology" />
+    <div class="row no-gutters justify-content-md-center justify-content-sm-center">
+      <div class="col-10">
+        <div class="row">
+          <div class="col-md-3 d-none d-lg-flex d-md-flex vertical-align hidden-sm-down ">
+            <img class="w-85" src={{"/img/img-our-methodology.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="methodology" />
+          </div>
+          <div class="col-md-7 col-sm-12 pl-5">
+            <h4 class="medium">
+              {{ translate.our-method.title }}
+            </h4>
+            <p> {{ translate.our-method.info-1 }} </p>
+            <p> {{ translate.our-method.info-2 }} </p>
+            <a class="more" href={{"/about-us/our-methodology/#why-iran" | prepend: site.github.url |
+            replace: 'http://', 'https://' }}> {{ translate.learn-more }} <i class="fas fa-caret-right"></i></a>
+          </div>
+        </div>
       </div>
-      <div class="col-md-7 col-sm-12 pl-5">
-        <h4 class="medium">
-          {{ translate.our-method.title }}
-        </h4>
-        <p> {{ translate.our-method.info-1 }} </p>
-        <p> {{ translate.our-method.info-2 }} </p>
-        <a class="more" href={{"/about-us/our-methodology/#why-iran" | prepend: site.github.url |
-        replace: 'http://', 'https://' }}> {{ translate.learn-more }} <i class="fas fa-caret-right"></i></a>
-      </div>
-      <div class="col-md-1 d-none d-lg-block d-md-block"></div>
     </div>
   </div>
 </section>
 <section class="pt-5 pb-5">
   <div class="container pt-0 pb-0">
     <div class="row no-gutters">
-      <div class="col-md-1 d-none d-lg-block d-md-block"></div>
-      <div class="col-md-7 col-sm-12">
-        <h4 class="medium">
-          {{ translate.our-services.title }}
-        </h4>
-        <p> {{ translate.our-services.info-1 }} </p>
-        <p> {{ translate.our-services.info-2 }} </p>
-        <a class="more" href={{ "/about-us/our-services/#what-we-build" | prepend: site.github.url |
-        replace: 'http://', 'https://' }}> {{ translate.learn-more }} <i class="fas fa-caret-right"></i></a>
+      <div class="row no-gutters justify-content-md-center justify-content-sm-center">
+        <div class="col-10">
+          <div class="row">
+            <div class="col-md-7 col-sm-12">
+              <h4 class="medium">
+                {{ translate.our-services.title }}
+              </h4>
+              <p> {{ translate.our-services.info-1 }} </p>
+              <p> {{ translate.our-services.info-2 }} </p>
+              <a class="more" href={{ "/about-us/our-services/#what-we-build" | prepend: site.github.url |
+              replace: 'http://', 'https://' }}> {{ translate.learn-more }} <i class="fas fa-caret-right"></i></a>
+            </div>
+            <div class="col-md-3 d-none d-lg-flex d-md-flex vertical-align hidden-sm-down ">
+              <img class="w-100" src={{"/img/img-our-services.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="services" />
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-3 d-none d-lg-flex d-md-flex vertical-align hidden-sm-down ">
-        <img class="w-100" src={{"/img/img-our-services.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="services" />
-      </div>
-      <div class="col-md-1 d-none d-lg-block d-md-block"></div>
     </div>
   </div>
 </section>

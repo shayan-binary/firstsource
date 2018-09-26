@@ -3,7 +3,7 @@ layout: default
 title: First Source Arya Solutions LLC
 subTitle: Developing world-class software for the financial industry
 lang: en
-team: [{ "name": 'sepideh-fathali', "img": '/img/staff/sepideh-fathali.jpg', "title": 'talent-aqu', "text": 'sepideh-fathali-text' },
+team: [{ "name": 'sepideh-fathali', "img": '/img/staff/sepideh-fathali.png', "title": 'talent-aqu', "text": 'sepideh-fathali-text' },
 { "name": 'mohadese-helal', "img": '/img/staff/mohadese-helal.jpg', "title": 'qa-engineer', "text": 'mohadese-helal-text' },
 { "name": 'mohammad-sepahi', "img": '/img/staff/mohammad-sepahi.jpg', "title": 'backend-developer', "text": 'mohammad-sepahi-text'},
 { "name": 'reyhaneh-reyhani', "img": '/img/staff/reyhaneh-reyhani.jpg',"title": 'ui-ux-designer', "text": 'reyhaneh-reyhani-text'  },
@@ -15,7 +15,7 @@ team: [{ "name": 'sepideh-fathali', "img": '/img/staff/sepideh-fathali.jpg', "ti
 <div class="container mt-lg-4 pt-lg-5 pt-md-0 pr-lg-0 pl-lg-0 pr-md-2 pl-md-3">
   <div class="row pt-lg-2">
     <div class="col-xl-9 col-lg-8">
-      <section class="section" id="amazing-products">
+      <section class="section">
         <div class="row">
           <div class="col-md-12">
             <h4 class="bold">
@@ -86,7 +86,7 @@ team: [{ "name": 'sepideh-fathali', "img": '/img/staff/sepideh-fathali.jpg', "ti
                     {% for member in page.team %}
                     <div>
                       <div class="row">
-                        <div class="col-lg-6 align-self-center">
+                        <div class="col-lg-6 align-self-center pt-3">
                           <h5>{{ translate.about-us.team[member.name]}}</h5>
                           <p class="text-small mt-3">{{ translate.about-us.team[member.title] }}</p>
                           {{ translate.about-us.team[member.text] }}
@@ -111,7 +111,7 @@ team: [{ "name": 'sepideh-fathali', "img": '/img/staff/sepideh-fathali.jpg', "ti
                           <div class="circled-thumbnail"
                                 style="background-image: url({{ member.img | prepend: site.github.url | replace: 'http://', 'https://'}})"></div>
                           <div class="text-center">
-                            <p class="text-small mt-3 mb-1">{{ translate.about-us.team[member.name] }}</p>
+                            <p class="text-small text-title mt-3 mb-1">{{ translate.about-us.team[member.name] }}</p>
                             <p class="text-small">{{ translate.about-us.team[member.title] }}</p>
                           </div>
                         </div>
