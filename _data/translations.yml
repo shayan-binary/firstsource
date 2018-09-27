@@ -40,9 +40,9 @@ en:
     firstsource-title: First Source Arya Solutions LLC
     is-a-startup: is a startup with big ambitions.
     on-a-mission: We’re on a mission to transform the global financial industry by developing state-of-the-art software solutions that make financial services more accessible to everyone.
-    best-foundation: We believe that the best foundations require the right people, i.e. insanely talented people who have the drive and ambition to learn, grow, and contribute to something bigger than themselves.
-    essential-role: We believe that software plays an essential role in every business, especially financial institutions that manage millions in transactions each day.
-    push-boundaries: "We constantly push the boundaries of what’s possible to deliver: cutting-edge products and services that can solve problems, meet challenges, and transform businesses."
+    best-foundation: We believe that the best foundations require the right people, i.e. insanely <b>talented people</b> who have the drive and ambition to learn, grow, and contribute to something bigger than themselves.
+    essential-role: We believe that <b>software</b> plays an essential role in every business, especially financial institutions that manage millions in transactions each day.
+    push-boundaries: "We constantly push the boundaries of what’s possible to deliver: <b>cutting-edge products</b> and services that can solve problems, meet challenges, and transform businesses."
     develop-great-software: We develop great software, not as the end goal but as a means to an end.
     why-first-source: Why First Source?
     working-at: Working at First Source gives you more responsibilities and opportunities to help you realise your full potential.
@@ -109,13 +109,11 @@ en:
     integrity-text: We believe that we should always do the right thing. This includes serving our customers with honesty and transparency, settling all ontracts by the book, and communicating in plain language that can be easily understood.
     team:
       sepideh-fathali: Sepideh Fathali
-      sepideh-fathali-text: "<p class='mt-3'>I’m Mohadese, a member of QA team. My job is to ensure that codes are working properly. Working with people from different nationalities and ethnicities has been a pleasurable experience.
-</p><p class='mt-3'>Although different teams and people with various background work here at First Source, it feels as though we are all part of a tight-knit community, and everyone assists one another.</p>"
+      sepideh-fathali-text: "<p class='mt-3'>I'm Sepideh, a happy member of First Source! :)</p><p class='mt-3'>Working with a dynamic, creative and motivated team is a great life opportunity, one which I have here. So I do my best, in collaboration with our team. I work with colleagues who have different nationalities. There are many learning opportunities in our company. </p><p class='mt-3'>I love my job.</p>"
       mohadese-helal: Mohadese Helal
       mohadese-helal-text: "<p class='mt-3'>I’m Mohadese, a member of QA team. My job is to ensure that codes are working properly.</p><p class='mt-3'>Working with people from different nationalities and ethnicities has been a pleasurable experience.</p><p class='mt-3'>although different teams and groups of people work here at First Source, it is as though we are all part of one and everyone assists and helps one another.</p>"
       mohammad-sepahi: Mohammad Sepahi
-      mohammad-sepahi-text: "<p class='mt-3'>As a back-end developer at First Source, I’m happy to collaborate with a group of elite programmers from all around the world. As well as high technical standards, the development process is based on an overwhelming sense of group work, knowledge sharing, and flexible management philosophy.
-</p>"
+      mohammad-sepahi-text: "<p class='mt-3'>As a back-end developer at First Source, I’m happy to collaborate with a group of elite programmers from all around the world. As well as high technical standards, the development process is based on an overwhelming sense of group work, knowledge sharing, and flexible management philosophy.</p>"
       ali-deishidi: Ali Deishidi
       ali-deishidi-text: "<p class='mt-3'>I’m a software engineer and a member of Binary.com's back-end team. We try to simplify complicated trading options and deliver a smooth service to our front-end team and our end users. Working here is a great opportunity to learn how to constantly scale for hundreds of thousands of concurrent users</p>"
       sara-shahmohammadi: Sara Shahmohammadi
@@ -124,7 +122,7 @@ en:
       reyhaneh-reyhani-text: "<p class='mt-3'>At First Source, we are working and growing together as a big team. Almost everyday, I find something new, different, and challenging, which I love.</p><p class='mt-3'>If you are talented and passionate about your job, this is where you should be.</p>"
       farzaneh-dejband: Farzaneh Dejband
       farzaneh-dejband-text: "<p class='mt-3'>I’m Farzane and I've been programming for 3 years, the first time I join First Source I found this place so friendly and engaging, generally I feel like a member of big exciting family here.</p>"
-      talent-aqu: Talent Acquisitor
+      talent-aqu: Talent Acquisition Executive
       backend-developer: Back-end Developer
       qa-engineer: QA Engineer
       ui-ux-designer: UI/UX Designer

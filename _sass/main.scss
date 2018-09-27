@@ -87,8 +87,21 @@ section {
     background: linear-gradient(rgba(20, 110, 180, 0.8),rgba(20, 110, 180, 0.8)), url("img/office.jpg") repeat left top / cover;
     color: $white;
     padding: 200px 0px 330px;
+    h3{
+      font-family: 'Gotham';
+      font-size: 45px;
+      color: $white;
+    }
     h2 {
-      font-size: 52px;
+      font-family: 'Gotham';
+      font-size: 54px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: $white;
     }
   }
   &.who-we-are{
@@ -134,6 +147,9 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+b {
+  font-weight: bold;
+}
 
 .text-small {
   font-size: 14px;
@@ -153,7 +169,7 @@ a {
   }
   &[href^="mailto"]{
     color: $white;
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 
@@ -449,7 +465,15 @@ a.btn {
 }
 .section-lookingfor {
   padding-top: 65px;
-  padding-bottom: 11px;
+  padding-bottom: 29px;
+  .container {
+    > .row {
+      margin-bottom: 36px;
+      &:nth-child(3){
+        margin-top: 54px;
+      }
+    }
+  }
 }
 .section-benefits {
   background: url('img/img-career-banner.png') no-repeat scroll center center / cover;
@@ -500,18 +524,34 @@ a.btn {
     min-height: 180px;
   }
 }
+.section-webuild {
+  > .row {
+    &:nth-child(2n){
+      position: relative;
+      &:before {
+        background: $gray_white2;
+        content: ' ';
+        position: absolute;
+        width: 150vw;
+        top: -18px;
+        left: -50vw;
+        height: calc( 100% + 36px);
+      }
+    }
+  }
+}
 
 
 /*--------------------------- *\
             BOX
 \*--------------------------- */
-.bx-lookingfor {
-  margin-top: 36px;
-  margin-bottom: 54px;
-  h4 {
-    margin-bottom: 18px;
-  }
-}
+// .bx-lookingfor {
+//   // margin-top: 36px;
+//   // margin-bottom: 54px;
+//   h4 {
+//     // margin-bottom: 18px;
+//   }
+// }
 
 
 
@@ -710,10 +750,20 @@ ul.para-list {
 }
 
 .how-we-build-text {
-  border-left: 2px solid $orange;
+  // border-left: 2px solid $orange;
+  position: relative;
 
   .text-blue {
     @extend .bold;
+  }
+  &:before {
+    position: absolute;
+    background: $orange;
+    content: ' ';
+    width: 2px;
+    height: 64px;
+    left: 0px;
+    top: 6px;
   }
 }
 
@@ -822,10 +872,13 @@ ul.para-list {
 
     .job-title {
       height: 50px;
-      align-items: flex-end;
+      padding: 18px 0px 14px;
 
       h4 {
-        font-size: 20px;
+        font-size: 18px;
+        font-weight: normal;
+        margin: 0px;
+        line-height: 1;
       }
     }
 
@@ -836,12 +889,15 @@ ul.para-list {
     }
 
     &:hover {
+      background-color: rgba(20, 110, 180, 0.05);
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       border-radius: 5px;
       border-bottom: 3px solid $blue;
 
       h4 {
         @extend .text-blue;
+        font-size: 27px;
+        font-weight: 500;
         transition: .5s ease;
       }
     }
