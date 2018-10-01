@@ -5,6 +5,8 @@ $(document).ready(function() {
     setActiveSideMenu();
     initSlick();
     initSmoothScroll();
+
+    initAnoutUsCheck();    
 });
 
 function setActiveMenu() {
@@ -115,3 +117,19 @@ function initSmoothScroll() {
         }, 500);
     });
 };
+
+function initAnoutUsCheck(){
+
+    $('#amazing-products-link').on('click', function(){
+        setTimeout(function(){
+            $(window).scrollTop(0);
+        }, 300);
+    });
+
+    if (window.location.hash === '#amazing-products') {
+        console.log('asdas');
+        setTimeout(function(){
+            $(window).scrollTop(0);
+        }, 300);
+    }
+}

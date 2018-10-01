@@ -9,8 +9,8 @@ en:
   en: English
   fa: Farsi
   intro-header: Welcome to First Source
-  intro-subheader: First Source offers the Cutting edge of technology driven by exceptional talents
-  explore-more: Explore More
+  intro-subheader: First Source offers the cutting edge of technology driven by exceptional talents
+  explore-more: Explore more
   who-we-are: Who we are
   who-we-are-explanation: A preeminent software development centre based in Tehran
   our-team:
@@ -33,7 +33,7 @@ en:
   mail-hr: hr@firstsource.io
   copyright: © Copyright 2018
   join-us: Would you like to join us?
-  apply: Explor more
+  apply: Explore more
   about-us:
     amazing-products: Amazing products
     build-amazing-products: Build amazing products for titans of the financial industry
@@ -55,20 +55,20 @@ en:
     why-iran: Why Iran?
     company-values: Company values
     why-base-in-iran: Out of all the countries in the world, why did we decide to set up base in Iran?
-    why-iran-text-1: It’s simple. According to the World Economic Forum, Iran ranks high on the list of the top countries with the most engineering graduates, making it's a major repository of IT talent. However, the talent pool is relatively untapped due to the lack of foreign investment in the country.
+    why-iran-text-1: It’s simple. According to the World Economic Forum, Iran ranks high on the list of the top countries with the most engineering graduates, making it a major repository of IT talent. However, the talent pool is relatively untapped due to the lack of foreign investment in the country.
     why-iran-text-2: We aim to tap into Iran’s large pool of IT talent, which we believe to have world-class potential. Come and join us in developing state-of-the-art financial software solutions that make an impact around the world.
     software-development-philosophy: Software development philosophy
-    what-we-build: What we build?
+    what-we-build: What we build
     we-believe: We believe…
-    how-we-build: How we build?
-    joel-test: Joel Test
-    joel-test-text: We use The Joel Test to build better software teams and write better code.
+    how-we-build: How we build
+    joel-test: Joel test
+    joel-test-text: We use the Joel test to build better software teams and write better code.
     source-control: Source control
     source-control-text: We manage all our projects with Git.
     build-in-one-step: Build in one step
     build-in-one-step-text: We aim for uncomplicated and fast build processes to accelerate development speed.
     fixing-bugs: Fixing bugs
-    fixing-bugs-text: We aim to keep the bugs count down to a minimum by fixing bugs before writing new code.
+    fixing-bugs-text: We aim to keep the bug counts down to a minimum by fixing bugs before writing new code.
     testers: Testers
     testers-text: We have software testers that test new code before it is released to production.
     bug-database: Bug database
@@ -81,21 +81,21 @@ en:
     schedule-text: We set specific schedules for each task.
     daily-builds: Daily builds
     daily-builds-text: We release new code to production almost every day.
-    what-we-build: What we build?
-    what-we-build-text-1: We build robust, <b>intuitive</b> software and applications that make financial services more accessible to everyone
-    what-we-build-text-2: First Source Arya Solutions LLC is the <b>software engineering team</b> that the financial industry needs offering elegant, end-to-end technological solutions that help our clients build better software, manage their infrastructure, and increase their bottom line.
+    what-we-build: What we build
+    what-we-build-text-1: We build robust, <b>intuitive</b> software and applications that make financial services more accessible to everyone.
+    what-we-build-text-2: First Source Arya Solutions LLC is the <b>software engineering team</b> that the financial industry needs, offering elegant, end-to-end technological solutions that help our clients build better software, manage their infrastructure, and increase their bottom line.
     we-believe: We believe
-    we-believe-text-1: that great software comes from the right combination of people and technology.
-    we-believe-text-2: That’s why we employ people who possess exceptional drive, talent, and ideas equipped with the most advanced hardware and software to help you meet your unique business needs.
+    we-believe-text-1: Great software comes from the right combination of people and technology.
+    we-believe-text-2: That’s why we employ people who possess exceptional drive, talent, and ideas and equip them with the most advanced hardware and software to help you meet your unique business needs.
     strategy-and-planning: Strategy and planning
     strategy-and-planning-text: We collaborate closely with our clients' key stakeholders to nurture ideas through careful research and planning.
     ux-and-design: User experience & design
     ux-and-design-text: We take time to craft solid UX and intuitive interfaces that delight users so they stick around.
     software-development: Software development
-    software-development-text: End-to-end software development
+    software-development-text: We offer end-to-end software development.
     trading-technology: Trading technology
     trading-technology-text: We specialise in risk management technology and services for binary options and Forex brokerages.
-    managed-it-services: Managed it services
+    managed-it-services: Managed IT services
     managed-it-services-text: We use only the best infrastructure and services to ensure minimal downtime.
     mt5-bridge-and-plugins: MT5 bridge and plugins
     mt5-bridge-and-plugins-text: We help manage liquidity feeds and risk through the development of custom bridges and plugins.
@@ -106,46 +106,91 @@ en:
     teamwork: Teamwork
     teamwork-text: We value positive team players who can work together to overcome challenges and achieve common goals.
     integrity: Integrity
-    integrity-text: We believe that we should always do the right thing. This includes serving our customers with honesty and transparency, settling all ontracts by the book, and communicating in plain language that can be easily understood.
+    integrity-text: We believe that we should always do the right thing. This includes serving our customers with honesty and transparency, settling all contracts by the book, and communicating in plain language that can be easily understood.
     team:
       sepideh-fathali: Sepideh Fathali
       sepideh-fathali-text: "<p class='mt-3'>I'm Sepideh, a happy member of First Source! :)</p><p class='mt-3'>Working with a dynamic, creative and motivated team is a great life opportunity, one which I have here. So I do my best, in collaboration with our team. I work with colleagues who have different nationalities. There are many learning opportunities in our company. </p><p class='mt-3'>I love my job.</p>"
       mohadese-helal: Mohadese Helal
-      mohadese-helal-text: "<p class='mt-3'>I’m Mohadese, a member of QA team. My job is to ensure that codes are working properly.</p><p class='mt-3'>Working with people from different nationalities and ethnicities has been a pleasurable experience.</p><p class='mt-3'>although different teams and groups of people work here at First Source, it is as though we are all part of one and everyone assists and helps one another.</p>"
+      mohadese-helal-text: "<p class='mt-3'>I’m Mohadese, a member of QA team. My job is to ensure that codes are working properly.</p><p class='mt-3'>Working with people from different nationalities and ethnicities has been a pleasurable experience.</p><p class='mt-3'>Although different teams and groups of people work here at First Source, it is as though we are all part of one, and everyone assists and helps one another.</p>"
       mohammad-sepahi: Mohammad Sepahi
       mohammad-sepahi-text: "<p class='mt-3'>As a back-end developer at First Source, I’m happy to collaborate with a group of elite programmers from all around the world. As well as high technical standards, the development process is based on an overwhelming sense of group work, knowledge sharing, and flexible management philosophy.</p>"
       ali-deishidi: Ali Deishidi
-      ali-deishidi-text: "<p class='mt-3'>I’m a software engineer and a member of Binary.com's back-end team. We try to simplify complicated trading options and deliver a smooth service to our front-end team and our end users. Working here is a great opportunity to learn how to constantly scale for hundreds of thousands of concurrent users</p>"
+      ali-deishidi-text: "<p class='mt-3'>I’m a software engineer and a member of First Source's back-end team. We try to simplify complicated trading options and deliver a smooth service to our front-end team and our end users. Working here is a great opportunity to learn how to constantly scale for hundreds of thousands of concurrent users.</p>"
       sara-shahmohammadi: Sara Shahmohammadi
-      sara-shahmohammadi-text: "<p class='mt-3'>What I like most about First Source is its' dynamic environment with lots of projects going on at the same time. Also, I have great colleagues who are always eager to share their knowledge with me.</p>"
+      sara-shahmohammadi-text: "<p class='mt-3'>What I like most about First Source is its dynamic environment with lots of projects going on at the same time. Also, I have great colleagues who are always eager to share their knowledge with me.</p>"
       reyhaneh-reyhani: Reyhaneh Reyhani
-      reyhaneh-reyhani-text: "<p class='mt-3'>At First Source, we are working and growing together as a big team. Almost everyday, I find something new, different, and challenging, which I love.</p><p class='mt-3'>If you are talented and passionate about your job, this is where you should be.</p>"
+      reyhaneh-reyhani-text: "<p class='mt-3'>At First Source, we are working and growing together as a big team. Almost every day, I find something new, different, and challenging, which I love.</p><p class='mt-3'>If you are talented and passionate about your job, this is where you should be.</p>"
       farzaneh-dejband: Farzaneh Dejband
-      farzaneh-dejband-text: "<p class='mt-3'>I’m Farzane and I've been programming for 3 years, the first time I join First Source I found this place so friendly and engaging, generally I feel like a member of big exciting family here.</p>"
+      farzaneh-dejband-text: "<p class='mt-3'>I'm Farzaneh, and I've been programming for three years. When I first joined First Source, I found this place extremely friendly and engaging. Generally, I feel like a member of a big, exciting family here.</p>"
       talent-aqu: Talent Acquisition Executive
       backend-developer: Back-end Developer
       qa-engineer: QA Engineer
       ui-ux-designer: UI/UX Designer
+  event:
+    title: Upcoming events
+    upcoming:
+      one:
+        title: Career fair
+        date: 14-16 October,2018
+        location: "Sharif University, Booth No: 3"
+        button: See more
+      two:
+        title: Sadaf job fair
+        date: November
+        location: University of Science and Industry
+        button: See more
+      three:
+        title: Iran job fair
+        date:  24-26 January,2019
+        location: "Goftegoo Park, Booth No: 15"
+        button: See more
+    past:
+      title: Past events
+      one:
+        title: Marathon Programming Competition
+        date: 6-8 september, 2018
+        location: Sharif University
+        button: See more
+      two:
+        title: Spaghetti Programming Competition
+        date: 6-8 september, 2018
+        location: Sharif University
+        button: See more
+      three:
+        title: Jobex Career Fair
+        date: 25 - 27 April, 2018
+        location: International exhibition of Tehran
+        button: See more
+      four:
+        title: Iran job fair
+        date: 22-24th Feb 2018
+        location: Goftogu Park, Tehran
+        button: See more
+      five:
+        title: Quera Coading contest
+        date: 27th of July 2018
+        location: Quera website
+        button: See more
   career-page:
     what-is-your-passion: What is your passion?
     quantitive-analysis: Quantitive Analysis
     graphic-design: Graphic Design
     hr-operations: HR Operations
-    qa-and-test: QA And Test
+    qa-and-test: QA and Test
     accounting: Accounting
     talent-acquisition: Talent Acquisition
     devops: DevOps
     internship: Internship
     software-developments: Software Developments
-    apply-to: To apply for this Position, please send your resume to
+    apply-to: To apply for this position, please send your resume to
     hr-mail: hr@firstsource.io
     benefits:
-      title: Compensation Package and Benefits
+      title: Compensation package and benefits
       sub-title: This position offers a market-based salary, annual performance bonus, and flexi hours.
     qa-and-test-page:
       title: QA and Test
       ideal-candidate:
-        title: Ideal Candidate
+        title: Ideal candidate
         text-1: Is experienced in developing and executing test plans for websites, applications, and systems
         text-2: Pays strong attention to detail
         text-3: Knows how to find their way to the root cause of an issue
@@ -166,7 +211,7 @@ en:
           text-3: Passion for Linux and other open-source platforms
         degree:
           title: Degree
-          text-1: A bachelor’s degree in computer science, or an equivalent combination of technical education, training, and work experience
+          text-1: A bachelor's degree in Computer Science, or an equivalent combination of technical education, training, and work experience
           text-2: Up-to-date knowledge of the latest software testing trends
         experience:
           title: Experience
@@ -176,7 +221,7 @@ en:
           text-4: Minimum two years experience in a software or web application testing role
       looking-for:
         title: We are looking for someone who loves to
-        title-2: And Can
+        title-2: And can
         text-1: Improve
         text-2: Improve the end user’s experience by spotting and resolving quality issues
         text-3: Solve
@@ -184,7 +229,7 @@ en:
         text-5: Work with talents
         text-6: Work with highly talented people in an exciting, multicultural environment
         text-7: Do
-        text-8: Get things done in a no-nonsense manner, Learn and improve, day in and day out and Work in the absence of bureaucracy and hierarchy.
+        text-8: Get things done in a no-nonsense manner, learn and improve day in and day out, work in the absence of bureaucracy and hierarchy
         text-9: Inspire
         text-10: Do great work and inspire people around them to do the same
         text-11: Use
@@ -212,7 +257,7 @@ en:
       you-will:
         title: You will
         text-1: Test applications, back-end architecture, and back-office systems
-        text-2: Work closely with the rest of the Software Testing and IT Team to plan, design, and execute several types of testing, based on different objectives
+        text-2: Work closely with the rest of the Software Testing and IT team to plan, design, and execute several types of testing, based on different objectives
         text-3: Create, execute, and update manual and automated test plans
         text-4: Plan and integrate various types of testing into our existing workflow
         text-5: Ensure the integrity of releases by coordinating testing activities
@@ -225,7 +270,7 @@ en:
     internship-page:
       title: Internship opportunities
       ideal-candidate:
-        title: Ideal Candidate
+        title: Ideal candidate
         text-1: Is smart, self-motivated, and proactive
         text-2: Thrives in a dynamic and collaborative environment
         text-3: Approaches even the smallest task with an open mind
@@ -236,9 +281,9 @@ en:
         mathematics: Mathematics 
         financial-engineering: Financial Engineering
         software-development: Software Development
-        creative-art: Creative art
+        creative-art: Creative Arts
         text-2: "You also have to be qualified in one of the following:"
-        frontend-development: Front-End development
+        frontend-development: Front-end development
         perl-development: Perl development
         software-engineering: Software engineering
         quantitive-analysis: Quantitative analysis
@@ -246,7 +291,7 @@ en:
         software-testing: Software testing
       looking-for:
         title: We are looking for someone who loves to
-        title-2: And Can…
+        title-2: And can…
         text-1: Solve
         text-2: Solve problems creatively and proactively
         text-3: Work with talents
@@ -254,7 +299,7 @@ en:
         text-5: Inspire
         text-6: Do great work and inspire people around them to do the same
         text-7: Do
-        text-8: Get things done in a no-nonsense manner, Learn and improve, day in and day out and Work in the absence of bureaucracy and hierarchy
+        text-8: Get things done in a no-nonsense manner, learn and improve day in and day out, work in the absence of bureaucracy and hierarchy
         text-9: Get things done
         text-10: Get things done in a no-nonsense manner
         text-11: Heirarchy
@@ -270,7 +315,7 @@ en:
     graphic-design-page:
       title: Graphic Designer
       ideal-candidate:
-        title: Ideal Candidate
+        title: Ideal candidate
         text-1: You love solving business challenges through intuitive and elegant design solutions.
         text-2: You enjoy coming up with visuals that communicate, motivate, and inspire different audiences to take action.
         text-3: You’ve worked in brand advertising, in a creative agency, or with an in-house marketing team. You really know your way around print (ads, posters, brochures), digital (UI assets, infographics), and branding (logos, typefaces, colours).
@@ -285,7 +330,7 @@ en:
           text-3: Strong understanding of colours, typography, identity design, and branding
         degree:
           title: Degree
-          text-1: Bachelor’s degree in graphic design, visual communication, multimedia, or equivalent
+          text-1: Bachelor’s degree in Graphic Design, Visual Communication, Multimedia, or equivalent
         experience:
           title: Experience
           text-1: Proven graphic design experience with a strong portfolio of work in branding, advertising, and marketing.
@@ -293,17 +338,17 @@ en:
           text-3: Proficiency in Photoshop, Illustrator, InDesign, Sketch, and other design and wireframing software
       looking-for:
         title: We are looking for someone who loves to
-        title-2: And Can…
-        text-1: Creative
+        title-2: And can…
+        text-1: Create
         text-2: Create beautiful and functional products that delight users
-        text-3: Talented
+        text-3: Work with talents
         text-4: Work with highly talented people in an exciting, multinational environment
-        text-5: Inspired
-        text-6: Do great work, and inspires people around them to do the same
+        text-5: Inspire
+        text-6: Do great work and inspire people around them to do the same
         text-7: Improve
         text-8: Learn and improve, day in and day out
         text-9: Do
-        text-10: Get things done in a no-nonsense mannerr, without bureaucracy and hierarchy
+        text-10: Get things done in a no-nonsense manner, without bureaucracy and hierarchy
         text-11: Solve
         text-12: Solve problems creatively and proactively
       your-role:
@@ -320,7 +365,7 @@ en:
     talent-acquisition-page:
       title: Talent Acquisition Specialist
       ideal-candidate:
-        title: Ideal Candidate
+        title: Ideal candidate
         text-1: Has an approachable demeanour
         text-2: Is good at multitasking
         text-3: Has strong decision making skills
@@ -340,11 +385,11 @@ en:
           text-1: A university degree or other relevant professional qualifications
         experience:
           title: Experience
-          text-1: Work experience as a recruiter, preferably in the IT industry or a similar area.
-          text-2: Commendable interpersonal skills.
-          text-3: Strong decision-making skills.
+          text-1: Work experience as a recruiter, preferably in the IT industry or a similar area
+          text-2: Commendable interpersonal skills
+          text-3: Strong decision-making skills
       you-will:
-        title: you will
+        title: You will
         text-1: Support our recruitment and talent management needs
         text-2: Schedule and coordinate interviews with candidates
         text-3: Develop and update job descriptions and specifications
@@ -361,7 +406,7 @@ en:
     hr-operations-page:
       title: HR Operations
       ideal-candidate:
-        title: Ideal Candidate
+        title: Ideal candidate
         text-1: Is meticulous about details
         text-2: Loves to take care of the little things that help others get their work done
         text-3: Thrives in a dynamic and collaborative work environment
@@ -378,21 +423,21 @@ en:
         degree:
           title: Degree
           text-1: An advanced/higher/graduate diploma or bachelor’s degree
-          text-2: Knowledge in principles and procedures of recruitment, performance appraisal, employment/labour law and relations
+          text-2: Knowledge of the principles and procedures of recruitment, performance appraisal, employment/labour law and relations
         experience:
           title: Experience
           text-1: Extensive experience in Microsoft Office applications, popular HR management, and payroll systems
       looking-for:
         title: We are looking for someone who loves to
-        title-2: And Can…
-        text-1: Inspired
+        title-2: And can…
+        text-1: Inspire
         text-2: Do great work and inspire people around them to do the same
-        text-3: On top of things
+        text-3: Be on top of things
         text-4: Stay on top of things through careful planning and follow-up
-        text-5: Organised
+        text-5: Organise
         text-6: Keep things organised –– efficiently and sustainably
         text-7: Do
-        text-8: Get things done the right way without any loose ends, Learn and improve, day in and day out and Work in the absence of bureaucracy and hierarchy 
+        text-8: Get things done the right way without any loose ends, learn and improve day in and day out, and work in the absence of bureaucracy and hierarchy
         text-9: Interact
         text-10: Interact and communicate with internal and external stakeholders
         text-11: Heirarchy
@@ -405,7 +450,7 @@ en:
         text-2: Manage our suppliers and contractors
         text-3: Perform general administrative duties and procedures
         text-4: Lead, execute, and support a wide range of HR-related and administrative tasks to ensure the smooth operations of our office in Tehran
-        text-5: Act as first point of contact for all Tehran based employees regarding HR issues
+        text-5: Act as first point of contact for all Tehran-based employees regarding HR issues
         text-6: Support and assist our recruitment and talent management needs, including aiding in the full recruitment life-cycle process
         text-7: Administer key human resource activities, such as performance appraisals
         text-8: "Provide administrative support to: vendor management, office management, event planning, recruitment, and accounting"
@@ -414,12 +459,12 @@ en:
         text: This position offers a market-based salary, annual performance bonus, and flexi hours.
     software-developments-page:
       title: Software Developments
-      senior-backend-developer: Senior Back-End Developer
-      senior-frontend-developer: Senior Front-End Developer
+      senior-backend-developer: Senior Back-end Developer
+      senior-frontend-developer: Senior Front-end Developer
     senior-backend-developer-page:
       ideal-candidate:
-        title: Ideal Candidate
-        text-1: Has exceptional programming skills, and extensive experience with relational databases
+        title: Ideal candidate
+        text-1: Has exceptional programming skills and extensive experience with relational databases
         text-2: Loves developing websites and applications
         text-3: Enjoys working with databases, servers, and APIs
         text-4: Is smart, self-motivated, and proactive
@@ -434,25 +479,25 @@ en:
           text-2: Passion for Linux and other open-source platforms
         degree:
           title: Degree
-          text-1: Familiarity with one or more of the following, Perl DBI, Moose, PSGI/Plack, nginx, JavaScript, Redis, and Git
+          text-1: Familiarity with one or more of the following, Perl DBI, Moose, PSGI/Plack, NGINX, JavaScript, Redis, and Git
           text-2: A willingness to learn Perl
         experience:
           title: Experience
-          text-1: Experience with relational database design, and/or open-source RDBMS systems such as MySQL and PostgreSQL
+          text-1: Experience with relational database design and/or open-source RDBMS systems such as MySQL and PostgreSQL
           text-2: Expertise in Linux system administration
           text-3: Deep programming expertise
           text-4: Knowledge of event-driven programming
         text-1: Deep programming expertise
-        text-2: "Familiarity with one or more of the following: Perl DBI, Moose, PSGI/Plack, nginx, JavaScript, Redis, and Git"
+        text-2: "Familiarity with one or more of the following: Perl DBI, Moose, PSGI/Plack, NGINX, JavaScript, Redis, and Git"
         text-3: A willingness to learn Perl
         text-4: Ability to produce high-quality, self-documenting code by using test-driven development (TDD) techniques
         text-5: Expertise in Linux system administration
         text-6: Knowledge of event-driven programming
-        text-7: Experience with relational database design, and/or open-source RDBMS systems such as MySQL and PostgreSQL
+        text-7: Experience with relational database design and/or open-source RDBMS systems such as MySQL and PostgreSQL
         text-8: Passion for Linux and other open-source platforms
       looking-for:
         title: We are looking for someone who loves to
-        title-2: And Can…
+        title-2: And can…
         text-1: Test and fix
         text-2: Test and fix things, especially when it involves working with data
         text-3: Optimise
@@ -460,7 +505,7 @@ en:
         text-5: Inspire
         text-6: Do great work and inspire people around them to do the same
         text-7: Do
-        text-8: Get things done in a no-nonsense manner, Learn and improve, day in and day out and Work in the absence of bureaucracy and hierarchy.
+        text-8: Get things done in a no-nonsense manner, learn and improve day in and day out, work in the absence of bureaucracy and hierarchy
         text-9: Use tools
         text-10: Use the latest tools and technologies at their disposal
         text-11: Work with talents
@@ -477,10 +522,10 @@ en:
         text: This position offers a market-based salary, annual performance bonus, and flexi hours.
     senior-frontend-developer-page:
       ideal-candidate:
-        title: Ideal Candidate
+        title: Ideal candidate
         text-1: Is experienced in building and optimising web and mobile applications
         text-2: Cares about users and customers
-        text-3: Thinks deeply about how users and customers use what the developed product
+        text-3: Thinks deeply about how users and customers use the developed product
         text-4: Can multitask
         text-5: Has a problem-solving mindset
         text-6: Is willing to learn new things every day, including new frameworks, tools, and software, as the technologies we work with are complex and challenging
@@ -492,16 +537,16 @@ en:
         title: To excel in this role you must have
         skills:
           title: Skills
-          text-1: Ability to write high-quality, self-documenting code using test-driven development techniques
+          text-1: Ability to write high-quality, self-documenting code using test-driven development (TDD) techniques
           text-2: Familiarity with testing and debugging processes, including unit testing and UI testing
         degree:
           title: Degree
           text-1: Familiarity with various JavaScript standards, libraries, frameworks, compilers, and transpilers, including ES6, TypeScript, Babel, SystemJS, Web Workers, jQuery, React, and Angular
           text-2: Passion for Linux and other open-source platforms
-          text-3: Extensive knowledge in advanced coding techniques, cross-platform development, and hybrid mobile app developmentz
+          text-3: Extensive knowledge in advanced coding techniques, cross-platform development, and hybrid mobile app development
         experience:
           title: Experience
-          text-1: Experience with relational database design, and/or open-source RDBMS systems such as MySQL and PostgreSQL
+          text-1: Experience with relational database design and/or open-source RDBMS systems such as MySQL and PostgreSQL
           text-2: Expertise in Linux system administration
           text-3: Deep programming expertise
           text-4: Knowledge of event-driven programming
@@ -515,7 +560,7 @@ en:
         text-5: Inspire
         text-6: Do great work and inspire people around them to do the same
         text-7: Do
-        text-8: Get things done in a no-nonsense manner, Learn and improve, day in and day out and Work in the absence of bureaucracy and hierarchy.
+        text-8: Get things done in a no-nonsense manner, learn and improve day in and day out, work in the absence of bureaucracy and hierarchy
         text-9: Use
         text-10: Use the latest tools and technologies at their disposal
         text-11: Work with talents
@@ -535,24 +580,24 @@ en:
     quantitive-analysis-page:
       title: Quantitative Analyst
       ideal-candidate:
-        title: Ideal Candidate
-        text-1: Excels at the intersection of mathematics, programming, and finance
+        title: Ideal candidate
+        text-1: Excels at the intersection of Mathematics, programming, and finance
         text-2: Thrives in a fast-paced environment that values collaboration and open communication
         text-3: Enjoys the challenges posed by mathematical models, data analysis, and financial research
       excel-in-role:
         title: To excel in this role you must have
         skills:
           title: Skills
-          text-1: Knowledge of probability theory, stochastic calculus, numerical methods, Monte-Carlo simulation, differential equations, econometrics, and statistical modelling
+          text-1: Knowledge of probability theory, stochastic calculus, numerical methods, Monte Carlo simulation, differential equations, econometrics, and statistical modelling
         degree:
           title: Degree
-          text-1: An advanced university degree in physics, financial engineering, or mathematics
+          text-1: An advanced university degree in Physics, Financial Engineering, or Mathematics
         experience:
           title: Experience
           text-1: Expertise in the application of object-oriented programming languages (C++, Perl, and Java), coupled with the ability to produce high-quality code
       looking-for:
         title: We are looking for someone who loves to
-        title-2: And Can…
+        title-2: And can…
         text-1: Analyse
         text-2: Analyse trading patterns to identify new market opportunities
         text-3: Apply
@@ -560,9 +605,9 @@ en:
         text-5: Solve
         text-6: Solve complex and abstract mathematical problems to optimise pricing and to manage risk
         text-7: Do
-        text-8: Get things done in a no-nonsense manner, Learn and improve, day in and day out, Work in the absence of bureaucracy and hierarchy
+        text-8: Get things done in a no-nonsense manner, learn and improve day in and day out, work in the absence of bureaucracy and hierarchy
         text-9: Inspire
-        text-10: Get things done in a no-nonsense manner
+        text-10: Do great work and inspire people around them to do the same
         text-11: Work with talents
         text-12: Work with highly talented people in an exciting, multicultural environment
         text-13: Heirarchy
