@@ -556,6 +556,10 @@ a.btn {
     font-size: 27px;
     font-weight: 500;
   }
+  a {
+    padding-left: 1rem !important;
+    margin-left: 3rem !important;
+  }
   .apply {
     padding: 15px;
     height: 100%;
@@ -657,6 +661,7 @@ a.btn {
   border-radius: 5px;
   padding: 18px 18px 45px 18px;
   position: relative;
+  margin-bottom: 15px;
   img{
     margin-bottom: 18px;
   }
@@ -1071,7 +1076,47 @@ ul.para-list {
     }
   }
 }
-.careers-tabs{
+.aboutus-tabs {
+  .nav {
+    background-color: $white;
+    @include border-radius(5px, 5px, 5px, 5px);
+    @include box-shadow(0,0, 3px, rgba($black, 0.3));
+    border: none;
+    margin-top: 0px;
+    li.nav-item {
+      a.nav-link {
+        @extend .regular;
+        color: $black;
+        padding: 0.9rem .7rem;
+        border: none !important;
+        font-size: 17px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        @include border-radius(0, 0, 0, 0);
+        cursor: pointer;
+        &.active {
+          background: $blue !important;
+          color: $white;
+        }
+      }
+      &:last-child {
+        a.nav-link {
+          @include border-radius(0, 5px, 5px, 0);
+        }
+      }
+      &:first-child {
+        a.nav-link {
+          @include border-radius(5px, 0, 0, 5px);
+        }
+      }
+    }
+  }
+}
+.careers-tabs {
   .nav-pills {
     background-color: $white;
     @include border-radius(5px, 5px, 5px, 5px);
@@ -1263,6 +1308,11 @@ ul.para-list {
     position: relative;
     top: unset;
   }
+  .section-event {
+    .box {
+      padding: 18px 20px;
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -1279,6 +1329,76 @@ ul.para-list {
         img {
           width: 180px;
         }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 480px) {
+  body, html {
+    font-size: 16px;    
+  }
+  p {
+    font-size: 16px;
+  }
+  section {
+    &.home {
+      padding: 70px 0px 130px;
+      h3 {
+        font-size: 14px;
+      }
+      h2 {
+        font-size: 26px;
+      }
+    }
+  }
+  .aboutus-tabs {
+    .nav {
+      li {
+        &.nav-item {
+          a {
+            &.nav-link {
+              padding: 0.9rem .2rem;
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .bg-our-team,
+  .bg-we-believe,
+  .bg-light-blue-left {
+    &:before {
+      width: 150vw;
+      right: -40vw;      
+    }
+  }
+  .section-joinus {
+    a {
+      padding-left: 0rem !important;
+      margin-left: 0rem !important;
+    }
+  }
+  .section-benefits {
+    padding: 25px 0px;
+    h2 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  .section-event {
+    .box {
+      padding: 18px 20px;
+      .icon-loc,
+      .icon-time,
+      .icon-link {
+        padding: 1px 9px;
+        bottom: 1px;
+        margin: 0 8px 0 0;
       }
     }
   }
