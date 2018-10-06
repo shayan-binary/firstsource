@@ -190,6 +190,9 @@ a {
 .container {
   padding-right: 5rem;
   padding-left: 5rem;
+  &.np {
+    padding: 0px;
+  }
 }
 
 .container-fluid {
@@ -308,6 +311,18 @@ a {
   @extend .shadow;
 }
 
+.career-box-container,
+.event-box-container {
+  > div {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+.navbar-toggler-icon {
+  margin-left: 0px !important;
+  bottom: 0px !important;
+}
 
 /*--------------------------- *\
             ICON
@@ -637,8 +652,7 @@ a.btn {
 .box-event {
   background: $white;
   @include box-shadow(0,0, 3px, rgba($black, 0.3));
-  width: calc((100% - 60px) / 3);;
-  margin: 10px;
+  margin: 0px;
   border: 1px solid $gray;
   border-radius: 5px;
   padding: 18px 18px 45px 18px;
@@ -983,8 +997,7 @@ ul.para-list {
 }
 
 .career-box {
-  width: calc((100% - 90px) / 3);;
-  margin: 15px;
+  margin-bottom: 20px;
   border: 1px solid $gray;
   border-radius: 5px;
   padding: 0;
@@ -1079,6 +1092,7 @@ ul.para-list {
         letter-spacing: normal;
         text-align: center;
         @include border-radius(0, 0, 0, 0);
+        cursor: pointer;
         &.active {
           background: $blue !important;
           color: $white;
@@ -1182,6 +1196,64 @@ ul.para-list {
     }
   }
 }
+@media (max-width: 998px) {
+  h4 {
+    font-size: 23px;
+  }
+  .careers-tabs {
+    .nav-pills {
+      li {
+        &.nav-item {
+          a {
+            &.nav-link {
+              padding: 0.9rem .2rem;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .section-joinus {
+    h4,a {
+      font-size: 21px;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  nav {
+    &.navbar {
+      .navbar-brand {
+        img {
+          width: 140px;
+        }
+      }
+    }
+  }
+  section {
+    &.home {
+      padding: 100px 0px 200px;
+      h3 {
+        font-size: 25px;
+      }
+      h2 {
+        font-size: 43px;
+      }
+    }
+  }
+  .career-box {
+    a {
+      .job-title {
+        height: 40px;
+        padding: 14px 0px 10px;
+        h4 {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
 
 @media (max-width: 992px) {
   .intro, .intro .image-overlay {
@@ -1201,14 +1273,16 @@ ul.para-list {
   .career-box {
     width: 100%;
   }
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
-  .career-box {
-    width: calc((100% - 60px) / 2);
+  nav {
+    &.navbar {
+      .navbar-brand {
+        img {
+          width: 180px;
+        }
+      }
+    }
   }
 }
-
 
 
 

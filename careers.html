@@ -6,124 +6,136 @@ lang: en
 ---
 {% assign translate = site.data.translations[page.lang] %}
 <section class='pt'>
-  <div class="container pt-0 pb-0">
+  <div class="container np">
     <div class="row mb-5">
       <div class="col-md-12 text-center">
         <h3 class="bold">{{ translate.career-page.what-is-your-passion }}</h3>
       </div>
     </div>
 
-    <div class="row career-box-container">
-      <div class="career-box">
-        <a href={{"/careers/career/#quantitive-analysis" | prepend: site.github.url | replace: 'http://',
-        'https://' }}>
-          <div class="job-image">
-            <div class="col-md-12 nopadding">
-              <img src={{"/img/quant-img.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+    <div class="row justify-content-center">
+      <div class="col-11 col-sm-12 col-md-12">
+        <div class="row career-box-container">
+          <div class="col-md-4 col-sm-6 col-12">
+            <div class="career-box">
+              <a href={{"/careers/career/#quantitive-analysis" | prepend: site.github.url | replace: 'http://',
+              'https://' }}>
+                <div class="job-image">
+                  <div class="col-md-12 nopadding">
+                    <img src={{"/img/quant-img.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+                  </div>
+                </div>
+                <div class="row job-title">
+                  <div class="col-md-12 text-center">
+                    <h4 class="regular">{{ translate.career-page.quantitive-analysis }}</h4>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
-          <div class="row job-title">
-            <div class="col-md-12 text-center">
-              <h4 class="regular">{{ translate.career-page.quantitive-analysis }}</h4>
+          <div class="col-md-4 col-sm-6 col-12">
+            <div class="career-box">
+              <a href={{"/careers/career/#graphic-design" | prepend: site.github.url | replace: 'http://',
+              'https://' }}>
+                <div class="job-image">
+                  <div class="col-md-12 nopadding">
+                    <img src={{"/img/graphic-img.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+                  </div>
+                </div>
+                <div class="row job-title">
+                  <div class="col-md-12 text-center">
+                    <h4 class="regular">{{ translate.career-page.graphic-design }}</h4>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
-        </a>
-      </div>
-
-      <div class="career-box">
-        <a href={{"/careers/career/#graphic-design" | prepend: site.github.url | replace: 'http://',
-        'https://' }}>
-          <div class="job-image">
-            <div class="col-md-12 nopadding">
-              <img src={{"/img/graphic-img.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+          <div class="col-md-4 col-sm-6 col-12">
+            <div class="career-box">
+              <a href={{"/careers/career/#hr-operations" | prepend: site.github.url | replace: 'http://',
+              'https://' }}>
+                <div class="job-image">
+                  <div class="col-md-12 nopadding">
+                    <img src={{"/img/hr-operation-img.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+                  </div>
+                </div>
+                <div class="row job-title">
+                  <div class="col-md-12 text-center">
+                    <h4 class="regular">{{ translate.career-page.hr-operations }}</h4>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
-          <div class="row job-title">
-            <div class="col-md-12 text-center">
-              <h4 class="regular">{{ translate.career-page.graphic-design }}</h4>
+          <div class="col-md-4 col-sm-6 col-12">
+            <div class="career-box">
+              <a href={{"/careers/career/#qa-and-test" | prepend: site.github.url | replace: 'http://',
+              'https://' }}>
+              <div class="job-image">
+                <div class="col-md-12 nopadding">
+                  <img src={{"/img/qa-img.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+                </div>
+              </div>
+              <div class="row job-title">
+                <div class="col-md-12 text-center">
+                  <h4 class="regular">{{ translate.career-page.qa-and-test }}</h4>
+                </div>
+              </div>
+              </a>
             </div>
           </div>
-        </a>
-      </div>
-
-      <div class="career-box">
-        <a href={{"/careers/career/#hr-operations" | prepend: site.github.url | replace: 'http://',
-        'https://' }}>
-          <div class="job-image">
-            <div class="col-md-12 nopadding">
-              <img src={{"/img/hr-operation-img.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+          <div class="col-md-4 col-sm-6 col-12">
+            <div class="career-box">
+              <a href={{"/careers/career/#software-developments" | prepend: site.github.url | replace: 'http://',
+              'https://' }}>
+              <div class="job-image">
+                <div class="col-md-12 nopadding" >
+                  <img src={{"/img/software-develop-img.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+                </div>
+              </div>
+              <div class="row job-title">
+                <div class="col-md-12 text-center">
+                  <h4 class="regular">{{ translate.career-page.software-developments }}</h4>
+                </div>
+              </div>
+              </a>
             </div>
           </div>
-          <div class="row job-title">
-            <div class="col-md-12 text-center">
-              <h4 class="regular">{{ translate.career-page.hr-operations }}</h4>
+          <div class="col-md-4 col-sm-6 col-12">
+            <div class="career-box">
+              <a href={{"/careers/career/#talent-acquisition" | prepend: site.github.url | replace: 'http://',
+              'https://' }}>
+              <div class="job-image">
+                <div class="col-md-12 nopadding">
+                  <img src={{"/img/talent-acquisition-img.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+                </div>
+              </div>
+              <div class="row job-title">
+                <div class="col-md-12 text-center">
+                  <h4 class="regular">{{ translate.career-page.talent-acquisition }}</h4>
+                </div>
+              </div>
+              </a>
             </div>
           </div>
-        </a>
-      </div>
-
-      <div class="career-box">
-        <a href={{"/careers/career/#qa-and-test" | prepend: site.github.url | replace: 'http://',
-        'https://' }}>
-        <div class="job-image">
-          <div class="col-md-12 nopadding">
-            <img src={{"/img/qa-img.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+          <div class="col-md-4 col-sm-6 col-12">
+            <div class="career-box">
+              <a href={{"/careers/career/#internship" | prepend: site.github.url | replace: 'http://',
+              'https://' }}>
+                <div class="job-image">
+                  <div class="col-md-12 nopadding">
+                    <img src={{"/img/internship-img.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+                  </div>
+                </div>
+                <div class="row job-title">
+                  <div class="col-md-12 text-center">
+                    <h4 class="regular">{{ translate.career-page.internship }}</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
-        <div class="row job-title">
-          <div class="col-md-12 text-center">
-            <h4 class="regular">{{ translate.career-page.qa-and-test }}</h4>
-          </div>
-        </div>
-        </a>
-      </div>
-
-      <div class="career-box">
-        <a href={{"/careers/career/#software-developments" | prepend: site.github.url | replace: 'http://',
-        'https://' }}>
-        <div class="job-image">
-          <div class="col-md-12 nopadding" >
-            <img src={{"/img/software-develop-img.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
-          </div>
-        </div>
-        <div class="row job-title">
-          <div class="col-md-12 text-center">
-            <h4 class="regular">{{ translate.career-page.software-developments }}</h4>
-          </div>
-        </div>
-        </a>
-      </div>
-
-      <div class="career-box">
-        <a href={{"/careers/career/#talent-acquisition" | prepend: site.github.url | replace: 'http://',
-        'https://' }}>
-        <div class="job-image">
-          <div class="col-md-12 nopadding">
-            <img src={{"/img/talent-acquisition-img.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
-          </div>
-        </div>
-        <div class="row job-title">
-          <div class="col-md-12 text-center">
-            <h4 class="regular">{{ translate.career-page.talent-acquisition }}</h4>
-          </div>
-        </div>
-        </a>
-      </div>
-
-      <div class="career-box">
-        <a href={{"/careers/career/#internship" | prepend: site.github.url | replace: 'http://',
-        'https://' }}>
-          <div class="job-image">
-            <div class="col-md-12 nopadding">
-              <img src={{"/img/internship-img.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
-            </div>
-          </div>
-          <div class="row job-title">
-            <div class="col-md-12 text-center">
-              <h4 class="regular">{{ translate.career-page.internship }}</h4>
-            </div>
-          </div>
-        </a>
       </div>
     </div>
   </div>

@@ -7,43 +7,51 @@ lang: en
 {% assign translate = site.data.translations[page.lang] %}
 
 <section class="mt-5 pt-0 bg-gray-white">
-  <div class="container pt-0 pb-0">
+  <div class="container np">
     <div class="row justify-content-md-center">
-      <div class="col-5">
+      <div class="col-12 col-sm-12 col-md-5">
         <h2 class="event-content-title text-center">
           {{ translate.event.title }}
         </h2>
       </div>
     </div>
-    <div class="row">
-      <div class="box-event">
-          <h4>{{ translate.event.upcoming.one.title }}</h4>
-          <img class="w-100" src={{"/img/event/img-upcoming-1.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
-          <p><span class="icon-time"></span>{{ translate.event.upcoming.one.date }} </p>
-          <p><span class="icon-loc"></span>{{ translate.event.upcoming.one.location }} </p>
-          <a class="readmore" href="http://www.iranjobfair.ir/" target="_blank">
-            {{ translate.event.upcoming.one.button }}
-          </a>
-      </div>
-
-      <div class="box-event">
-          <h4>{{ translate.event.upcoming.two.title }}</h4>
-          <img class="w-100" src={{"/img/event/img-upcoming-2.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
-          <p><span class="icon-time"></span>{{ translate.event.upcoming.two.date }} </p>
-          <p><span class="icon-loc"></span>{{ translate.event.upcoming.two.location }} </p>
-          <a class="readmore" href="http://sadafjobfair.ir/" target="_blank">
-            {{ translate.event.upcoming.two.button }}
-          </a>
-      </div>
-
-      <div class="box-event">
-          <h4>{{ translate.event.upcoming.three.title }}</h4>
-          <img class="w-100" src={{"/img/event/img-upcoming-3.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
-          <p><span class="icon-time"></span>{{ translate.event.upcoming.three.date }} </p>
-          <p><span class="icon-loc"></span>{{ translate.event.upcoming.three.location }} </p>
-          <a class="readmore" href="http://www.iranjobfair.ir/" target="_blank">
-            {{ translate.event.upcoming.three.button }}
-          </a>
+    <div class="row justify-content-center">
+      <div class="col-11 col-sm-12 col-md-12">
+        <div class="row event-box-container">
+          <div class="col-md-4">
+            <div class="box-event">
+                <h4>{{ translate.event.upcoming.one.title }}</h4>
+                <img class="w-100" src={{"/img/event/img-upcoming-1.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+                <p><span class="icon-time"></span>{{ translate.event.upcoming.one.date }} </p>
+                <p><span class="icon-loc"></span>{{ translate.event.upcoming.one.location }} </p>
+                <a class="readmore" href="http://www.iranjobfair.ir/" target="_blank">
+                  {{ translate.event.upcoming.one.button }}
+                </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box-event">
+                <h4>{{ translate.event.upcoming.two.title }}</h4>
+                <img class="w-100" src={{"/img/event/img-upcoming-2.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+                <p><span class="icon-time"></span>{{ translate.event.upcoming.two.date }} </p>
+                <p><span class="icon-loc"></span>{{ translate.event.upcoming.two.location }} </p>
+                <a class="readmore" href="http://sadafjobfair.ir/" target="_blank">
+                  {{ translate.event.upcoming.two.button }}
+                </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box-event">
+                <h4>{{ translate.event.upcoming.three.title }}</h4>
+                <img class="w-100" src={{"/img/event/img-upcoming-3.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="" />
+                <p><span class="icon-time"></span>{{ translate.event.upcoming.three.date }} </p>
+                <p><span class="icon-loc"></span>{{ translate.event.upcoming.three.location }} </p>
+                <a class="readmore" href="http://www.iranjobfair.ir/" target="_blank">
+                  {{ translate.event.upcoming.three.button }}
+                </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -52,19 +60,19 @@ lang: en
 <section class="pt-0 bg-white section-event">
   <div class="container pt-0 pb-0">
     <div class="row justify-content-md-center">
-      <div class="col-5">
+      <div class="col-12 col-sm-12 col-md-5">
         <h2 class="event-content-title text-center">
           {{ translate.event.past.title }}
         </h2>
       </div>
     </div>
     <div class="row mt-5 pt-5 no-gutters justify-content-md-center justify-content-sm-center">
-      <div class="col-md-6 align-self-center d-none d-lg-flex d-md-flex vertical-align">
+      <div class="col-md-6 align-self-center d-lg-flex d-md-flex vertical-align mb-3 mt-3">
         <img class="w-100" src={{"/img/event/img-past.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="team" />
       </div>
       <div class="col-md-6 col-sm-12 align-self-center">
-        <div class="row justify-content-md-center">
-          <div class="col-9 box d-flex align-items-center">
+        <div class="justify-content-md-center">
+          <div class="col-12 col-sm-12 col-md-9 box d-flex align-items-center">
             <div>
               <h4 class="medium">
                 {{ translate.event.past.one.title }}
@@ -84,8 +92,8 @@ lang: en
   <div class="container pt-0 pb-0">
     <div class="row no-gutters justify-content-md-center justify-content-sm-center">
       <div class="col-md-6 col-sm-12 align-self-center">
-        <div class="row justify-content-md-center">
-          <div class="col-9 box d-flex align-items-center">
+        <div class="justify-content-md-center">
+          <div class="col-12 col-sm-12 col-md-9 box d-flex align-items-center">
             <div>
               <h4 class="medium">
                 {{ translate.event.past.two.title }}
@@ -97,7 +105,7 @@ lang: en
           </div>
         </div>
       </div>
-      <div class="col-md-6 align-self-center d-none d-lg-flex d-md-flex vertical-align">
+      <div class="col-md-6 align-self-center d-lg-flex d-md-flex vertical-align mb-3 mt-3">
         <img class="w-100" src={{"/img/event/img-spaghetti-programming.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="team" />
       </div>
     </div>
@@ -107,12 +115,12 @@ lang: en
 <section class="bg-white section-event">
   <div class="container pt-0 pb-0">
     <div class="row no-gutters justify-content-md-center justify-content-sm-center">
-      <div class="col-md-6 align-self-center d-none d-lg-flex d-md-flex vertical-align">
+      <div class="col-md-6 align-self-center d-lg-flex d-md-flex vertical-align mb-3 mt-3">
         <img class="w-100" src={{"/img/event/img-jobex-career.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="team" />
       </div>
       <div class="col-md-6 col-sm-12 align-self-center">
-        <div class="row justify-content-md-center">
-          <div class="col-9 box d-flex align-items-center">
+        <div class="justify-content-md-center">
+          <div class="col-12 col-sm-12 col-md-9 box d-flex align-items-center">
             <div>
               <h4 class="medium">
                 {{ translate.event.past.three.title }}
@@ -132,8 +140,8 @@ lang: en
   <div class="container pt-0 pb-0">
     <div class="row no-gutters justify-content-md-center justify-content-sm-center">
       <div class="col-md-6 col-sm-12 align-self-center">
-        <div class="row justify-content-md-center">
-          <div class="col-9 box d-flex align-items-center">
+        <div class="justify-content-md-center">
+          <div class="col-12 col-sm-12 col-md-9 box d-flex align-items-center">
             <div>
               <h4 class="medium">
                 {{ translate.event.past.four.title }}
@@ -145,7 +153,7 @@ lang: en
           </div>
         </div>
       </div>
-      <div class="col-md-6 align-self-center d-none d-lg-flex d-md-flex vertical-align">
+      <div class="col-md-6 align-self-center d-lg-flex d-md-flex vertical-align mb-3 mt-3">
         <div id="iran-job-carousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#iran-job-carousel" data-slide-to="0" class="active"></li>
@@ -180,12 +188,12 @@ lang: en
 <section class="bg-white section-event">
   <div class="container pt-0 pb-0">
     <div class="row no-gutters justify-content-md-center justify-content-sm-center">
-      <div class="col-md-6 align-self-center d-none d-lg-flex d-md-flex vertical-align">
+      <div class="col-md-6 align-self-center d-lg-flex d-md-flex vertical-align mb-3 mt-3">
         <img class="w-100" src={{"/img/event/img-quera-coading.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="team" />
       </div>
       <div class="col-md-6 col-sm-12 align-self-center">
-        <div class="row justify-content-md-center">
-          <div class="col-9 box d-flex align-items-center">
+        <div class="justify-content-md-center">
+          <div class="col-12 col-sm-12 col-md-9 box d-flex align-items-center">
             <div>
               <h4 class="medium">
                 {{ translate.event.past.five.title }}

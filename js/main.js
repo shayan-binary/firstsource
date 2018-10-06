@@ -134,7 +134,6 @@ function initAnoutUsCheck(){
     });
 
     if (window.location.hash === '#amazing-products') {
-        console.log('asdas');
         setTimeout(function(){
             $(window).scrollTop(0);
         }, 300);
