@@ -1,0 +1,77 @@
+---
+layout: default
+title: First Source Arya Solutions LLC
+subTitle: Developing world-class software for the financial industry
+lang: en
+---
+{% assign translate = site.data.translations[page.lang] %}
+<section class="np bg-gray-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 careers-tabs">
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item"><a class="nav-link active" href="#graphic-design" data-toggle="tab">
+            {{ translate.career-page.graphic-design }}
+          </a></li>
+          <li class="nav-item"><a class="nav-link" href="#talent-acquisition" data-toggle="tab">
+            {{ translate.career-page.talent-acquisition }}
+          </a></li>
+          <li class="nav-item"><a class="nav-link" href="#hr-operations" data-toggle="tab">
+            {{ translate.career-page.hr-operations }}
+          </a></li>
+          <li class="nav-item"><a class="nav-link" href="#qa-and-test" data-toggle="tab">
+            {{ translate.career-page.qa-and-test }}
+          </a></li>
+          <li class="nav-item"><a class="nav-link" href="#software-developments" data-toggle="tab">
+            {{ translate.career-page.software-developments }}
+          </a></li>
+          <li class="nav-item"><a class="nav-link" href="#quantitive-analysis" data-toggle="tab">
+            {{ translate.career-page.quantitive-analysis }}
+          </a></li>
+          <li class="nav-item"><a class="nav-link" href="#internship" data-toggle="tab">
+            {{ translate.career-page.internship }}
+          </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="tab-content mt-5">
+        <div class="tab-pane fade careers-content show active" id="graphic-design">
+          {% include graphic-design.html %}
+        </div>
+        <div class="tab-pane fade careers-content " id="quantitive-analysis">
+          {% include quantitive-analysis.html %}
+        </div>
+        <div class="tab-pane fade careers-content" id="software-developments">
+          {% include software-developments.html %}
+        </div>
+        <div class="tab-pane fade careers-content" id="qa-and-test">
+          {% include qa-and-test.html %}
+        </div>
+        <div class="tab-pane fade careers-content" id="talent-acquisition">
+          {% include talent-acquisition.html %}
+        </div>
+        <div class="tab-pane fade careers-content" id="hr-operations">
+          {% include hr-operations.html %}
+        </div>
+        <div class="tab-pane fade careers-content" id="internship">
+          {% include internship.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-joinus">
+  <div class="container-fluid">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 text-center">
+        <h4 class="text-white">
+          {{ translate.career-page.apply-to }}:
+          <a class="text-white ml-5 pl-3" href="mailto:hr@firstsource.io">{{ translate.career-page.hr-mail }}</a>
+        </h4>
+      </div>
+    </div>
+  </div>
+</section>

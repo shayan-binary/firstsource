@@ -1,31 +1,37 @@
 <!-- Footer -->
-<footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 align-self-start">
-          <img src= {{ "/img/FS_logo_white.svg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="">
+<footer class="pt-5">
+    <div class="container pt-0 pb-0">
+      <div class="row justify-content-md-center">
+        <div class="col-md-8 col-sm-12 center text-center mt-3">
+          <h3>{{ translate.footer-title }}</h3>
         </div>
-        <div class="col-sm-9 language-toggler">
-          {% if page.lang == 'fa' %}
-            <a class="english-language-button"
-               href={{ "/" | prepend: site.github.url | replace: 'http://', 'https://' }}>
-              {{ translate.see-in-english }}
-            </a>
-            <a class="persian-language-button active"
-               href={{ "/fa/" | prepend: site.github.url | replace: 'http://', 'https://' }}>
-              {{ translate.see-in-farsi }}
-            </a>
-          {% else %}
-            <a class="english-language-button active"
-               href={{ "/" | prepend: site.github.url | replace: 'http://', 'https://' }}>
-              {{ translate.see-in-english }}
-            </a>
-            <a class="persian-language-button"
-               href={{ "/fa/" | prepend: site.github.url | replace: 'http://', 'https://' }}>
-              {{ translate.see-in-farsi }}
-            </a>
-          {% endif %}
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-8 col-sm-12 center mt-4 text-center">
+          <p>
+            {{ translate.address-info }}
+          </p>
         </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-10 col-xs-4 center mt-2 mb-5 text-center">
+          <span class="mr-2">
+            <span class="icon-call mr-2"></span>
+          {{ translate.phone-1 }} | {{ translate.phone-2 }}
+          </span>
+          <span class="ml-2">
+            <span class="icon-envelope mr-2"></span><a href="mailto:hr@firstsource.io">{{ translate.mail-hr }}</a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="bg-semi-white">
+      <div id="footer-bottom" class="container p-3">
+          <span>{{ translate.copyright }}</span>
+          <div>
+              <a target="_blank" href="https://www.linkedin.com/company/first-source-solutions-llc"><span class="icon-linkdin"></span></a>
+              <a target="_blank" href="https://t.me/firstsource"><span class="icon-telegram"></span></a>
+          </div>
       </div>
     </div>
 </footer>

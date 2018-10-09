@@ -1,0 +1,39 @@
+<section>
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col">
+        <h2 class="careers-content-title text-center">
+          {{ translate.career-page.software-developments-page.title }}
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="mt-5 np">
+  <div class="row justify-content-center">
+    <div class="col-10 col-sm-10 col-md-5 careers-tabs">
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link active" data-target="#tab1" data-toggle="tab">
+              {{ translate.career-page.software-developments-page.senior-backend-developer }}
+            </a >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-target="#tab2" data-toggle="tab">
+              {{ translate.career-page.software-developments-page.senior-frontend-developer }}
+            </a >
+          </li>
+        </ul>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab1">
+      {% include senior-backend-developer.html %}
+    </div>
+    <div class="tab-pane" id="tab2">
+      {% include senior-frontend-developer.html %}
+    </div>
+  </div>
+</section>

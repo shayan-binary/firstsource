@@ -1,0 +1,159 @@
+---
+layout: default
+title: First Source Arya Solutions LLC
+subTitle: Developing world-class software for the financial industry
+lang: en
+team: [{ "name": 'sepideh-fathali', "img": '/img/staff/sepideh-fathali.png', "title": 'talent-aqu', "text": 'sepideh-fathali-text' },
+{ "name": 'mohadese-helal', "img": '/img/staff/mohadese-helal.jpg', "title": 'qa-engineer', "text": 'mohadese-helal-text' },
+{ "name": 'mohammad-sepahi', "img": '/img/staff/mohammad-sepahi.jpg', "title": 'backend-developer', "text": 'mohammad-sepahi-text'},
+{ "name": 'reyhaneh-reyhani', "img": '/img/staff/reyhaneh-reyhani.jpg',"title": 'ui-ux-designer', "text": 'reyhaneh-reyhani-text'  },
+{ "name": 'farzaneh-dejband', "img": '/img/staff/farzaneh-dejband.jpg', "title": 'backend-developer', "text": 'farzaneh-dejband-text'},
+{ "name": 'sara-shahmohammadi', "img": '/img/staff/sara-shahmohammadi.jpg', "title": 'qa-engineer', "text": 'sara-shahmohammadi-text'},
+{ "name": 'ali-deishidi', "img": '/img/staff/ali-deishidi.jpg', "title": 'backend-developer', "text": 'ali-deishidi-text'}]
+---
+{% assign translate = site.data.translations[page.lang] %}
+
+<section class="np bg-white d-sm-block d-md-none d-lg-none">
+  <div class="container pl-2 pr-2">
+    <div class="row">
+      <div class="col-md-12 aboutus-tabs">
+        <ul class="nav nav-fill">
+          <li class="nav-item"><a class="nav-link active" href={{"/about-us/our-team" | prepend: site.github.url | replace: 'http://', 'https://'}}>
+            {{ translate.about-us.our-team }}
+          </a></li>
+          <li class="nav-item"><a class="nav-link" href={{"/about-us/our-methodology" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+            {{ translate.about-us.our-methodology }}
+          </a></li>
+          <li class="nav-item"><a class="nav-link" href={{"/about-us/our-services" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+            {{ translate.about-us.our-services }}
+          </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container mt-lg-4 pt-lg-5 pt-md-0 pr-lg-0 pl-lg-0 pr-md-2 pl-md-3">
+  <div class="row pt-lg-2">
+    <div class="col-12 col-xl-9 col-lg-8">
+      <section class="section" id="amazing-products">
+        <div class="row">
+          <div class="col-md-12">
+            <h4 class="bold">
+              {{ translate.about-us.build-amazing-products }}
+            </h4>
+            <p class="mt-5"><b> {{ translate.about-us.firstsource-title }} </b> {{ translate.about-us.is-a-startup }}
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-11">
+            <ul class="para-list">
+              <li class="mt-4">
+                {{ translate.about-us.on-a-mission }}
+              </li>
+              <li class="mt-4">
+                {{ translate.about-us.best-foundation }}
+              </li>
+              <li class="mt-4">
+                {{ translate.about-us.essential-role }}
+              </li>
+              <li class="mt-4">
+                {{ translate.about-us.push-boundaries }}
+              </li>
+              <li class="mt-4">
+                {{ translate.about-us.develop-great-software }}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section bg-our-team pt-5 pb-5" id="why-first-source">
+        <div class="row">
+          <div class="col-md-12">
+            <h4 class="bold">
+              {{ translate.about-us.why-first-source }}
+            </h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-11">
+            <p class="mt-4">
+              {{ translate.about-us.working-at }}
+            </p>
+            <p class="mt-4">
+              {{ translate.about-us.learn-and-improve }}
+            </p>
+            <p class="mt-4">
+              {{ translate.about-us.ideal-working-space }}
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section pt-5" id="team-members">
+        <div class="row">
+          <div class="col-md-12">
+            <h4 class="bold">
+              {{ translate.about-us.team-members }}
+            </h4>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-11">
+                <div class="main">
+                  <div class="slider slider-for">
+                    {% for member in page.team %}
+                    <div>
+                      <div class="row">
+                        <div class="col-lg-6 align-self-center pt-3">
+                          <h5>{{ translate.about-us.team[member.name]}}</h5>
+                          <p class="text-small mt-3">{{ translate.about-us.team[member.title] }}</p>
+                          {{ translate.about-us.team[member.text] }}
+                        </div>
+                        <div class="col-lg-6 mb-5 mb-lg-0 order-first order-lg-last justify-content-md-center align-self-center">
+                          <div class="circled-image text-center"
+                                style="background-image: url({{ member.img | prepend: site.github.url | replace: 'http://', 'https://'}})"></div>
+                        </div>
+                      </div>
+                    </div>
+                    {% endfor %}
+                  </div>
+                  <div class="row mt-5">
+                    <div class="col-1 vertical-align mr-0 ml-0 pl-0 pr-0">
+                      <button type="button" class="btn btn-link prev pl-0 pr-0">
+                        <i class="fas fa-chevron-left"></i></button>
+                    </div>
+                    <div class="col-10">
+                      <div class="slider slider-nav">
+                        {% for member in page.team %}
+                        <div>
+                          <div class="circled-thumbnail"
+                                style="background-image: url({{ member.img | prepend: site.github.url | replace: 'http://', 'https://'}})"></div>
+                          <div class="text-center">
+                            <p class="text-small text-title mt-3 mb-1">{{ translate.about-us.team[member.name] }}</p>
+                            <p class="text-small">{{ translate.about-us.team[member.title] }}</p>
+                          </div>
+                        </div>
+                        {% endfor %}
+                      </div>
+                    </div>
+                    <div class="col-1 vertical-align mr-0 ml-0 pl-0 pr-0">
+                      <button type="button" class="btn btn-link next pl-0 pr-0">
+                        <i class="fas fa-chevron-right"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="d-none d-md-block d-lg-block col-xl-3 col-lg-4 order-first order-lg-last">
+      {% include about-us.html %}
+    </div>
+  </div>
+</div>

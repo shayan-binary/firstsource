@@ -1,0 +1,237 @@
+---
+layout: default
+title: First Source Arya Solutions LLC
+subTitle: Developing world-class software for the financial industry
+lang: en
+---
+{% assign translate = site.data.translations[page.lang] %}
+
+<section class="np bg-white d-sm-block d-md-none d-lg-none">
+  <div class="container pl-2 pr-2">
+    <div class="row">
+      <div class="col-md-12 aboutus-tabs">
+        <ul class="nav nav-fill">
+          <li class="nav-item"><a class="nav-link" href={{"/about-us/our-team" | prepend: site.github.url | replace: 'http://', 'https://'}}>
+            {{ translate.about-us.our-team }}
+          </a></li>
+          <li class="nav-item"><a class="nav-link active" href={{"/about-us/our-methodology" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+            {{ translate.about-us.our-methodology }}
+          </a></li>
+          <li class="nav-item"><a class="nav-link" href={{"/about-us/our-services" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+            {{ translate.about-us.our-services }}
+          </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container mt-lg-4 pt-lg-5 pt-md-0 pr-lg-0 pl-lg-0 pr-md-2 pl-md-3">
+  <div class="row pt-lg-2">
+    <div class="col-12 col-sm-12 col-xl-9 col-lg-8">
+      <section class="section" id="why-iran">
+          <div class="row">
+            <div class="col-md-12">
+              <h4 class="bold">
+                {{ translate.about-us.why-iran }}
+              </h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-11">
+              <p class="mt-4">
+                {{ translate.about-us.why-base-in-iran }}
+              </p>
+              <p class="mt-4">
+                {{ translate.about-us.why-iran-text-1 }}
+              </p>
+              <p class="mt-4">
+                {{ translate.about-us.why-iran-text-2 }}
+              </p>
+            </div>
+          </div>
+      </section>
+      <section class="section section-companyvalues" id="company-values">
+          <div class="row">
+            <div class="col-md-12">
+              <h4 class="bold">
+                {{ translate.about-us.company-values }}
+              </h4>
+            </div>
+          </div>
+          <div class="row mt-1 bg-light-blue-left pt-5 pb-5">
+            <div class="col-11">
+              <div class="row">
+                <div class="col-lg-5 text-justify pt-lg-5">
+                  <h4 class="medium text-blue text-center mb-3">
+                    {{ translate.about-us.customer-focus }}
+                  </h4>
+                  <p>
+                    {{ translate.about-us.customer-focus-text }}
+                  </p>
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                  <div class="w-100 mb-5 company-values-chart-border-right-col">
+                    <div class="company-values-chart-border-right w-50"></div>
+                  </div>
+                </div>
+                <div class="col-lg-5 mt-3 mt-lg-0 text-justify pt-lg-5">
+                  <h4 class="medium text-blue text-center mb-3">
+                    {{ translate.about-us.competence }}
+                  </h4>
+                  <p>
+                    {{ translate.about-us.competence-text }}
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-5 d-none d-lg-block vertical-align">
+                  <hr class="company-values-chart-border">
+                </div>
+                <div class="col-lg-2 d-none d-lg-block company-values-chart-logo"></div>
+                <div class="col-lg-5 d-none d-lg-block vertical-align">
+                  <hr class="company-values-chart-border">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-5 mt-3 mt-lg-0 text-justify">
+                  <h4 class="medium text-blue text-center mb-3">
+                    {{ translate.about-us.teamwork }}
+                  </h4>
+                  <p>
+                    {{ translate.about-us.teamwork-text }}
+                  </p>
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <div class="w-100 mt-5 company-values-chart-border-right-col">
+                      <div class="company-values-chart-border-right w-50"></div>
+                    </div>
+                </div>
+                <div class="col-lg-5 mt-3 mt-lg-0 text-justify">
+                  <h4 class="medium text-blue text-center mb-3">
+                    {{ translate.about-us.integrity }}
+                  </h4>
+                  <p>
+                    {{ translate.about-us.integrity-text }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="section" id="software-development-philosophy">
+          <div class="row mt-3">
+            <div class="col-md-12">
+              <h4 class="bold">
+                {{ translate.about-us.software-development-philosophy }}
+              </h4>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-6">
+              <h4 class="medium">
+                {{ translate.about-us.joel-test }}
+              </h4>
+              <div class="divider-large"></div>
+              <p>
+                {{ translate.about-us.joel-test-text }}
+              </p>
+            </div>
+            <div class="col-md-6 mt-lg-0 mt-md-0 mt-sm-3">
+              <h4 class="medium">
+                {{ translate.about-us.source-control }}
+              </h4>
+              <div class="divider-large"></div>
+              <p>
+                {{ translate.about-us.source-control-text }}
+              </p>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-6 mt-lg-0 mt-md-0 mt-sm-3">
+              <h4 class="medium">
+                {{ translate.about-us.build-in-one-step }}
+              </h4>
+              <div class="divider-large"></div>
+              <p>
+                {{ translate.about-us.build-in-one-step-text }}
+              </p>
+            </div>
+            <div class="col-md-6 mt-lg-0 mt-md-0 mt-sm-3">
+              <h4 class="medium">
+                {{ translate.about-us.fixing-bugs }}
+              </h4>
+              <div class="divider-large"></div>
+              <p>
+                {{ translate.about-us.fixing-bugs-text }}
+              </p>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-6 mt-lg-0 mt-md-0 mt-sm-3">
+              <h4 class="medium">
+                {{ translate.about-us.testers }}
+              </h4>
+              <div class="divider-large"></div>
+              <p>
+                {{ translate.about-us.testers-text }}
+              </p>
+            </div>
+            <div class="col-md-6 mt-lg-0 mt-md-0 mt-sm-3">
+              <h4 class="medium">
+                {{ translate.about-us.bug-database }}
+              </h4>
+              <div class="divider-large"></div>
+              <p>
+                {{ translate.about-us.bug-database-text }}
+              </p>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-6 mt-lg-0 mt-md-0 mt-sm-3">
+              <h4 class="medium">
+                {{ translate.about-us.usability-testing }}
+              </h4>
+              <div class="divider-large"></div>
+              <p>
+                {{ translate.about-us.usability-testing-text }}
+              </p>
+            </div>
+            <div class="col-md-6 mt-lg-0 mt-md-0 mt-sm-3">
+              <h4 class="medium">
+                {{ translate.about-us.spec }}
+              </h4>
+              <div class="divider-large"></div>
+              <p>
+                {{ translate.about-us.spec-text }}
+              </p>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-6 mt-lg-0 mt-md-0 mt-sm-3">
+              <h4 class="medium">
+                {{ translate.about-us.schedule }}
+              </h4>
+              <div class="divider-large"></div>
+              <p>
+                {{ translate.about-us.schedule-text }}
+              </p>
+            </div>
+            <div class="col-md-6 mt-lg-0 mt-md-0 mt-sm-3">
+              <h4 class="medium">
+                {{ translate.about-us.daily-builds }}
+              </h4>
+              <div class="divider-large"></div>
+              <p>
+                {{ translate.about-us.daily-builds-text }}
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <div class="d-none d-md-block d-lg-block col-xl-3 col-lg-4 order-first order-lg-last">
+      {% include about-us.html %}
+    </div>
+  </div>
+</div>
