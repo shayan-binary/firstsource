@@ -3,4 +3,4 @@ ruby RUBY_VERSION
 
 # gem 'github-pages', group: :jekyll_plugins
 
-gem "jekyll", "3.6.2"
+gem "jekyll", "3.6.3"
