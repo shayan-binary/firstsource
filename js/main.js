@@ -5,9 +5,9 @@ $(document).ready(function() {
     setActiveSideMenu();
     initSlick();
     initSmoothScroll();
-
     initAnoutUsCheck();
-
+    initCareerMenu();
+    initSidebarMenu();
     $('#iran-job-carousel').carousel({
         interval: 2000
     })
@@ -138,4 +138,18 @@ function initAnoutUsCheck(){
             $(window).scrollTop(0);
         }, 300);
     }
+}
+
+function initCareerMenu(){
+    $('[data-menu="careers"]').on('click', function(){
+        $(this).toggleClass('active');
+    });
+}
+function initSidebarMenu(){
+    $('[data-close="sidebar"]').on('click', function(){
+        $('#sidebar-menu').removeClass('active');
+    });
+    $('[data-toggle="sidebar"]').on('click', function(){
+        $('#sidebar-menu').toggleClass('active');
+    });
 }
