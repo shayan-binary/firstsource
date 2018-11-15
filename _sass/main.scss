@@ -311,6 +311,9 @@ a {
   @extend .shadow;
 }
 
+.career-title {
+  font-size: 32px;
+}
 .career-box-container,
 .event-box-container {
   > div {
@@ -323,7 +326,6 @@ a {
 /*--------------------------- *\
             Container
 \*--------------------------- */
-
 
 .asidemenu {
   position: fixed;
@@ -394,6 +396,17 @@ a {
     padding: 0px;
   }
 }
+
+.slider-container {
+  position: relative;
+  .slider-img {
+  
+  }
+  .slider-navigation {
+
+  }
+}
+
 
 /*--------------------------- *\
             ICON
@@ -918,6 +931,10 @@ footer {
     justify-content: space-between;
     align-items: center;
     color: $black;
+  }
+  .footer-contact {
+    display: inline-flex;
+    justify-content: center;
   }
 }
 .sidemenu-list {
@@ -1509,6 +1526,21 @@ ul.para-list {
       }
     }
   }
+  footer {
+    .footer-contact {
+      display: block;
+      padding-left: 40px;
+      div {
+        display: flex;
+        align-content: space-around;
+        text-align: left;
+        margin: 0px !important;
+      }
+      .divider {
+        display: none;
+      }
+    }
+  }
   .aboutus-tabs {
     .nav {
       li {
@@ -1540,7 +1572,7 @@ ul.para-list {
   .section-benefits {
     padding: 25px 0px;
     h2 {
-      font-size: 28px;
+      font-size: 18px;
     }
     p {
       font-size: 15px;
@@ -1556,6 +1588,24 @@ ul.para-list {
         bottom: 1px;
         margin: 0 8px 0 0;
       }
+    }
+  }
+  .career-title, 
+  .careers-content-title {
+    font-size: 18px;
+  }
+  .slider-container {
+    position: relative;
+    .slider-img {
+      background: none !important;
+      border: none;
+    }
+    .slider-navigation {
+      position: absolute;
+      width: 100%;
+      top: 0px;
+      margin-top: 0px !important;
+      left: 15px;
     }
   }
 }

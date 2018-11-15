@@ -136,12 +136,12 @@ en:
         button: See more
       two:
         title: Sadaf job fair
-        date: November
+        date:  19-21 November 2018
         location: University of Science and Industry
         button: See more
       three:
         title: Iran job fair
-        date:  24-26 January,2019
+        date: 24-26 January,2019
         location: "Goftegoo Park, Booth No: 15"
         button: See more
     past:
@@ -170,6 +170,11 @@ en:
         title: Quera Coading contest
         date: 27th of July 2018
         location: Quera website
+        button: See more
+      six:
+        title: Career fair
+        date: 14-16 october,2018
+        location: Sharif University
         button: See more
   career-page:
     what-is-your-passion: What is your passion?
