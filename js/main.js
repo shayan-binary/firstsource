@@ -148,8 +148,10 @@ function initCareerMenu(){
 function initSidebarMenu(){
     $('[data-close="sidebar"]').on('click', function(){
         $('#sidebar-menu').removeClass('active');
+        $('body').removeClass('menu-open');
     });
     $('[data-toggle="sidebar"]').on('click', function(){
         $('#sidebar-menu').toggleClass('active');
+        $('body').toggleClass('menu-open');
     });
 }
