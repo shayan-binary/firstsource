@@ -2,6 +2,10 @@
 {% assign translate = site.data.translations[page.lang] %}
 <div class="container pb-md-4 pt-md-4 p-0 sticky-menu">
   <nav class="navbar navbar-expand-sm navbar-light p-xs-4 p-md-0">
+    <button class="navbar-toggler" type="button" data-toggle="sidebar">
+      <span class="icon-navbar-toggler"></span>
+    </button>
+
     <!-- Brand -->
     {% if page.lang == 'fa' %}
     <a class="navbar-brand" href={{ "/fa/" | prepend: site.github.url | replace: 'http://', 'https://' }}><img src= {{ "/img/logo-400.svg" | prepend: site.github.url | replace: 'http://', '//' }} alt=""></a>
@@ -9,9 +13,6 @@
     <a class="navbar-brand" href={{ "/" | prepend: site.github.url | replace: 'http://', 'https://' }}><img src= {{"/img/logo-400.svg" | prepend: site.github.url | replace: 'http://', '//' }} alt=""></a>
     {% endif %}
 
-    <button class="navbar-toggler" type="button" data-toggle="sidebar">
-      <span class="icon-navbar-toggler"></span>
-    </button>
 
     <!-- Links -->
     <div class="collapse navbar-collapse justify-content-end" id="nav-content">
