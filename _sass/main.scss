@@ -25,6 +25,7 @@
   src: url('/fonts/Rubik/Rubik-Bold.ttf') format('truetype');
 }
 
+html {overflow: hidden;}
 body,
 html {
   width: 100%;
@@ -1124,6 +1125,7 @@ ul.para-list {
     outline: none!important;
   }
 }
+
 .slider-nav {
   .slick-current {
     p {
@@ -1211,6 +1213,7 @@ ul.para-list {
     }
   }
 }
+
 .aboutus-tabs {
   .nav {
     background-color: $white;
@@ -1251,13 +1254,17 @@ ul.para-list {
     }
   }
 }
+
+.careers-tabs {
+  min-height: 50px;
+}
 .careers-tabs {
   .nav-pills {
     background-color: $white;
     @include border-radius(5px, 5px, 5px, 5px);
     @include box-shadow(0,0, 3px, rgba($black, 0.3));
     border: none;
-    margin-top: -24px;
+    margin: 0px;
     li.nav-item {
       a.nav-link {
         @extend .regular;
@@ -1291,6 +1298,7 @@ ul.para-list {
     }
   }
 }
+
 .careers-content-title{
   font-size: 35px;
   font-weight: 500;
@@ -1320,6 +1328,7 @@ ul.para-list {
     bottom: -28px;
   }
 }
+
 .event-content-title {
   font-size: 35px;
   font-weight: 500;
@@ -1376,6 +1385,7 @@ ul.para-list {
     }
   }
 }
+
 @media (max-width: 998px) {
   h4 {
     font-size: 23px;
@@ -1397,6 +1407,21 @@ ul.para-list {
   .section-joinus {
     h4,a {
       font-size: 21px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .intro, .intro .image-overlay {
+    max-width: 100%;
+  }
+  .sidemenu-list {
+    position: relative;
+    top: unset;
+  }
+  .section-event {
+    .box {
+      padding: 18px 20px;
     }
   }
 }
@@ -1431,21 +1456,6 @@ ul.para-list {
           font-size: 15px;
         }
       }
-    }
-  }
-}
-
-@media (max-width: 992px) {
-  .intro, .intro .image-overlay {
-    max-width: 100%;
-  }
-  .sidemenu-list {
-    position: relative;
-    top: unset;
-  }
-  .section-event {
-    .box {
-      padding: 18px 20px;
     }
   }
 }
@@ -1564,7 +1574,6 @@ ul.para-list {
   }
 }
 
-
 @media (max-width: 480px) {
   body, html {
     font-size: 16px;    
@@ -1577,7 +1586,8 @@ ul.para-list {
     width: 100vw;
     left: 0px;
     top: 0px;
-    z-index: 99; 
+    z-index: 99;
+    height: 65px;
   }
   body {
     padding-top: 60px;
@@ -1597,17 +1607,20 @@ ul.para-list {
   footer {
     .footer-contact {
       display: block;
-      padding-left: 40px;
       div {
         display: flex;
         align-content: space-around;
         text-align: left;
         margin: 0px !important;
+        justify-content: center;
       }
       .divider {
         display: none;
       }
     }
+  }
+  .mt-xs-0 {
+    margin-top: 0px !important;
   }
   .aboutus-tabs {
     .nav {
@@ -1677,9 +1690,6 @@ ul.para-list {
     }
   }
 }
-
-
-
 
 .old-size {
   h4{
