@@ -1,10 +1,9 @@
 <!-- Navigation -->
 {% assign translate = site.data.translations[page.lang] %}
-<div class="container pb-md-4 pt-md-4 p-0">
-
+<div class="container pb-md-4 pt-md-4 p-0 sticky-menu">
   <nav class="navbar navbar-expand-sm navbar-light p-xs-4 p-md-0">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-toggle="sidebar">
+      <span class="icon-navbar-toggler"></span>
     </button>
 
     <!-- Brand -->
@@ -13,6 +12,7 @@
     {% else %}
     <a class="navbar-brand" href={{ "/" | prepend: site.github.url | replace: 'http://', 'https://' }}><img src= {{"/img/logo-400.svg" | prepend: site.github.url | replace: 'http://', '//' }} alt=""></a>
     {% endif %}
+
 
     <!-- Links -->
     <div class="collapse navbar-collapse justify-content-end" id="nav-content">
@@ -101,3 +101,34 @@
   </nav>
 
 </div>
+
+<aside id="sidebar-menu" class="asidemenu">
+  <span class="icon-close" data-close="sidebar"></span>
+  <h4>Menu</h4>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link" href={{ "/" | prepend: site.base_url | replace: 'http://', 'https://' }}>
+        {{ translate.home }}
+      </a>
+    </li>
+    <li class="nav-item">
+      <a  id="about-us" class="nav-link" href={{ "/about-us/our-team" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+        {{ translate.about }}
+      </a>
+    </li>
+    <li class="nav-item">
+      <a id="career" class="nav-link" href={{ "/careers" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+      {{ translate.career }}
+      </a>
+    </li>
+    <li class="nav-item">
+      <a id="events" class="nav-link" href={{ "/events" | prepend: site.github.url | replace: 'http://', 'https://' }}>
+      {{ translate.events }}
+      </a>
+    </li>
+  </ul>
+  <p>
+    <a target="_blank" href="https://www.linkedin.com/company/first-source-solutions-llc"><span class="icon-linkdin-sidebar"></span></a>
+    <a target="_blank" href="https://t.me/firstsource"><span class="icon-telegram-sidebar"></span></a>
+  </p>
+</aside>
