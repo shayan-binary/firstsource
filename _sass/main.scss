@@ -333,6 +333,7 @@ a {
 body.menu-open {
   overflow: hidden;
   section,
+  footer,
   .sticky-menu {
     filter: blur(10px);
   }
@@ -742,6 +743,14 @@ a.btn {
         bottom: 1px;
         width: 9px;
         height: 9px;
+      }
+    }
+    &.gray {
+      li {
+        background-color: #d0d0d0;
+        &.active {
+          background-color: #146eb4;
+        }
       }
     }
   }

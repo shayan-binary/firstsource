@@ -97,7 +97,7 @@ function setActiveSideMenu() {
 };
 
 function initSmoothScroll() {
-    $(document).bind('scroll', function(e) {
+    $('body').bind('scroll', function(e) {
         $('.section').each(function() {
             var id = $(this).attr('id').replace(/^#!?/, '');
             if (window.location.hash.includes(id)) return;
