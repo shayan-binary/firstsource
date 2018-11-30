@@ -11,8 +11,43 @@ $(document).ready(function() {
     $('#iran-job-carousel').carousel({
         interval: 2000
     })
+    $('#career-sadaf-carousel')
+    .on('slide.bs.carousel', function () {
+        var $ul = $('#career-sadaf-carousel .carousel-indicators'),
+        $li = $ul.find('li.active'),
+        index = parseInt($li.attr('data-slide-to'));
+
+        $ul.find('li').removeClass('big');
+
+
+        $ul.find('li:eq('+(index-1)+')').addClass('big');
+        $ul.find('li:eq('+(index)+')').addClass('big');
+        $ul.find('li:eq('+(index+2)+')').addClass('big');
+        $ul.find('li:eq('+(index+3)+')').addClass('big');
+    })
+    .on('slid.bs.carousel', function () {
+        handleCarouselPoints();
+    });
+    $('#career-sadaf-carousel .carousel-indicators li').on('click', function(){
+       setTimeout(function(){handleCarouselPoints();},100);
+   });
 });
 
+
+function handleCarouselPoints(){
+    var $ul = $('#career-sadaf-carousel .carousel-indicators'),
+    $li = $ul.find('li.active'),
+    index = parseInt($li.attr('data-slide-to'));
+
+    $ul.find('li').removeClass('big');
+
+
+    $ul.find('li:eq('+(index-2)+')').addClass('big');
+    $ul.find('li:eq('+(index-1)+')').addClass('big');
+    $ul.find('li:eq('+(index+1)+')').addClass('big');
+    $ul.find('li:eq('+(index+2)+')').addClass('big');
+
+}
 function setActiveMenu() {
     var $m = $('.navbar li.nav-item');
     $m.removeClass('active');

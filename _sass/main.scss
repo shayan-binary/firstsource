@@ -736,9 +736,10 @@ a.btn {
     li {
       width: 6px;
       height: 6px;
-      @include border-radius(9px, 9px, 9px, 9px);
+      @include border-radius(50%, 50%, 50%, 50%);
 
-      &.active {
+      &.active,
+      &.big {
         position: relative;
         bottom: 1px;
         width: 9px;
