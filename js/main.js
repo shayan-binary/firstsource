@@ -16,10 +16,7 @@ $(document).ready(function() {
         var $ul = $('#career-sadaf-carousel .carousel-indicators'),
         $li = $ul.find('li.active'),
         index = parseInt($li.attr('data-slide-to'));
-
         $ul.find('li').removeClass('big');
-
-
         $ul.find('li:eq('+(index-1)+')').addClass('big');
         $ul.find('li:eq('+(index)+')').addClass('big');
         $ul.find('li:eq('+(index+2)+')').addClass('big');
@@ -41,13 +38,12 @@ function handleCarouselPoints(){
 
     $ul.find('li').removeClass('big');
 
-
     $ul.find('li:eq('+(index-2)+')').addClass('big');
     $ul.find('li:eq('+(index-1)+')').addClass('big');
     $ul.find('li:eq('+(index+1)+')').addClass('big');
     $ul.find('li:eq('+(index+2)+')').addClass('big');
-
 }
+
 function setActiveMenu() {
     var $m = $('.navbar li.nav-item');
     $m.removeClass('active');
