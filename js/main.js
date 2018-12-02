@@ -8,12 +8,20 @@ $(document).ready(function() {
     initAnoutUsCheck();
     initCareerMenu();
     initSidebarMenu();
-    $('#iran-job-carousel').carousel({
+
+    initialCarousel($('#iran-job-carousel'));
+    initialCarousel($('#career-sadaf-carousel'));
+});
+
+function initialCarousel($carousel) {
+    $carousel.carousel({
         interval: 2000
     })
-    $('#career-sadaf-carousel')
+
+    
+    $carousel
     .on('slide.bs.carousel', function () {
-        var $ul = $('#career-sadaf-carousel .carousel-indicators'),
+        var $ul = $carousel.find('.carousel-indicators'),
         $li = $ul.find('li.active'),
         index = parseInt($li.attr('data-slide-to'));
         $ul.find('li').removeClass('big');
@@ -23,26 +31,27 @@ $(document).ready(function() {
         $ul.find('li:eq('+(index+3)+')').addClass('big');
     })
     .on('slid.bs.carousel', function () {
+
         handleCarouselPoints();
     });
-    $('#career-sadaf-carousel .carousel-indicators li').on('click', function(){
+    $carousel.find('.carousel-indicators li').on('click', function(){
+        
        setTimeout(function(){handleCarouselPoints();},100);
-   });
-});
+    });
+    function handleCarouselPoints(){
+        var $ul = $carousel.find('.carousel-indicators'),
+        $li = $ul.find('li.active'),
+        index = parseInt($li.attr('data-slide-to'));
 
+        $ul.find('li').removeClass('big');
 
-function handleCarouselPoints(){
-    var $ul = $('#career-sadaf-carousel .carousel-indicators'),
-    $li = $ul.find('li.active'),
-    index = parseInt($li.attr('data-slide-to'));
-
-    $ul.find('li').removeClass('big');
-
-    $ul.find('li:eq('+(index-2)+')').addClass('big');
-    $ul.find('li:eq('+(index-1)+')').addClass('big');
-    $ul.find('li:eq('+(index+1)+')').addClass('big');
-    $ul.find('li:eq('+(index+2)+')').addClass('big');
+        $ul.find('li:eq('+(index-2)+')').addClass('big');
+        $ul.find('li:eq('+(index-1)+')').addClass('big');
+        $ul.find('li:eq('+(index+1)+')').addClass('big');
+        $ul.find('li:eq('+(index+2)+')').addClass('big');
+    }
 }
+
 
 function setActiveMenu() {
     var $m = $('.navbar li.nav-item');
