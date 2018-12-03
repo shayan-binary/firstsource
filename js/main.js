@@ -10,12 +10,13 @@ $(document).ready(function() {
     initSidebarMenu();
 
     initialCarousel($('#iran-job-carousel'));
+    initialCarousel($('#career-fair-carousel'));
     initialCarousel($('#career-sadaf-carousel'));
 });
 
 function initialCarousel($carousel) {
     $carousel.carousel({
-        interval: 2000
+        interval: 15000
     })
 
     
@@ -24,11 +25,20 @@ function initialCarousel($carousel) {
         var $ul = $carousel.find('.carousel-indicators'),
         $li = $ul.find('li.active'),
         index = parseInt($li.attr('data-slide-to'));
-        $ul.find('li').removeClass('big');
-        $ul.find('li:eq('+(index-1)+')').addClass('big');
-        $ul.find('li:eq('+(index)+')').addClass('big');
-        $ul.find('li:eq('+(index+2)+')').addClass('big');
+        $ul.find('li').removeClass('small big biger');
+
+        if (index-2>=0) {
+            $ul.find('li:eq('+(index-2)+')').addClass('small');
+        }
+        if (index-1>=0) {
+            $ul.find('li:eq('+(index-1)+')').addClass('big');
+        }
+        if (index>=0) {
+            $ul.find('li:eq('+(index)+')').addClass('biger');
+        }
+        $ul.find('li:eq('+(index+2)+')').addClass('biger');
         $ul.find('li:eq('+(index+3)+')').addClass('big');
+        $ul.find('li:eq('+(index+4)+')').addClass('small');
     })
     .on('slid.bs.carousel', function () {
 
@@ -43,13 +53,22 @@ function initialCarousel($carousel) {
         $li = $ul.find('li.active'),
         index = parseInt($li.attr('data-slide-to'));
 
-        $ul.find('li').removeClass('big');
+        $ul.find('li').removeClass('small big biger');
 
-        $ul.find('li:eq('+(index-2)+')').addClass('big');
-        $ul.find('li:eq('+(index-1)+')').addClass('big');
-        $ul.find('li:eq('+(index+1)+')').addClass('big');
+        if (index-3>=0) {
+            $ul.find('li:eq('+(index-3)+')').addClass('small');
+        }
+        if (index-2>=0) {
+            $ul.find('li:eq('+(index-2)+')').addClass('big');
+        }
+        if (index-1>=0) {
+            $ul.find('li:eq('+(index-1)+')').addClass('biger');
+        }
+        $ul.find('li:eq('+(index+1)+')').addClass('biger');
         $ul.find('li:eq('+(index+2)+')').addClass('big');
+        $ul.find('li:eq('+(index+3)+')').addClass('small');
     }
+    handleCarouselPoints();
 }
 
 

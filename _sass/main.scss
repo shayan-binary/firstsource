@@ -731,19 +731,38 @@ a.btn {
     }
   }
   .carousel-indicators {
-    bottom: -23px;
+    bottom: -30px;
     margin: 0px;
+    height: 20px;
+    padding-top: 9px;
     li {
-      width: 6px;
-      height: 6px;
+      width: 4px;
+      height: 4px;
       @include border-radius(50%, 50%, 50%, 50%);
+      transition: all 0.3s ease-in-out;
+      opacity: 0;
 
-      &.active,
+      &.small{opacity: 1}
+      &.active {
+        position: relative;
+        top: -4px;
+        width: 12px;
+        height: 12px;
+        opacity: 1
+      }
+      &.biger {
+        position: relative;
+        top: -2px;
+        width: 8px;
+        height: 8px;
+        opacity: 1
+      }
       &.big {
         position: relative;
-        bottom: 1px;
-        width: 9px;
-        height: 9px;
+        top: -1px;
+        width: 6px;
+        height: 6px;
+        opacity: 1
       }
     }
     &.gray {
