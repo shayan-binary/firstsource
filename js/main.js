@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 function initialCarousel($carousel) {
     $carousel.carousel({
-        interval: 15000
+        interval: 2000
     })
 
     
