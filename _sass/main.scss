@@ -333,6 +333,7 @@ a {
 body.menu-open {
   overflow: hidden;
   section,
+  footer,
   .sticky-menu {
     filter: blur(10px);
   }
@@ -730,18 +731,46 @@ a.btn {
     }
   }
   .carousel-indicators {
-    bottom: -23px;
+    bottom: -30px;
     margin: 0px;
+    height: 20px;
+    padding-top: 9px;
     li {
-      width: 6px;
-      height: 6px;
-      @include border-radius(9px, 9px, 9px, 9px);
+      width: 4px;
+      height: 4px;
+      @include border-radius(50%, 50%, 50%, 50%);
+      transition: all 0.5s ease-in-out;
+      opacity: 0;
 
+      &.small{opacity: 1}
       &.active {
         position: relative;
-        bottom: 1px;
-        width: 9px;
-        height: 9px;
+        top: -4px;
+        width: 12px;
+        height: 12px;
+        opacity: 1
+      }
+      &.biger {
+        position: relative;
+        top: -2px;
+        width: 8px;
+        height: 8px;
+        opacity: 1
+      }
+      &.big {
+        position: relative;
+        top: -1px;
+        width: 6px;
+        height: 6px;
+        opacity: 1
+      }
+    }
+    &.gray {
+      li {
+        background-color: #d0d0d0;
+        &.active {
+          background-color: #146eb4;
+        }
       }
     }
   }
