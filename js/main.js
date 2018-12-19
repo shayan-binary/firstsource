@@ -12,6 +12,7 @@ $(document).ready(function() {
     initialCarousel($('#iran-job-carousel'));
     initialCarousel($('#career-fair-carousel'));
     initialCarousel($('#career-sadaf-carousel'));
+    initialCarousel($('#ict-challenge-carousel'));
 });
 
 function initialCarousel($carousel) {
