@@ -714,10 +714,14 @@ a.btn {
 }
 .section-event {
   padding: 90px 0px;
+  img {
+    border-radius: 5px;
+  }
   .box {
     background: $gray_white;
-    padding: 36px 40px;
+    padding: 26px 27px;
     min-height: 266px;
+    max-width: 401px;
     @include border-radius(5px, 5px, 5px, 5px);
     .icon-loc,
     .icon-time,
@@ -728,6 +732,17 @@ a.btn {
     }
     h4 {
       margin-bottom: 18px;
+    }
+  }
+  .carousel {
+    .carousel-inner {
+      border-radius: 5px;
+      .carousel-item {
+        border-radius: 5px;
+        img {
+          border-radius: 5px;
+        }
+      }
     }
   }
   .carousel-indicators {
@@ -772,6 +787,16 @@ a.btn {
           background-color: #146eb4;
         }
       }
+    }
+  }
+}
+.section-ict-challenge-java {
+  background: url('img/event/img-bg-ict-challenge-java.jpg') no-repeat scroll center center / cover;
+  .box {
+    background: rgba($gray_white, 0.35);
+    color: $white;
+    h4 {
+      color: $white;
     }
   }
 }
@@ -1487,6 +1512,11 @@ ul.para-list {
       }
     }
   }
+  .section-event {
+    .box {
+      max-width: 100%;
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -1691,6 +1721,7 @@ ul.para-list {
   .section-event {
     .box {
       padding: 18px 20px;
+      max-width: 100%;
       .icon-loc,
       .icon-time,
       .icon-link {
