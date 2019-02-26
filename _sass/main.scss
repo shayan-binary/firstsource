@@ -830,6 +830,16 @@ a.btn {
     }
   }
 }
+.section-fs-hackathone-competition {
+  background: url('img/event/img-bg-fs-hackathone-competition.jpg') no-repeat scroll center center / cover;
+  .box {
+    background: rgba($gray_white, 0.35);
+    color: $white;
+    h4 {
+      color: $white;
+    }
+  }  
+}
 
 
 

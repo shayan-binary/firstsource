@@ -1,0 +1,48 @@
+<section class="bg-white section-event section-ict-challenge-java">
+  <div class="container pt-0 pb-0">
+    <div class="row no-gutters justify-content-md-center justify-content-sm-center">
+      <div class="col-md-6 col-sm-12 align-self-center">
+        <div class="row justify-content-md-center p-3">
+          <div class="col-12 col-sm-12 col-md-9 box d-flex align-items-center justify-content-center">
+            <div>
+              <h4 class="medium">
+                {{ translate.event.past.seven.title }}
+              </h4>
+              <p><span class="icon-loc white"></span> {{ translate.event.past.seven.location }} </p>
+              <p><span class="icon-time white"></span> {{ translate.event.past.seven.date }} </p>
+              <a class="more" href="http://ictchallenge.sharif.ir/" target="_blank"> <span class="icon-link white"></span> {{ translate.event.past.seven.button }} <i class="fas fa-caret-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 align-self-center d-lg-flex d-md-flex vertical-align mb-3 mt-3">
+        <div id="ict-challenge-carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#ict-challenge-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#ict-challenge-carousel" data-slide-to="1"></li>
+            <li data-target="#ict-challenge-carousel" data-slide-to="2"></li>
+            <li data-target="#ict-challenge-carousel" data-slide-to="3"></li>
+            <li data-target="#ict-challenge-carousel" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src={{"/img/event/img-ict-challenge-1.jpg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src={{"/img/event/img-ict-challenge-2.jpg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src={{"/img/event/img-ict-challenge-3.jpg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src={{"/img/event/img-ict-challenge-4.jpg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src={{"/img/event/img-ict-challenge-5.jpg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

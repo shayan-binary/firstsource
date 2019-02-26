@@ -191,6 +191,31 @@ en:
         date: 06 Dec, 2018
         location: Sharif University
         button: See more
+    iran-job-fair-2:
+      title: Iran job fair
+      date:  24-26 January,2019
+      location: 'Goftegoo Park, Booth No: 15'
+      button: See more
+    fs-hackathone-competition:
+      title: First Source onsite hackathone competition
+      date:  01 February, 2019
+      location: Box organization
+      button: See more
+    ov-talent-coach-job-fair:
+      title: Online Virtual Talent Coach Job Fair
+      date: 20-22 February,2019
+      location: Talent Coach website
+      button: See more
+    jobex-career-fair-2:
+      title: Jobex career fair
+      date:   22-24 April,2019
+      location: Tehran International Exhibition Hall
+      button: See more
+    ict-challenge:
+      title: ICT Challenge
+      date:  07-08 March,2019
+      location: Sharif University
+      button: See more
   career-page:
     what-is-your-passion: What is your passion?
     quantitive-analysis: Quantitive Analysis

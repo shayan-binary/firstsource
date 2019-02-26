@@ -9,10 +9,10 @@ $(document).ready(function() {
     initCareerMenu();
     initSidebarMenu();
 
-    initialCarousel($('#iran-job-carousel'));
-    initialCarousel($('#career-fair-carousel'));
-    initialCarousel($('#career-sadaf-carousel'));
-    initialCarousel($('#ict-challenge-carousel'));
+
+    $('.carousel').each(function() {
+        initialCarousel($(this));
+    });
 });
 
 function initialCarousel($carousel) {

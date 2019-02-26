@@ -1,0 +1,36 @@
+<section class="bg-white section-event section-career-fair">
+  <div class="container pt-0 pb-0">
+    <div class="row no-gutters justify-content-md-center justify-content-sm-center">
+      <div class="col-md-6 col-sm-12 align-self-center">
+        <div class="row justify-content-md-center p-3">
+          <div class="col-12 col-sm-12 col-md-9 box d-flex align-items-center justify-content-center">
+            <div>
+              <h4 class="medium">
+                {{ translate.event.past.six.title }}
+              </h4>
+              <p><span class="icon-loc white"></span> {{ translate.event.past.six.location }} </p>
+              <p><span class="icon-time white"></span> {{ translate.event.past.six.date }} </p>
+              <a class="more" href="http://www.iranjobfair.ir/" target="_blank"> <span class="icon-link white"></span> {{ translate.event.past.six.button }} <i class="fas fa-caret-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 align-self-center d-lg-flex d-md-flex vertical-align mb-3 mt-3">
+        <div id="career-fair-carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#career-fair-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#career-fair-carousel" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src={{"/img/event/img-career-fair-1.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src={{"/img/event/img-career-fair-2.png" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
